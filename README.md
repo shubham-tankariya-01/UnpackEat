@@ -1,2 +1,2 @@
-# Practice-repo
-repo for practice on internal hackathon
+# Food Analyser — Practice Project
+A web application that analyzes food products
