@@ -63,6 +63,8 @@ def extract_product_data(product: dict):
                 for tag in (product.get("additives_tags") or [])
             ],
             "contains_palm_oil": "en:palm-oil" in (product.get("ingredients_analysis_tags") or []),
+            "dominant_ingredients": [f"{ing.get('text')} ({ing.get('percent')}%)" for ing in (product.get("ingredients") or [])if ing.get("percent")][:3],
+
         },
         "meta": {
             "nova_group": product.get("nova_group") or 0,
