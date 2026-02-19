@@ -1,177 +1,127 @@
-def analyze_product(data: dict):
+# analyzer.py
 
-    nutrition = data["nutrition"]
-    meta = data["meta"]
-    ingredients = data["ingredients"]
+ADDITIVE_INFO = {
+    "E150D": {"name": "Caramel Color IV", "risk": "high", "explanation": "May contain 4-MEI."},
+    "E412": {"name": "Guar Gum", "risk": "low", "explanation": "Safe thickener."},
+    "E500I": {"name": "Sodium Carbonate", "risk": "low", "explanation": "Basic regulator."},
+    "E501I": {"name": "Potassium Carbonate", "risk": "low", "explanation": "Stabilizer."},
+    "E508": {"name": "Potassium Chloride", "risk": "moderate", "explanation": "Salt substitute."},
+    "E451I": {"name": "Sodium Triphosphate", "risk": "moderate", "explanation": "Phosphate imbalance risk."},
+    "E330": {"name": "Citric Acid", "risk": "low", "explanation": "Common regulator."},
+}
 
-    energy = nutrition["energy_kcal"]
-    fat = nutrition["fat"]
-    carbs = nutrition["carbohydrates"]
-    protein = nutrition["protein"]
+def rating_color(metric, value):
+    if value is None: return "neutral"
+    if metric == "salt": return "red" if value > 1 else "orange" if value > 0.5 else "green"
+    if metric == "saturated_fat": return "red" if value > 5 else "orange" if value > 3 else "green"
+    if metric == "sugars": return "orange" if value > 10 else "green"
+    if metric == "fiber": return "green" if value >= 3 else "orange" if value > 1 else "red"
+    return "neutral"
 
-    # Avoid division by zero
-    macro_percent = {}
-    if energy > 0:
-        macro_percent = {
-            "fat_percent_calories": round((fat * 9 / energy) * 100, 1),
-            "carb_percent_calories": round((carbs * 4 / energy) * 100, 1),
-            "protein_percent_calories": round((protein * 4 / energy) * 100, 1),
-        }
+def analyze(normalized):
 
-    daily_context = []
+    n = normalized["nutrients"]
+    ing = normalized["ingredients"]
+    m = normalized["metadata"]
+    s = normalized["serving"]
 
-    if nutrition["saturated_fat"] > 0:
-        daily_context.append(
-            f"Saturated fat: {nutrition['saturated_fat']}g per 100g "
-            "(recommended limit ~20g/day)"
-        )
+    score = 100
+    likes = []
+    concerns = []
 
-    if nutrition["salt"] > 0:
-        daily_context.append(
-            f"Salt: {nutrition['salt']}g per 100g "
-            "(recommended limit ~5g/day)"
-        )
+    # scoring
+    if n["salt"] and n["salt"] > 1: score -= 20; concerns.append("High salt")
+    else: likes.append("Low salt")
 
-    portion_info = None
-    quantity = data["basic_info"]["quantity"]
+    if n["saturated_fat"] and n["saturated_fat"] > 5:
+        score -= 20
+        concerns.append("High saturated fat")
+    else:
+        likes.append("Low saturated fat")
 
-    try:
-        if quantity and "g" in quantity.lower():
-            pack_weight = float(quantity.lower().replace("g", "").strip())
-            portion_info = {
-                "calories_per_pack": round((energy * pack_weight) / 100, 1)
-            }
-    except:
-        portion_info = None
+    if n["fiber"] and n["fiber"] >= 3: likes.append("Good fiber content")
+    if n["protein"] and n["protein"] >= 10: likes.append("High protein")
+    if ing["contains_palm_oil"]: concerns.append("Contains palm oil")
 
-
-    score = 50
-    risk_flags = []
-    positives = []
-    score_breakdown = []
-
-    if nutrition["saturated_fat"] > 5:
-        score -= 10
-        risk_flags.append("High saturated fat")
-        score_breakdown.append({
-            "reason": "High saturated fat",
-            "impact": -10,
-            "value": nutrition["saturated_fat"],
-            "threshold": "> 5g per 100g"
-        })
-
-    if nutrition["sugars"] > 10:
-        score -= 8
-        risk_flags.append("High sugar")
-        score_breakdown.append({
-            "reason": "High sugar",
-            "impact": -8,
-            "value": nutrition["sugars"],
-            "threshold": "> 10g per 100g"
-        })
-
-    if nutrition["salt"] > 1:
-        score -= 8
-        risk_flags.append("High salt")
-        score_breakdown.append({
-            "reason": "High salt",
-            "impact": -8,
-            "value": nutrition["salt"],
-            "threshold": "> 1g per 100g"
-        })
-
-    if meta["nova_group"] == 4:
-        score -= 10
-        risk_flags.append("Ultra-processed food")
-        score_breakdown.append({
-            "reason": "Ultra-processed (NOVA 4)",
-            "impact": -10,
-            "value": meta["nova_group"],
-            "threshold": "NOVA group 4"
-        })
-
-    if ingredients["additives_count"] > 5:
-        score -= 5
-        risk_flags.append("High number of additives")
-        score_breakdown.append({
-            "reason": "Multiple additives",
-            "impact": -5,
-            "value": ingredients["additives_count"],
-            "threshold": "> 5 additives"
-        })
-
-    if nutrition["fiber"] > 5:
-        score += 8
-        positives.append("High fiber")
-        score_breakdown.append({
-            "reason": "High fiber",
-            "impact": +8,
-            "value": nutrition["fiber"],
-            "threshold": "> 5g per 100g"
-        })
-
-    if nutrition["protein"] > 10:
-        score += 5
-        positives.append("Good protein content")
-        score_breakdown.append({
-            "reason": "Good protein content",
-            "impact": +5,
-            "value": nutrition["protein"],
-            "threshold": "> 10g per 100g"
-        })
+    if m["nova_group"] == 4:
+        score -= 15
+        concerns.append("Ultra-processed food")
 
     score = max(0, min(score, 100))
 
-    long_term_risks = []
+    # RDA
+    RDA = {
+        "salt": 5,
+        "saturated_fat": 20,
+        "sugars": 50,
+        "fiber": 25,
+        "protein": 50,
+        "fat": 70,
+        "energy_kcal": 2000
+    }
 
-    if nutrition["saturated_fat"] > 5:
-        long_term_risks.append("Frequent high saturated fat intake is linked to heart disease risk.")
+    nutrients_list = []
+    for key, val in n.items():
+        if val is not None:
+            nutrients_list.append({
+                "name": key,
+                "amount_100g": val,
+                "unit": "g" if key != "energy_kcal" else "kcal",
+                "rda_percent": round((val / RDA.get(key, 100)) * 100, 1),
+                "rating": rating_color(key, val),
+            })
 
-    if nutrition["salt"] > 1:
-        long_term_risks.append("High salt intake may increase blood pressure risk.")
+    per_serv = {}
+    sg = s.get("serving_size_g")
+    if sg:
+        for k, val in n.items():
+            if val is not None:
+                per_serv[k] = round((val * sg) / 100, 2)
+    else:
+        per_serv = None
 
-    if nutrition["sugars"] > 10:
-        long_term_risks.append("High sugar consumption may increase metabolic risk.")
+    radar = {
+        "salt": min(1, (n["salt"] or 0) / 2),
+        "saturated_fat": min(1, (n["saturated_fat"] or 0) / 10),
+        "sugars": min(1, (n["sugars"] or 0) / 20),
+        "energy": min(1, (n["energy_kcal"] or 0) / 600),
+        "fiber": min(1, (n["fiber"] or 0) / 10),
+        "protein": min(1, (n["protein"] or 0) / 20),
+    }
 
-    if meta["nova_group"] == 4:
-        long_term_risks.append("Ultra-processed foods are associated with long-term metabolic risks.")
-
-
-    verdict = (
-        "Healthy choice" if score >= 70
-        else "Moderate consumption recommended" if score >= 40
-        else "Limit consumption"
-    )
-
-    warnings = []
-
-    if ingredients["contains_palm_oil"]:
-        warnings.append("Contains palm oil")
-
-    if meta.get("allergens_detected"):
-        warnings.append("Contains allergens: " + ", ".join(meta["allergens_detected"]))
-
-    complexity_index = "Simple formulation"
-
-    if ingredients["total_count"] > 20:
-        complexity_index = "Highly complex formulation"
-    elif ingredients["total_count"] > 10:
-        complexity_index = "Moderately complex formulation"
-
+    additives_full = []
+    for a in ing["additives"]:
+        code = (a["id"] or "").replace("en:", "").upper()
+        info = ADDITIVE_INFO.get(code, {
+            "name": a.get("text") or code,
+            "risk": "unknown",
+            "explanation": "No reliable information."
+        })
+        additives_full.append({
+            "code": code,
+            "name": info["name"],
+            "risk": info["risk"],
+            "explanation": info["explanation"]
+        })
 
     return {
-        "health_score": score,
-        "verdict": verdict,
-        "risk_flags": risk_flags,
-        "positives": positives,
-        "warnings": warnings,
-        "nova_group": meta["nova_group"],
-        "additives_count": ingredients["additives_count"],
-        "macro_percent_distribution": macro_percent,
-        "daily_context": daily_context,
-        "portion_insight": portion_info,
-        "score_breakdown": score_breakdown,
-        "long_term_risk_hints": long_term_risks,
-        "ingredient_complexity": complexity_index
+        "highlights": {
+            "health_score": score,
+            "verdict": (
+                "Healthy choice" if score >= 70 else
+                "Moderate consumption recommended" if score >= 40 else
+                "Limit consumption"
+            ),
+            "likes": likes,
+            "concerns": concerns,
+            "nova_group": m["nova_group"]
+        },
+        "nutrients": nutrients_list,
+        "nutrient_radar": radar,
+        "additives_full": additives_full,
+        "serving": {
+            "per_100g": n,
+            "per_serving": per_serv,
+            "serving_size_g": sg
+        }
     }
-    

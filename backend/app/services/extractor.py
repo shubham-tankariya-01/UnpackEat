@@ -1,77 +1,107 @@
-def extract_product_data(product: dict):
+# extractor.py
 
-    nutriments = product.get("nutriments") or {}
+import re
 
-    def safe_number(value):
-        try:
-            return float(value)
-        except (TypeError, ValueError):
-            return 0
+def safe_float(x):
+    try:
+        return float(x)
+    except:
+        return None
 
-    ingredients_text = (product.get("ingredients_text") or "").lower()
-    traces = product.get("traces_tags") or []
+def extract_serving_size(serving_raw: str):
+    if not serving_raw:
+        return None
+    match = re.search(r"(\d+\.?\d*)\s*g", serving_raw.lower())
+    return float(match.group(1)) if match else None
 
-    allergens_detected = set()
+def flatten_ingredients(ingredients):
+    flat = []
 
-    if "milk" in ingredients_text or any("milk" in t for t in traces):
-        allergens_detected.add("milk / lactose")
+    def walk(items):
+        for ing in items:
+            flat.append(ing)
+            if isinstance(ing.get("ingredients"), list):
+                walk(ing["ingredients"])
 
-    if "groundnut" in ingredients_text or "peanut" in ingredients_text or any("peanut" in t for t in traces):
-        allergens_detected.add("nuts")
+    walk(ingredients or [])
+    return flat
 
-    if "soya" in ingredients_text or "soy" in ingredients_text:
-        allergens_detected.add("soy")
+COMMON_ALLERGENS = [
+    "milk", "lactose",
+    "soy", "soya",
+    "egg",
+    "wheat", "gluten",
+    "almond", "cashew", "peanut", "groundnut",
+    "sesame", "mustard", "hazelnut"
+]
 
-    if "wheat" in ingredients_text or "gluten" in ingredients_text:
-        allergens_detected.add("gluten")
+def detect_allergens(text, traces, tags):
+    text = (text or "").lower()
+    detected = set()
 
+    for a in COMMON_ALLERGENS:
+        if a in text or any(a in t for t in traces):
+            detected.add(a)
+
+    for tag in tags:
+        clean = tag.replace("en:", "")
+        detected.add(clean)
+
+    return list(sorted(detected))
+
+
+def extract_product_data(raw: dict):
+
+    nutr = raw.get("nutriments") or {}
+
+    nutrients = {
+        "energy_kcal": safe_float(nutr.get("energy-kcal") or nutr.get("energy-kcal_100g")),
+        "fat": safe_float(nutr.get("fat")),
+        "saturated_fat": safe_float(nutr.get("saturated-fat")),
+        "carbohydrates": safe_float(nutr.get("carbohydrates")),
+        "sugars": safe_float(nutr.get("sugars")),
+        "fiber": safe_float(nutr.get("fiber")),
+        "protein": safe_float(nutr.get("proteins")),
+        "salt": safe_float(nutr.get("salt")),
+    }
+
+    ing_list = raw.get("ingredients") or []
+    flattened = flatten_ingredients(ing_list)
+
+    additives_raw = raw.get("additives_tags") or []
+
+    serving_raw = raw.get("serving_size")
+    serving_g = extract_serving_size(serving_raw)
+
+    allergens = detect_allergens(
+        raw.get("ingredients_text"),
+        raw.get("traces_tags") or [],
+        raw.get("allergens_tags") or []
+    )
 
     return {
-        "basic_info": {
-            "name": product.get("product_name") or "Unknown",
-            "brand": product.get("brands") or "Unknown",
-            "quantity": product.get("quantity"),
-            "image": product.get("image_url"),
-            "category": product.get("categories"),
+        "product": {
+            "code": raw.get("code"),
+            "name": raw.get("product_name") or "Unknown",
+            "brand": raw.get("brands") or "Unknown",
+            "image": raw.get("image_url"),
+            "quantity": raw.get("quantity"),
+            "categories": raw.get("categories_tags") or [],
         },
-        "nutrition": {
-            "energy_kcal": safe_number(nutriments.get("energy-kcal")),
-            "fat": safe_number(nutriments.get("fat")),
-            "saturated_fat": safe_number(nutriments.get("saturated-fat")),
-            "carbohydrates": safe_number(nutriments.get("carbohydrates")),
-            "sugars": safe_number(nutriments.get("sugars")),
-            "protein": safe_number(nutriments.get("proteins")),
-            "fiber": safe_number(nutriments.get("fiber")),
-            "salt": safe_number(nutriments.get("salt")),
+        "nutrients": nutrients,
+        "ingredients_raw": {
+            "text": raw.get("ingredients_text") or "",
+            "structured": flattened,
         },
-        "ingredients": {
-            "list": product.get("ingredients") or [],
-            "ingredients_text": product.get("ingredients_text") or "",
-            "total_count": product.get("ingredients_n") or 0,
-            "additives_count": product.get("additives_n") or 0,
-            "decoded_additives": [
-                {
-                    "code": tag.replace("en:", "").upper(),
-                    "type": "Flavour enhancer" if tag in ["en:e627", "en:e631"]
-                    else "Acidity regulator" if tag in ["en:e330", "en:e296", "en:e334"]
-                    else "Stabilizer" if tag == "en:e340"
-                    else "Emulsifier" if tag == "en:e470"
-                    else "Anti-caking agent" if tag == "en:e551"
-                    else "Color" if tag == "en:e160c"
-                    else "Food additive"
-                }
-                for tag in (product.get("additives_tags") or [])
-            ],
-            "contains_palm_oil": "en:palm-oil" in (product.get("ingredients_analysis_tags") or []),
-            "dominant_ingredients": [f"{ing.get('text')} ({ing.get('percent')}%)" for ing in (product.get("ingredients") or [])if ing.get("percent")][:3],
-
+        "additives_raw": additives_raw,
+        "allergens_raw": allergens,
+        "serving": {
+            "serving_size": serving_raw,
+            "serving_size_g": serving_g,
         },
-        "meta": {
-            "nova_group": product.get("nova_group") or 0,
-            "ecoscore_grade": product.get("ecoscore_grade") or "unknown",
-            "packaging_materials": product.get("packaging_materials_tags") or [],
-            "traces": product.get("traces_tags") or [],
-            "allergens_detected": list(allergens_detected)
+        "metadata": {
+            "nova_group": raw.get("nova_group"),
+            "ecoscore": raw.get("ecoscore_grade"),
+            "packaging": raw.get("packaging_materials_tags") or [],
         }
-
     }
