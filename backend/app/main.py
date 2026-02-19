@@ -41,6 +41,7 @@ async def get_product(barcode: str, debug: bool = False):
     return response
 
 
+# To test barcodes
 
 # Everest
 # 8901786060504
@@ -50,14 +51,3 @@ async def get_product(barcode: str, debug: bool = False):
 
 # Chataka Pataka
 # 8906010500511
-
-
-    # "image_front_small_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.200.jpg",
-    # "image_front_thumb_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.100.jpg",
-    # "image_front_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.400.jpg",
-    # "image_ingredients_small_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/ingredients_en.21.200.jpg",
-    # "image_ingredients_thumb_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/ingredients_en.21.100.jpg",
-    # "image_ingredients_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/ingredients_en.21.400.jpg",
-    # "image_small_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.200.jpg",
-    # "image_thumb_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.100.jpg",
-    # "image_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.400.jpg",

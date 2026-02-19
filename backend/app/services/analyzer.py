@@ -174,5 +174,4 @@ def analyze_product(data: dict):
         "long_term_risk_hints": long_term_risks,
         "ingredient_complexity": complexity_index
     }
-
-
+    
