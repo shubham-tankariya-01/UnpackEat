@@ -1,7 +1,11 @@
+# main.py
+
 from fastapi import FastAPI
-from services.fetcher import fetch_product_from_api
 from services.extractor import extract_product_data
-from services.analyzer import analyze_product
+from services.normalizer import normalize
+from services.analyzer import analyze
+from services.formatter import format_response
+from services.fetcher import fetch_product_from_api
 
 app = FastAPI()
 
@@ -12,34 +16,14 @@ def home():
 @app.get("/product/{barcode}")
 async def get_product(barcode: str, debug: bool = False):
 
-    raw_product = await fetch_product_from_api(barcode)
+    raw = await fetch_product_from_api(barcode)
+    extracted = extract_product_data(raw)
+    normalized = normalize(extracted)
+    analyzed = analyze(normalized)
 
-    structured_data = extract_product_data(raw_product)
+    final = format_response(normalized, analyzed)
 
-    analysis = analyze_product(structured_data)
-
-    public_details = structured_data.copy()
-
-    # Remove heavy nested ingredient list
-    public_details["ingredients"] = {
-        "ingredients_text": structured_data["ingredients"]["ingredients_text"],
-        "total_count": structured_data["ingredients"]["total_count"],
-        "additives_count": structured_data["ingredients"]["additives_count"],
-        "contains_palm_oil": structured_data["ingredients"]["contains_palm_oil"],
-        "decoded_additives": structured_data["ingredients"]["decoded_additives"],
-    }
-
-    response = {
-        "summary": analysis,
-        "details": public_details
-    }
-
-
-    if debug:
-        return raw_product
-
-    return response
-
+    return final
 
 # To test barcodes
 
@@ -48,6 +32,19 @@ async def get_product(barcode: str, debug: bool = False):
 
 # Crunchex
 # 8906010501570
-
-# Chataka Pataka
 # 8906010500511
+# 8901058023800
+# 8904004400779
+# 8901719130144
+# 8906105030039
+# 8901595971220
+# 7622202818516
+# 8908005144632
+# 8901063367319
+# 8903363010209 
+# 8903363002921 
+# 8903363006820 
+# 8903363010339 
+# 8901262130325 
+# 8903363001092 
+# 8903363010711
