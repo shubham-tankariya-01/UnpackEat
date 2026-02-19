@@ -1,6 +1,8 @@
 # main.py
 
 from fastapi import FastAPI
+import json
+import os
 from services.fetcher import fetch_product_from_api
 from services.extractor import extract_product_data
 from services.normalizer import normalize
@@ -22,4 +24,9 @@ async def get_product(barcode: str, debug: bool = False):
     analyzed = analyze(normalized)
 
     final = format_response(normalized, analyzed)
+
+    os.makedirs("data", exist_ok=True)
+    with open(f"data/{barcode}.json", "w", encoding="utf-8") as f:
+        json.dump(final, f, indent=2)
+
     return final
