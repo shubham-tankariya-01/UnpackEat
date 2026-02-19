@@ -1,7 +1,7 @@
 # Instructions
 
 1. CD into backend
-``` cd backend```
+``` cd backend\app```
 
 2. Create a venv (in \backend)
 ``` python -m venv venv```
