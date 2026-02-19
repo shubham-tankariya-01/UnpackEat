@@ -284,3 +284,35 @@ document.addEventListener("DOMContentLoaded", function () {
         historyContainer.appendChild(col);
     });
 });
+
+// Wait for the DOM content to fully load before running scripts
+document.addEventListener('DOMContentLoaded', () => {
+
+    // Select elements using IDs for better specificity
+    const titleHeading = document.getElementById('title');
+    const nameField = document.getElementById('nameInput');
+    const signUpBtn = document.getElementById('signUpBtn');
+    const signInBtn = document.getElementById('signInBtn');
+
+    // Action when "Sign In" button is clicked
+    signInBtn.addEventListener('click', () => {
+        titleHeading.innerHTML = "Sign In";
+        // Hide the name field
+        nameField.classList.add('hide-field');
+        // Update button styles
+        signUpBtn.classList.add('disable');
+        signInBtn.classList.remove('disable');
+    });
+
+
+    // Action when "Sign Up" button is clicked
+    signUpBtn.addEventListener('click', () => {
+        titleHeading.innerHTML = "Sign Up";
+        // Show the name field
+        nameField.classList.remove('hide-field');
+        // Update button styles
+        signUpBtn.classList.remove('disable');
+        signInBtn.classList.add('disable');
+    });
+
+});
