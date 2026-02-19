@@ -18,55 +18,55 @@ def normalize_ingredient(item):
         "is_in_taxonomy": item.get("is_in_taxonomy"),
     }
 
-def is_additive_id(id_value):
-    if not id_value:
-        return False
-    return bool(re.match(r"en:e\d+", id_value.lower()))
+def is_additive(item):
+    idv = item.get("id") or ""
+    return bool(re.match(r"en:e\d+", idv.lower()))
 
 def normalize(extracted):
 
-    nutrients = extracted["nutrients_raw"]
+    raw_ing = extracted["ingredients_raw"]["structured"]
 
-    # ingredients split into two groups
-    all_ingredients = extracted["ingredients_raw"]["structured"]
-    ingredient_objects = []
-    additive_objects = []
-
-    for ing in all_ingredients:
-        obj = normalize_ingredient(ing)
-        if is_additive_id(obj["id"]):
-            additive_objects.append(obj)
+    ingredients = []
+    additives = []
+    for ing in raw_ing:
+        n = normalize_ingredient(ing)
+        if is_additive(ing):
+            additives.append(n)
         else:
-            ingredient_objects.append(obj)
+            ingredients.append(n)
 
-    # dominant top 4 by percent if exists
+    # Deduplicate additives (same code repeated)
+    uniq = {}
+    for a in additives:
+        code = (a["id"] or "").replace("en:", "").upper()
+        if code not in uniq:
+            uniq[code] = a
+    additives = list(uniq.values())
+
+    # Dominant ingredients
     dom = []
-    for ing in all_ingredients:
+    for ing in raw_ing:
         pct = ing.get("percent_estimate") or ing.get("percent")
         if pct:
-            dom.append({
-                "ingredient": ing.get("text"),
-                "percent": pct
-            })
+            dom.append({"ingredient": ing.get("text"), "percent": pct})
     dom = sorted(dom, key=lambda x: x["percent"], reverse=True)[:4]
 
     return {
         "product": extracted["product"],
-        "nutrients": nutrients,
+        "nutrients": extracted["nutrients"],
         "ingredients": {
             "text": extracted["ingredients_raw"]["text"],
-            "ingredients": ingredient_objects,
-            "additives": additive_objects,
+            "ingredients": ingredients,
+            "additives": additives,
             "dominant": dom,
             "contains_palm_oil": any(
-                "palm" in (i.get("id") or "") or
-                "palm" in (i.get("text") or "").lower()
-                for i in all_ingredients
+                "palm" in (i.get("id") or "")
+                or "palm" in (i.get("text") or "").lower()
+                for i in raw_ing
             ),
-            "total_count": len(all_ingredients),
+            "total_count": len(raw_ing),
         },
-        "additives_raw": extracted["additives_raw"],
-        "allergens_raw": extracted["metadata_raw"]["allergens"],
-        "serving": extracted["serving_raw"],
-        "metadata": extracted["metadata_raw"]
+        "allergens": extracted["allergens_raw"],
+        "serving": extracted["serving"],
+        "metadata": extracted["metadata"]
     }

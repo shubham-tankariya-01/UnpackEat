@@ -15,23 +15,45 @@ def extract_serving_size(serving_raw: str):
     return float(match.group(1)) if match else None
 
 def flatten_ingredients(ingredients):
-    """Flatten OFF ingredient tree into a single list."""
     flat = []
 
     def walk(items):
         for ing in items:
             flat.append(ing)
-            if "ingredients" in ing and isinstance(ing["ingredients"], list):
+            if isinstance(ing.get("ingredients"), list):
                 walk(ing["ingredients"])
 
     walk(ingredients or [])
     return flat
 
+COMMON_ALLERGENS = [
+    "milk", "lactose",
+    "soy", "soya",
+    "egg",
+    "wheat", "gluten",
+    "almond", "cashew", "peanut", "groundnut",
+    "sesame", "mustard", "hazelnut"
+]
+
+def detect_allergens(text, traces, tags):
+    text = (text or "").lower()
+    detected = set()
+
+    for a in COMMON_ALLERGENS:
+        if a in text or any(a in t for t in traces):
+            detected.add(a)
+
+    for tag in tags:
+        clean = tag.replace("en:", "")
+        detected.add(clean)
+
+    return list(sorted(detected))
+
+
 def extract_product_data(raw: dict):
 
     nutr = raw.get("nutriments") or {}
 
-    # unified nutrient extraction
     nutrients = {
         "energy_kcal": safe_float(nutr.get("energy-kcal") or nutr.get("energy-kcal_100g")),
         "fat": safe_float(nutr.get("fat")),
@@ -43,22 +65,21 @@ def extract_product_data(raw: dict):
         "salt": safe_float(nutr.get("salt")),
     }
 
-    # ingredient extraction
     ing_list = raw.get("ingredients") or []
     flattened = flatten_ingredients(ing_list)
 
-    # additives (just raw tags for now)
-    additives_tags = raw.get("additives_tags") or []
+    additives_raw = raw.get("additives_tags") or []
 
-    # serving
     serving_raw = raw.get("serving_size")
     serving_g = extract_serving_size(serving_raw)
 
-    # allergens
-    allergens_raw = raw.get("allergens_tags") or raw.get("allergens", "") or []
+    allergens = detect_allergens(
+        raw.get("ingredients_text"),
+        raw.get("traces_tags") or [],
+        raw.get("allergens_tags") or []
+    )
 
     return {
-        "raw": raw,
         "product": {
             "code": raw.get("code"),
             "name": raw.get("product_name") or "Unknown",
@@ -67,22 +88,20 @@ def extract_product_data(raw: dict):
             "quantity": raw.get("quantity"),
             "categories": raw.get("categories_tags") or [],
         },
-        "nutrients_raw": nutrients,
+        "nutrients": nutrients,
         "ingredients_raw": {
             "text": raw.get("ingredients_text") or "",
             "structured": flattened,
-            "original": ing_list,
         },
-        "additives_raw": additives_tags,
-        "serving_raw": {
+        "additives_raw": additives_raw,
+        "allergens_raw": allergens,
+        "serving": {
             "serving_size": serving_raw,
             "serving_size_g": serving_g,
         },
-        "metadata_raw": {
+        "metadata": {
             "nova_group": raw.get("nova_group"),
             "ecoscore": raw.get("ecoscore_grade"),
             "packaging": raw.get("packaging_materials_tags") or [],
-            "allergens": allergens_raw,
-            "traces": raw.get("traces_tags") or [],
         }
     }

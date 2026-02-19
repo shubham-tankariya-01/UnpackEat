@@ -1,33 +1,21 @@
 # analyzer.py
 
 ADDITIVE_INFO = {
-    "E150D": {"name": "Caramel Color IV", "risk": "high",
-              "explanation": "May contain 4-MEI."},
-    "E412": {"name": "Guar Gum", "risk": "low",
-             "explanation": "Safe thickener."},
-    "E500I": {"name": "Sodium Carbonate", "risk": "low",
-              "explanation": "Common acidity regulator."},
-    "E501I": {"name": "Potassium Carbonate", "risk": "low",
-              "explanation": "Stabilizer."},
-    "E508": {"name": "Potassium Chloride", "risk": "moderate",
-             "explanation": "Salt substitute; may affect balance."},
-    "E451I": {"name": "Sodium Triphosphate", "risk": "moderate",
-              "explanation": "Linked to phosphate imbalance."},
-    "E330": {"name": "Citric Acid", "risk": "low",
-             "explanation": "Common acidity regulator."}
+    "E150D": {"name": "Caramel Color IV", "risk": "high", "explanation": "May contain 4-MEI."},
+    "E412": {"name": "Guar Gum", "risk": "low", "explanation": "Safe thickener."},
+    "E500I": {"name": "Sodium Carbonate", "risk": "low", "explanation": "Basic regulator."},
+    "E501I": {"name": "Potassium Carbonate", "risk": "low", "explanation": "Stabilizer."},
+    "E508": {"name": "Potassium Chloride", "risk": "moderate", "explanation": "Salt substitute."},
+    "E451I": {"name": "Sodium Triphosphate", "risk": "moderate", "explanation": "Phosphate imbalance risk."},
+    "E330": {"name": "Citric Acid", "risk": "low", "explanation": "Common regulator."},
 }
 
 def rating_color(metric, value):
-    if value is None:
-        return "neutral"
-    if metric == "salt":
-        return "red" if value > 1 else "orange" if value > 0.5 else "green"
-    if metric == "saturated_fat":
-        return "red" if value > 5 else "orange" if value > 3 else "green"
-    if metric == "sugars":
-        return "orange" if value > 10 else "green"
-    if metric == "fiber":
-        return "green" if value >= 3 else "orange" if value > 1 else "red"
+    if value is None: return "neutral"
+    if metric == "salt": return "red" if value > 1 else "orange" if value > 0.5 else "green"
+    if metric == "saturated_fat": return "red" if value > 5 else "orange" if value > 3 else "green"
+    if metric == "sugars": return "orange" if value > 10 else "green"
+    if metric == "fiber": return "green" if value >= 3 else "orange" if value > 1 else "red"
     return "neutral"
 
 def analyze(normalized):
@@ -41,7 +29,7 @@ def analyze(normalized):
     likes = []
     concerns = []
 
-    # scoring logic
+    # scoring
     if n["salt"] and n["salt"] > 1: score -= 20; concerns.append("High salt")
     else: likes.append("Low salt")
 
@@ -51,17 +39,13 @@ def analyze(normalized):
     else:
         likes.append("Low saturated fat")
 
-    if n["fiber"] and n["fiber"] >= 3:
-        likes.append("Good fiber content")
-
-    if n["protein"] and n["protein"] >= 10:
-        likes.append("High protein")
-
+    if n["fiber"] and n["fiber"] >= 3: likes.append("Good fiber content")
+    if n["protein"] and n["protein"] >= 10: likes.append("High protein")
     if ing["contains_palm_oil"]: concerns.append("Contains palm oil")
 
     if m["nova_group"] == 4:
-        concerns.append("Ultra-processed food")
         score -= 15
+        concerns.append("Ultra-processed food")
 
     score = max(0, min(score, 100))
 
@@ -76,45 +60,42 @@ def analyze(normalized):
         "energy_kcal": 2000
     }
 
-    nutrient_list = []
-    for key, value in n.items():
-        if value is None:
-            continue
-        nutrient_list.append({
-            "name": key,
-            "amount_100g": value,
-            "unit": "g" if key != "energy_kcal" else "kcal",
-            "rda_percent": round((value / RDA.get(key, 100)) * 100, 1),
-            "rating": rating_color(key, value)
-        })
+    nutrients_list = []
+    for key, val in n.items():
+        if val is not None:
+            nutrients_list.append({
+                "name": key,
+                "amount_100g": val,
+                "unit": "g" if key != "energy_kcal" else "kcal",
+                "rda_percent": round((val / RDA.get(key, 100)) * 100, 1),
+                "rating": rating_color(key, val),
+            })
 
-    # per serving
     per_serv = {}
     sg = s.get("serving_size_g")
     if sg:
-        for k, value in n.items():
-            if value is None:
-                continue
-            per_serv[k] = round((value * sg) / 100, 2)
+        for k, val in n.items():
+            if val is not None:
+                per_serv[k] = round((val * sg) / 100, 2)
+    else:
+        per_serv = None
 
-    # radar
     radar = {
-        "salt": (n["salt"] or 0) / 2,
-        "saturated_fat": (n["saturated_fat"] or 0) / 10,
-        "sugars": (n["sugars"] or 0) / 20,
-        "energy": (n["energy_kcal"] or 0) / 600,
-        "fiber": (n["fiber"] or 0) / 10,
-        "protein": (n["protein"] or 0) / 20,
+        "salt": min(1, (n["salt"] or 0) / 2),
+        "saturated_fat": min(1, (n["saturated_fat"] or 0) / 10),
+        "sugars": min(1, (n["sugars"] or 0) / 20),
+        "energy": min(1, (n["energy_kcal"] or 0) / 600),
+        "fiber": min(1, (n["fiber"] or 0) / 10),
+        "protein": min(1, (n["protein"] or 0) / 20),
     }
 
-    # additive full breakdown
     additives_full = []
-    for add in ing["additives"]:
-        code = (add["id"] or "").replace("en:", "").upper()
+    for a in ing["additives"]:
+        code = (a["id"] or "").replace("en:", "").upper()
         info = ADDITIVE_INFO.get(code, {
-            "name": add.get("text") or code,
+            "name": a.get("text") or code,
             "risk": "unknown",
-            "explanation": "No reliable info."
+            "explanation": "No reliable information."
         })
         additives_full.append({
             "code": code,
@@ -135,7 +116,7 @@ def analyze(normalized):
             "concerns": concerns,
             "nova_group": m["nova_group"]
         },
-        "nutrients": nutrient_list,
+        "nutrients": nutrients_list,
         "nutrient_radar": radar,
         "additives_full": additives_full,
         "serving": {

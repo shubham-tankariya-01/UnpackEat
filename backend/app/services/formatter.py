@@ -1,9 +1,6 @@
 # formatter.py
 
 def format_response(normalized, analyzed):
-    """
-    Force EXACT key order for frontend.
-    """
 
     return {
         "barcode": normalized["product"]["code"],
@@ -18,15 +15,13 @@ def format_response(normalized, analyzed):
             "dominant": normalized["ingredients"]["dominant"],
             "contains_palm_oil": normalized["ingredients"]["contains_palm_oil"],
             "complexity": (
-                "Highly complex"
-                if normalized["ingredients"]["total_count"] > 20 else
-                "Moderately complex"
-                if normalized["ingredients"]["total_count"] > 10 else
-                "Simple formulation"
+                "Highly complex" if normalized["ingredients"]["total_count"] > 20
+                else "Moderately complex" if normalized["ingredients"]["total_count"] > 10
+                else "Simple formulation"
             )
         },
         "additives_full": analyzed["additives_full"],
-        "allergens": normalized["metadata"]["allergens"],
+        "allergens": normalized["allergens"],
         "serving": analyzed["serving"],
         "environment": {
             "ecoscore": normalized["metadata"]["ecoscore"],
