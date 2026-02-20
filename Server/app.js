@@ -80,14 +80,21 @@ app.use("/history", historyRoute);
 
 // 404 handler
 app.use((req, res, next) => {
-  next(new Error("Page Not Found", 404));
+  console.warn(`404 - Not Found: ${req.method} ${req.originalUrl}`);
+  const err = new Error("Page Not Found");
+  err.statusCode = 404;
+  next(err);
 });
 
 // Error handling middleware
 app.use((err, req, res, next) => {
   let { statusCode = 500, message = "Something went wrong" } = err;
-  console.error("Error Middleware:", err);
-  // res.status(statusCode).render("error.ejs", { message }); // If error page exists
+  console.error(`Error [${statusCode}] at ${req.originalUrl}:`, err.message);
+
+  if (process.env.NODE_ENV === 'development') {
+    console.error(err.stack);
+  }
+
   res.status(statusCode).send(message);
 });
 
