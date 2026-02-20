@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis - <%= productData.product.name %>
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/analysis.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/home">FOODER</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="/home"><i class="fas fa-home me-1"></i> Home</a>
+                <a class="nav-link" href="/history"><i class="fas fa-history me-1"></i> My Searches</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="analysis-container">
+        <!-- Header Card -->
+        <div class="sc-card">
+            <div class="product-header">
+                <img src="<%= productData.product.image %>" alt="<%= productData.product.name %>" class="product-image">
+                <div class="flex-grow-1">
+                    <span class="badge bg-success mb-2">
+                        <%= productData.product.brand %>
+                    </span>
+                    <h1 class="fw-bold">
+                        <%= productData.product.name %>
+                    </h1>
+                    <p class="text-muted">
+                        <%= productData.product.quantity %>
+                    </p>
+                    <div class="d-flex gap-2">
+                        <% productData.metadata.labels.slice(0, 3).forEach(label=> { %>
+                            <span class="badge-pill bg-light border text-dark">
+                                <%= label.replace('en:', '' ).charAt(0).toUpperCase() + label.slice(4) %>
+                            </span>
+                            <% }) %>
+                    </div>
+                </div>
+                <div class="score-meter-box">
+                    <h2 class="score-value text-success">
+                        <%= productData.highlights.health_score %>
+                    </h2>
+                    <p class="text-muted mb-0">Health Score</p>
+                    <div class="meter-container">
+                        <div class="meter-fill" data-score="<%= productData.highlights.health_score %>"></div>
+                    </div>
+                    <span class="fw-bold">
+                        <%= productData.highlights.verdict %>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Left Column: Ingredients and Additives -->
+            <div class="col-lg-7">
+                <div class="sc-card">
+                    <h5 class="section-title"><i class="fas fa-leaf"></i> Ingredients Analysis</h5>
+                    <p class="text-secondary mb-4">
+                        <%= productData.ingredients.text %>
+                    </p>
+
+                    <h6 class="fw-bold mb-3">Additives (<%= productData.additives_full.length %>)</h6>
+                    <div class="additives-list">
+                        <% productData.additives_full.forEach(add=> { %>
+                            <div class="additive-item">
+                                <div>
+                                    <span class="fw-bold text-primary">
+                                        <%= add.code %>
+                                    </span>
+                                    <span class="ms-2">
+                                        <%= add.name %>
+                                    </span>
+                                </div>
+                                <button class="info-btn" data-name="<%= add.name %>" data-category="<%= add.category %>"
+                                    data-risk="<%= add.risk %>" data-explanation="<%= add.explanation %>">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                            </div>
+                            <% }) %>
+                    </div>
+                </div>
+
+                <div class="sc-card">
+                    <h5 class="section-title"><i class="fas fa-check-circle"></i> Highlights</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="text-success fw-bold"><i class="fas fa-thumbs-up me-2"></i>Pros</h6>
+                            <ul class="list-unstyled">
+                                <% productData.highlights.likes.forEach(like=> { %>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>
+                                        <%= like %>
+                                    </li>
+                                    <% }) %>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-danger fw-bold"><i class="fas fa-exclamation-triangle me-2"></i>Concerns
+                            </h6>
+                            <ul class="list-unstyled">
+                                <% productData.highlights.concerns.forEach(concern=> { %>
+                                    <li class="mb-2"><i class="fas fa-times text-danger me-2"></i>
+                                        <%= concern %>
+                                    </li>
+                                    <% }) %>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Nutrients -->
+            <div class="col-lg-5">
+                <div class="sc-card">
+                    <h5 class="section-title"><i class="fas fa-chart-bar"></i> Nutritional Data</h5>
+                    <p class="text-muted small">Values per 100g</p>
+                    <div class="nutrient-grid">
+                        <% productData.nutrients.forEach(nutri=> { %>
+                            <div class="nutrient-card rating-<%= nutri.rating %>">
+                                <div class="small fw-normal text-opacity-75 text-uppercase">
+                                    <%= nutri.name.replace('_', ' ' ) %>
+                                </div>
+                                <div class="fs-4">
+                                    <%= nutri.amount_100g %>
+                                        <%= nutri.unit %>
+                                </div>
+                                <div class="small">(<%= nutri.rda_percent %>% RDA)</div>
+                            </div>
+                            <% }) %>
+                    </div>
+                </div>
+
+                <div class="sc-card">
+                    <h5 class="section-title"><i class="fas fa-info-circle"></i> Other Info</h5>
+                    <div class="mb-3">
+                        <span class="text-muted">NOVA Group:</span>
+                        <div class="d-inline-block ms-2 px-3 py-1 bg-warning rounded-pill fw-bold">NOVA <%=
+                                productData.highlights.nova_group %>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="text-muted">Allergens:</span>
+                        <div class="mt-2">
+                            <% productData.allergens.forEach(all=> { %>
+                                <span class="badge-pill bg-danger-subtle text-danger border border-danger">
+                                    <%= all %>
+                                </span>
+                                <% }) %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Additive Detail Modal -->
+    <div id="additiveModal" class="sc-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modalTitle" class="fw-bold mb-4"></h2>
+            <div class="row mb-4">
+                <div class="col-6">
+                    <label class="text-muted small d-block">Category</label>
+                    <span id="modalCategory" class="fw-bold"></span>
+                </div>
+                <div class="col-6">
+                    <label class="text-muted small d-block">Risk Level</label>
+                    <span id="modalRisk" class="badge-pill text-uppercase"></span>
+                </div>
+            </div>
+            <label class="text-muted small d-block">Safety Information</label>
+            <p id="modalExplanation" class="text-secondary"></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/analysis.js"></script>
+</body>
+
+</html>
