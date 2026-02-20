@@ -288,3 +288,114 @@ a:hover {
 .footer-color .row {
     background-color: inherit;
 }
+
+
+
+
+/* Steps Of the field */
+/* time-line SECTION */
+.steps-section {
+  position: relative;
+  width: 100%;
+  padding: 100px 0;
+}
+
+/* SVG LINE */
+.progress-line {
+  position: absolute;
+  top: 500px;
+  left: 0;
+  width: 100%;
+  height: calc(120% - 700px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* STEPS */
+.hero-step {
+  position: relative;
+  width: 40%;
+  margin: 200px 0;
+  z-index: 1;
+
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 0.8s ease;
+}
+
+
+.hero-step.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hero-step.left {
+  margin-left: 5%;
+}
+
+.hero-step.right {
+  margin-left: 55%;
+}
+
+/* IMAGE EFFECT */
+.hero-step img {
+  width: 55%;
+  display: block;
+  margin: 0 auto 20px auto;
+  filter: drop-shadow(0 20px 25px rgba(0,0,0,0.15));
+}
+
+
+
+.hero-step.active img {
+  transform: rotate(2deg) scale(1.05);
+}
+
+/* TEXT */
+.hero-step h2 {
+  margin: 15px 0 10px;
+  color: #626F47;
+}
+
+.hero-step p {
+  color: #555;
+}
+
+/* NUMBER BLOCK */
+.step-number {
+  position: absolute;
+  top: -40px;
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #A4B465, #626F47);
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  transition: 0.4s ease;
+  z-index: 2;
+}
+
+/* Position left side numbers */
+.hero-step.left .step-number {
+  right: -100px;
+}
+
+/* Position right side numbers */
+.hero-step.right .step-number {
+  left: -100px;
+}
+
+/* Animation when active */
+.hero-step.active .step-number {
+  transform: scale(1.1);
+}
