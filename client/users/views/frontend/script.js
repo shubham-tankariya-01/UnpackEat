@@ -75,3 +75,32 @@ function revealSteps() {
 
 window.addEventListener("scroll", revealSteps);
 revealSteps();
+
+/* NAVBAR HIDE-ON-SCROLL */
+let lastScrollTop = 0;
+const navbar = document.querySelector(".navbar");
+const scrollThreshold = 10; // Pixels to scroll before hiding/showing
+
+window.addEventListener("scroll", () => {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  const mobileMenu = document.getElementById("mobileMenu");
+  
+  // Don't hide navbar if mobile menu is open
+  if (mobileMenu && mobileMenu.classList.contains("show")) {
+    return;
+  }
+
+  if (Math.abs(lastScrollTop - scrollTop) <= scrollThreshold) {
+    return;
+  }
+
+  if (scrollTop > lastScrollTop && scrollTop > 100) {
+    // Scroll Down - Hide Navbar
+    navbar.classList.add("navbar-hidden");
+  } else {
+    // Scroll Up - Show Navbar
+    navbar.classList.remove("navbar-hidden");
+  }
+
+  lastScrollTop = scrollTop;
+});
