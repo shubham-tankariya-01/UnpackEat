@@ -1,0 +1,375 @@
+{
+  "barcode": "5000112548167",
+  "product": {
+    "code": "5000112548167",
+    "name": "Coca-Cola Light",
+    "brand": "Coca-Cola",
+    "image": "https://images.openfoodfacts.net/images/products/500/011/254/8167/front_de.30.400.jpg",
+    "quantity": "0,5 l",
+    "categories": [
+      "en:beverages-and-beverages-preparations",
+      "en:beverages",
+      "en:carbonated-drinks",
+      "en:artificially-sweetened-beverages",
+      "en:sodas",
+      "en:diet-beverages",
+      "en:non-alcoholic-beverages",
+      "en:colas",
+      "en:diet-sodas",
+      "en:diet-cola-soft-drink",
+      "en:sweetened-beverages"
+    ]
+  },
+  "highlights": {
+    "health_score": 85,
+    "verdict": "Healthy choice",
+    "likes": [
+      "Low salt",
+      "Low saturated fat"
+    ],
+    "concerns": [
+      "Ultra-processed food"
+    ],
+    "nova_group": 4
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 0.2,
+      "unit": "kcal",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    },
+    {
+      "name": "fiber",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "red"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.01,
+      "unit": "g",
+      "rda_percent": 0.2,
+      "rating": "green"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.005,
+    "saturated_fat": 0.0,
+    "sugars": 0.0,
+    "energy": 0.0003333333333333334,
+    "fiber": 0.0,
+    "protein": 0.0
+  },
+  "ingredients": {
+    "text": "Wasser, Kohlens\u00e4ure, Farbstoff E 150d, S\u00e4uerungsmittel Phosphors\u00e4ure und Citronens\u00e4ure, S\u00fc\u00dfungsmittel (Natriumcyclamat, Acesulfam K, Aspartam), Aroma, Aroma Koffein.",
+    "ingredients": [
+      {
+        "id": "en:water",
+        "text": "Wasser",
+        "percent_estimate": 57.1428571428571,
+        "percent_min": 14.2857142857143,
+        "percent_max": 100,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "18066",
+        "ecobalyse_code": "36b3ffec-51e7-4e26-b1b5-7d52554e0aa6",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:colour",
+        "text": "Farbstoff",
+        "percent_estimate": 10.7142857142857,
+        "percent_min": 0,
+        "percent_max": 33.3333333333333,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:acid",
+        "text": "S\u00e4uerungsmittel",
+        "percent_estimate": 5.35714285714286,
+        "percent_min": 0,
+        "percent_max": 25,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:sweetener",
+        "text": "S\u00fc\u00dfungsmittel",
+        "percent_estimate": 2.67857142857143,
+        "percent_min": 0,
+        "percent_max": 20,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:flavouring",
+        "text": "Aroma",
+        "percent_estimate": 1.33928571428572,
+        "percent_min": 0,
+        "percent_max": "5",
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:caffeine-flavour",
+        "text": "Aroma Koffein",
+        "percent_estimate": 1.33928571428572,
+        "percent_min": 0,
+        "percent_max": "5",
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "additives": [
+      {
+        "id": "en:e290",
+        "text": "Kohlens\u00e4ure",
+        "percent_estimate": 21.4285714285714,
+        "percent_min": 0,
+        "percent_max": 50,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e150d",
+        "text": "e150d",
+        "percent_estimate": 10.7142857142857,
+        "percent_min": 0,
+        "percent_max": 33.3333333333333,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e338",
+        "text": "Phosphors\u00e4ure",
+        "percent_estimate": 2.67857142857143,
+        "percent_min": 0,
+        "percent_max": 25,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e330",
+        "text": "Citronens\u00e4ure",
+        "percent_estimate": 2.67857142857143,
+        "percent_min": 0,
+        "percent_max": 12.5,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e952",
+        "text": "Natriumcyclamat",
+        "percent_estimate": 1.33928571428572,
+        "percent_min": 0,
+        "percent_max": 20,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e950",
+        "text": "Acesulfam K",
+        "percent_estimate": 0.669642857142858,
+        "percent_min": 0,
+        "percent_max": 10,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e951",
+        "text": "Aspartam",
+        "percent_estimate": 0.669642857142858,
+        "percent_min": 0,
+        "percent_max": 6.66666666666667,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "dominant": [
+      {
+        "ingredient": "Wasser",
+        "percent": 57.1428571428571
+      },
+      {
+        "ingredient": "Kohlens\u00e4ure",
+        "percent": 21.4285714285714
+      },
+      {
+        "ingredient": "Farbstoff",
+        "percent": 10.7142857142857
+      },
+      {
+        "ingredient": "e150d",
+        "percent": 10.7142857142857
+      }
+    ],
+    "contains_palm_oil": false,
+    "complexity": "Moderately complex"
+  },
+  "additives_full": [
+    {
+      "code": "E290",
+      "name": "Kohlens\u00e4ure",
+      "risk": "unknown",
+      "explanation": "No reliable information."
+    },
+    {
+      "code": "E150D",
+      "name": "Caramel Color IV",
+      "risk": "high",
+      "explanation": "May contain 4-MEI."
+    },
+    {
+      "code": "E338",
+      "name": "Phosphors\u00e4ure",
+      "risk": "unknown",
+      "explanation": "No reliable information."
+    },
+    {
+      "code": "E330",
+      "name": "Citric Acid",
+      "risk": "low",
+      "explanation": "Common regulator."
+    },
+    {
+      "code": "E952",
+      "name": "Natriumcyclamat",
+      "risk": "unknown",
+      "explanation": "No reliable information."
+    },
+    {
+      "code": "E950",
+      "name": "Acesulfam K",
+      "risk": "unknown",
+      "explanation": "No reliable information."
+    },
+    {
+      "code": "E951",
+      "name": "Aspartam",
+      "risk": "unknown",
+      "explanation": "No reliable information."
+    }
+  ],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 0.2,
+      "fat": 0.0,
+      "saturated_fat": 0.0,
+      "carbohydrates": 0.0,
+      "sugars": 0.0,
+      "fiber": 0.0,
+      "protein": 0.0,
+      "salt": 0.01
+    },
+    "per_serving": null,
+    "serving_size_g": null
+  },
+  "environment": {
+    "ecoscore": "not-applicable",
+    "packaging": [
+      "en:pet-1-polyethylene-terephthalate"
+    ]
+  }
+}

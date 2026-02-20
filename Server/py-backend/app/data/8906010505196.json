@@ -1,0 +1,247 @@
+{
+  "barcode": "8906010505196",
+  "product": {
+    "code": "8906010505196",
+    "name": "Balaji wafers simply salted",
+    "brand": "Balaji",
+    "image": null,
+    "quantity": null,
+    "categories": []
+  },
+  "highlights": {
+    "health_score": 38,
+    "verdict": "Best enjoyed occasionally",
+    "likes": [
+      "Low sugar",
+      "Excellent fiber content"
+    ],
+    "concerns": [
+      "Very high salt",
+      "High saturated fat",
+      "High total fat",
+      "Very high calorie density",
+      "Contains palm oil"
+    ],
+    "nova_group": null
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 554.0,
+      "unit": "kcal",
+      "rda_percent": 27.7,
+      "rating": "red"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 32.9,
+      "unit": "g",
+      "rda_percent": 47.0,
+      "rating": "red"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 16.0,
+      "unit": "g",
+      "rda_percent": 80.0,
+      "rating": "red"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 53.4,
+      "unit": "g",
+      "rda_percent": 20.5,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    },
+    {
+      "name": "fiber",
+      "amount_100g": 7.0,
+      "unit": "g",
+      "rda_percent": 28.0,
+      "rating": "green"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 7.7,
+      "unit": "g",
+      "rda_percent": 15.4,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 2.5,
+      "unit": "g",
+      "rda_percent": 50.0,
+      "rating": "red"
+    },
+    {
+      "name": "cholesterol",
+      "amount_100g": 0.0001,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.8333333333333334,
+    "saturated_fat": 1.0,
+    "sugars": 0.0,
+    "energy": 0.9233333333333333,
+    "fiber": 0.7,
+    "protein": 0.308
+  },
+  "ingredients": {
+    "text": "Potato (89%), Edible vegetable oil (palm  olein) iodized dized Salt\n Pomme de terre de tere (89%), huile v\u00e9pctal",
+    "ingredients": [
+      {
+        "id": "en:potato",
+        "text": "Potato",
+        "percent_estimate": 89,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "4003",
+        "ecobalyse_code": "potato-industry-fr",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:vegetable-oil",
+        "text": "Edible vegetable oil",
+        "percent_estimate": 5.5,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": "maybe",
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:palm-olein",
+        "text": "palm olein",
+        "percent_estimate": 5.5,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "16129",
+        "ecobalyse_code": "45658c32-66d9-4305-a34b-21d6a4cef89c",
+        "from_palm_oil": "yes",
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:iodized-dized-salt-pomme-de-terre-de-tere",
+        "text": "iodized dized Salt Pomme de terre de tere",
+        "percent_estimate": 5.5,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:huile-vepctal",
+        "text": "huile v\u00e9pctal",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      }
+    ],
+    "additives": [],
+    "dominant": [
+      {
+        "ingredient": "Potato",
+        "percent": 89
+      },
+      {
+        "ingredient": "Edible vegetable oil",
+        "percent": 5.5
+      },
+      {
+        "ingredient": "palm olein",
+        "percent": 5.5
+      },
+      {
+        "ingredient": "iodized dized Salt Pomme de terre de tere",
+        "percent": 5.5
+      }
+    ],
+    "contains_palm_oil": true,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 554.0,
+      "fat": 32.9,
+      "saturated_fat": 16.0,
+      "carbohydrates": 53.4,
+      "sugars": 0.0,
+      "fiber": 7.0,
+      "protein": 7.7,
+      "salt": 2.5,
+      "cholesterol": 0.0001
+    },
+    "per_serving": {
+      "energy_kcal": 554.0,
+      "fat": 32.9,
+      "saturated_fat": 16.0,
+      "carbohydrates": 53.4,
+      "sugars": 0.0,
+      "fiber": 7.0,
+      "protein": 7.7,
+      "salt": 2.5,
+      "cholesterol": 0.0
+    },
+    "serving_size_g": 100.0
+  },
+  "metadata": {
+    "nova_group": null,
+    "nova_group_error": "missing_category",
+    "nutriscore_grade": null,
+    "nutrient_levels": {},
+    "labels": [],
+    "food_groups": [],
+    "countries": [
+      "en:united-states"
+    ],
+    "off_completeness": 0.4,
+    "data_quality_warnings": [
+      "en:ingredients-percent-analysis-not-ok",
+      "en:serving-quantity-defined-but-quantity-undefined",
+      "en:environmental-score-origins-of-ingredients-origins-are-100-percent-unknown",
+      "en:environmental-score-packaging-packaging-data-missing",
+      "en:environmental-score-production-system-no-label"
+    ],
+    "nutrition_data_per": "100g"
+  },
+  "environment": {
+    "ecoscore": "unknown",
+    "packaging": []
+  }
+}

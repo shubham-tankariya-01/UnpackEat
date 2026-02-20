@@ -1,0 +1,419 @@
+{
+  "barcode": "8906010500207",
+  "product": {
+    "code": "8906010500207",
+    "name": "Balaji Wafers Chana Dal",
+    "brand": "Balaji Wafers",
+    "image": "https://images.openfoodfacts.net/images/products/890/601/050/0207/front_en.3.400.jpg",
+    "quantity": "",
+    "categories": [
+      "en:snacks"
+    ]
+  },
+  "highlights": {
+    "health_score": 60,
+    "verdict": "Moderate consumption recommended",
+    "likes": [
+      "High protein"
+    ],
+    "concerns": [
+      "High salt",
+      "High saturated fat",
+      "Contains palm oil"
+    ],
+    "nova_group": 3
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 531.0,
+      "unit": "kcal",
+      "rda_percent": 26.6,
+      "rating": "neutral"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 22.8,
+      "unit": "g",
+      "rda_percent": 32.6,
+      "rating": "neutral"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 9.0,
+      "unit": "g",
+      "rda_percent": 45.0,
+      "rating": "red"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 51.5,
+      "unit": "g",
+      "rda_percent": 51.5,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 1.0,
+      "unit": "g",
+      "rda_percent": 2.0,
+      "rating": "green"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 19.4,
+      "unit": "g",
+      "rda_percent": 38.8,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 1.5475,
+      "unit": "g",
+      "rda_percent": 30.9,
+      "rating": "red"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.77375,
+    "saturated_fat": 0.9,
+    "sugars": 0.05,
+    "energy": 0.885,
+    "fiber": 0.0,
+    "protein": 0.97
+  },
+  "ingredients": {
+    "text": "CHICKPEA SPLITS (83%), EDIBLE VEGETABLE OIL (PALMOLEIN, RICE BRAN), SPICES & CONDIMENTS (CHILLI, CORIANDER, CUMIN, TURMERIC, DRY MANGO, CLOVE, CAROM SEED, GINGER, CINNAMON, CARDAMOM, NUTMEG, MACE, BAY LEAVES), EDIBLE COMMON SALT.",
+    "ingredients": [
+      {
+        "id": "en:chickpea-splits",
+        "text": "CHICKPEA SPLITS",
+        "percent_estimate": 83,
+        "percent_min": 83,
+        "percent_max": 83,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:vegetable-oil",
+        "text": "EDIBLE VEGETABLE OIL",
+        "percent_estimate": 10.625,
+        "percent_min": 4.25,
+        "percent_max": 17,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": "maybe",
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:palm-olein",
+        "text": "PALMOLEIN",
+        "percent_estimate": 6.375,
+        "percent_min": 2.125,
+        "percent_max": 17,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "16129",
+        "ecobalyse_code": "45658c32-66d9-4305-a34b-21d6a4cef89c",
+        "from_palm_oil": "yes",
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:rice-bran",
+        "text": "RICE BRAN",
+        "percent_estimate": 4.25,
+        "percent_min": 0,
+        "percent_max": 8.5,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "9100",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:spice",
+        "text": "SPICES",
+        "percent_estimate": 3.1875,
+        "percent_min": 0,
+        "percent_max": 12.75,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:condiment",
+        "text": "CONDIMENTS",
+        "percent_estimate": 1.59375,
+        "percent_min": 0,
+        "percent_max": 6.375,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:chili-pepper",
+        "text": "CHILLI",
+        "percent_estimate": 0.796875,
+        "percent_min": 0,
+        "percent_max": 6.375,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "20151",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:coriander",
+        "text": "CORIANDER",
+        "percent_estimate": 0.3984375,
+        "percent_min": 0,
+        "percent_max": 3.1875,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:cumin",
+        "text": "CUMIN",
+        "percent_estimate": 0.19921875,
+        "percent_min": 0,
+        "percent_max": 2.125,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:turmeric",
+        "text": "TURMERIC",
+        "percent_estimate": 0.099609375,
+        "percent_min": 0,
+        "percent_max": 1.59375,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "11089",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:mango",
+        "text": "MANGO",
+        "percent_estimate": 0.0498046875,
+        "percent_min": 0,
+        "percent_max": 1.275,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "13025",
+        "ecobalyse_code": "db0e5f44-34b4-4160-b003-77c828d75e60",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:clove",
+        "text": "CLOVE",
+        "percent_estimate": 0.02490234375,
+        "percent_min": 0,
+        "percent_max": 1.0625,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11052",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:carom-seed",
+        "text": "CAROM SEED",
+        "percent_estimate": 0.012451171875,
+        "percent_min": 0,
+        "percent_max": 0.910714285714286,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:ginger",
+        "text": "GINGER",
+        "percent_estimate": 0.0062255859375,
+        "percent_min": 0,
+        "percent_max": 0.796875,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11074",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:cinnamon",
+        "text": "CINNAMON",
+        "percent_estimate": 0.00311279296875,
+        "percent_min": 0,
+        "percent_max": 0.708333333333333,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:cardamom",
+        "text": "CARDAMOM",
+        "percent_estimate": 0.001556396484375,
+        "percent_min": 0,
+        "percent_max": 0.6375,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "11075",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:nutmeg",
+        "text": "NUTMEG",
+        "percent_estimate": 0.0007781982421875,
+        "percent_min": 0,
+        "percent_max": 0.579545454545455,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11048",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:mace",
+        "text": "MACE",
+        "percent_estimate": 0.00038909912109375,
+        "percent_min": 0,
+        "percent_max": 0.53125,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:bay-leaf",
+        "text": "BAY LEAVES",
+        "percent_estimate": 0.00038909912109375,
+        "percent_min": 0,
+        "percent_max": 0.490384615384615,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11053",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:salt",
+        "text": "EDIBLE COMMON SALT",
+        "percent_estimate": 1.59375,
+        "percent_min": 0,
+        "percent_max": 1.5475,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11058",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "additives": [],
+    "dominant": [
+      {
+        "ingredient": "CHICKPEA SPLITS",
+        "percent": 83
+      },
+      {
+        "ingredient": "EDIBLE VEGETABLE OIL",
+        "percent": 10.625
+      },
+      {
+        "ingredient": "PALMOLEIN",
+        "percent": 6.375
+      },
+      {
+        "ingredient": "RICE BRAN",
+        "percent": 4.25
+      }
+    ],
+    "contains_palm_oil": true,
+    "complexity": "Moderately complex"
+  },
+  "additives_full": [],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 531.0,
+      "fat": 22.8,
+      "saturated_fat": 9.0,
+      "carbohydrates": 51.5,
+      "sugars": 1.0,
+      "fiber": null,
+      "protein": 19.4,
+      "salt": 1.5475
+    },
+    "per_serving": {
+      "energy_kcal": 159.3,
+      "fat": 6.84,
+      "saturated_fat": 2.7,
+      "carbohydrates": 15.45,
+      "sugars": 0.3,
+      "protein": 5.82,
+      "salt": 0.46
+    },
+    "serving_size_g": 30.0
+  },
+  "environment": {
+    "ecoscore": "unknown",
+    "packaging": []
+  }
+}

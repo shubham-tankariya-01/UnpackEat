@@ -1,0 +1,153 @@
+{
+  "barcode": "8904109490538",
+  "product": {
+    "code": "8904109490538",
+    "name": "Cow\u2019s ghee",
+    "brand": "Unknown",
+    "image": "https://images.openfoodfacts.net/images/products/890/410/949/0538/front_fr.3.400.jpg",
+    "quantity": "",
+    "categories": [
+      "en:fats",
+      "en:animal-fats",
+      "en:butter-fat",
+      "en:ghee"
+    ]
+  },
+  "highlights": {
+    "health_score": 57,
+    "verdict": "Moderate consumption recommended",
+    "likes": [
+      "Low salt",
+      "Low sugar",
+      "Minimally processed"
+    ],
+    "concerns": [
+      "High saturated fat",
+      "High total fat",
+      "Very high calorie density"
+    ],
+    "nova_group": 2
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 897.3,
+      "unit": "kcal",
+      "rda_percent": 44.9,
+      "rating": "red"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 99.7,
+      "unit": "g",
+      "rda_percent": 142.4,
+      "rating": "red"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 78.46,
+      "unit": "g",
+      "rda_percent": 392.3,
+      "rating": "red"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    },
+    {
+      "name": "fiber",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "red"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.0,
+    "saturated_fat": 1.0,
+    "sugars": 0.0,
+    "energy": 1.0,
+    "fiber": 0.0,
+    "protein": 0.0
+  },
+  "ingredients": {
+    "text": "",
+    "ingredients": [],
+    "additives": [],
+    "dominant": [],
+    "contains_palm_oil": false,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 897.3,
+      "fat": 99.7,
+      "saturated_fat": 78.46,
+      "carbohydrates": 0.0,
+      "sugars": 0.0,
+      "fiber": 0.0,
+      "protein": 0.0,
+      "salt": 0.0,
+      "cholesterol": null
+    },
+    "per_serving": null,
+    "serving_size_g": null
+  },
+  "metadata": {
+    "nova_group": 2,
+    "nova_group_error": null,
+    "nutriscore_grade": "e",
+    "nutrient_levels": {
+      "fat": "high",
+      "salt": "low",
+      "saturated-fat": "high",
+      "sugars": "low"
+    },
+    "labels": [],
+    "food_groups": [
+      "en:fats-and-sauces",
+      "en:fats"
+    ],
+    "countries": [
+      "en:france"
+    ],
+    "off_completeness": 0.375,
+    "data_quality_warnings": [
+      "en:environmental-score-origins-of-ingredients-origins-are-100-percent-unknown",
+      "en:environmental-score-packaging-packaging-data-missing",
+      "en:environmental-score-production-system-no-label",
+      "en:environmental-score-threatened-species-ingredients-missing"
+    ],
+    "nutrition_data_per": "100g"
+  },
+  "environment": {
+    "ecoscore": "unknown",
+    "packaging": []
+  }
+}

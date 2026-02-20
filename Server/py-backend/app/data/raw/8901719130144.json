@@ -1,0 +1,1689 @@
+{
+  "_id": "8901719130144",
+  "_keywords": [
+    "and",
+    "biscuit",
+    "cake",
+    "chocolate",
+    "chocolate-biscuit",
+    "cookie",
+    "filling",
+    "hide-seek400g",
+    "parle",
+    "snack",
+    "sweet"
+  ],
+  "added_countries_tags": [],
+  "additives_n": 1,
+  "additives_original_tags": [
+    "en:e322i"
+  ],
+  "additives_tags": [
+    "en:e322",
+    "en:e322i"
+  ],
+  "allergens": "",
+  "allergens_from_ingredients": "en:soybeans, en:soybeans, en:gluten, SOY LECITHIN, SOY LECITHIN, WHEAT, SOY, SOY LECITHIN, SOY LECITHIN, WHEAT, SOY",
+  "allergens_from_user": "(en) ",
+  "allergens_hierarchy": [
+    "en:gluten",
+    "en:soybeans"
+  ],
+  "allergens_tags": [
+    "en:gluten",
+    "en:soybeans"
+  ],
+  "amino_acids_tags": [],
+  "brands": "Parle",
+  "brands_tags": [
+    "parle"
+  ],
+  "categories": "Snacks, Sweet snacks, Biscuits and cakes, Biscuits, Biscuit (cookie) snack w chocolate filling, en:chocolate-biscuits",
+  "categories_hierarchy": [
+    "en:snacks",
+    "en:sweet-snacks",
+    "en:biscuits-and-cakes",
+    "en:biscuits-and-crackers",
+    "en:biscuits",
+    "en:chocolate-biscuits",
+    "en:biscuit-cookie-snack-w-chocolate-filling"
+  ],
+  "categories_lc": "en",
+  "categories_properties": {
+    "agribalyse_food_code:en": "24231",
+    "agribalyse_proxy_food_code:en": "24036",
+    "ciqual_food_code:en": "24231"
+  },
+  "categories_properties_tags": [
+    "all-products",
+    "categories-known",
+    "agribalyse-food-code-24231",
+    "agribalyse-food-code-known",
+    "agribalyse-proxy-food-code-24036",
+    "agribalyse-proxy-food-code-known",
+    "ciqual-food-code-24231",
+    "ciqual-food-code-known",
+    "agribalyse-known",
+    "agribalyse-24231"
+  ],
+  "categories_tags": [
+    "en:snacks",
+    "en:sweet-snacks",
+    "en:biscuits-and-cakes",
+    "en:biscuits-and-crackers",
+    "en:biscuits",
+    "en:chocolate-biscuits",
+    "en:biscuit-cookie-snack-w-chocolate-filling"
+  ],
+  "checkers_tags": [],
+  "code": "8901719130144",
+  "codes_tags": [
+    "code-13",
+    "8901719130xxx",
+    "890171913xxxx",
+    "89017191xxxxx",
+    "8901719xxxxxx",
+    "890171xxxxxxx",
+    "89017xxxxxxxx",
+    "8901xxxxxxxxx",
+    "890xxxxxxxxxx",
+    "89xxxxxxxxxxx",
+    "8xxxxxxxxxxxx"
+  ],
+  "compared_to_category": "en:biscuit-cookie-snack-w-chocolate-filling",
+  "complete": 0,
+  "completeness": 0.675,
+  "correctors_tags": [
+    "virajdaga",
+    "foodless",
+    "parthprolegend"
+  ],
+  "countries": "en:India",
+  "countries_hierarchy": [
+    "en:india"
+  ],
+  "countries_tags": [
+    "en:india"
+  ],
+  "created_t": 1710305111,
+  "creator": "foodless",
+  "data_quality_bugs_tags": [],
+  "data_quality_completeness_tags": [
+    "en:photo-and-data-to-be-checked-by-an-experienced-contributor",
+    "en:ingredients-en-photo-to-be-selected",
+    "en:ingredients-en-completed",
+    "en:ingredients-completed-at-least-for-one-language",
+    "en:nutrition-photo-to-be-selected",
+    "en:categories-completed",
+    "en:nutriments-completed",
+    "en:packaging-photo-to-be-selected",
+    "en:packagings-completed",
+    "en:traceability-codes-to-be-completed",
+    "en:front-photo-to-be-selected",
+    "en:product-name-completed",
+    "en:quantity-completed",
+    "en:brands-completed",
+    "en:expiration-date-to-be-completed"
+  ],
+  "data_quality_dimensions": {
+    "accuracy": {
+      "overall": "0.00"
+    },
+    "completeness": {
+      "general_information": "0.60",
+      "ingredients": "0.50",
+      "nutrition": "0.67",
+      "overall": "0.54",
+      "packaging": "0.33"
+    }
+  },
+  "data_quality_errors_tags": [],
+  "data_quality_info_tags": [
+    "en:no-packaging-data",
+    "en:food-groups-1-known",
+    "en:food-groups-2-known",
+    "en:food-groups-3-unknown"
+  ],
+  "data_quality_tags": [
+    "en:photo-and-data-to-be-checked-by-an-experienced-contributor",
+    "en:ingredients-en-photo-to-be-selected",
+    "en:ingredients-en-completed",
+    "en:ingredients-completed-at-least-for-one-language",
+    "en:nutrition-photo-to-be-selected",
+    "en:categories-completed",
+    "en:nutriments-completed",
+    "en:packaging-photo-to-be-selected",
+    "en:packagings-completed",
+    "en:traceability-codes-to-be-completed",
+    "en:front-photo-to-be-selected",
+    "en:product-name-completed",
+    "en:quantity-completed",
+    "en:brands-completed",
+    "en:expiration-date-to-be-completed",
+    "en:no-packaging-data",
+    "en:food-groups-1-known",
+    "en:food-groups-2-known",
+    "en:food-groups-3-unknown",
+    "en:ingredients-ingredient-tag-length-greater-than-50",
+    "en:ingredients-percent-analysis-not-ok",
+    "en:product-quantity-under-1g",
+    "en:environmental-score-origins-of-ingredients-origins-are-100-percent-unknown",
+    "en:environmental-score-packaging-packaging-data-missing",
+    "en:environmental-score-production-system-no-label"
+  ],
+  "data_quality_warnings_tags": [
+    "en:ingredients-ingredient-tag-length-greater-than-50",
+    "en:ingredients-percent-analysis-not-ok",
+    "en:product-quantity-under-1g",
+    "en:environmental-score-origins-of-ingredients-origins-are-100-percent-unknown",
+    "en:environmental-score-packaging-packaging-data-missing",
+    "en:environmental-score-production-system-no-label"
+  ],
+  "data_sources": "App - smoothie-openfoodfacts, Apps",
+  "data_sources_tags": [
+    "app-smoothie-openfoodfacts",
+    "apps"
+  ],
+  "ecoscore_data": {
+    "adjustments": {
+      "origins_of_ingredients": {
+        "aggregated_origins": [
+          {
+            "epi_score": 0,
+            "origin": "en:unknown",
+            "percent": 99.96875,
+            "transportation_score": 0
+          }
+        ],
+        "epi_score": 0,
+        "epi_value": -5,
+        "origins_from_categories": [
+          "en:unknown"
+        ],
+        "origins_from_origins_field": [
+          "en:unknown"
+        ],
+        "transportation_score": 0,
+        "transportation_scores": {
+          "ad": 0,
+          "al": 0,
+          "at": 0,
+          "ax": 0,
+          "ba": 0,
+          "be": 0,
+          "bg": 0,
+          "ch": 0,
+          "cy": 0,
+          "cz": 0,
+          "de": 0,
+          "dk": 0,
+          "dz": 0,
+          "ee": 0,
+          "eg": 0,
+          "es": 0,
+          "fi": 0,
+          "fo": 0,
+          "fr": 0,
+          "gg": 0,
+          "gi": 0,
+          "gr": 0,
+          "hr": 0,
+          "hu": 0,
+          "ie": 0,
+          "il": 0,
+          "im": 0,
+          "is": 0,
+          "it": 0,
+          "je": 0,
+          "lb": 0,
+          "li": 0,
+          "lt": 0,
+          "lu": 0,
+          "lv": 0,
+          "ly": 0,
+          "ma": 0,
+          "mc": 0,
+          "md": 0,
+          "me": 0,
+          "mk": 0,
+          "mt": 0,
+          "nl": 0,
+          "no": 0,
+          "pl": 0,
+          "ps": 0,
+          "pt": 0,
+          "ro": 0,
+          "rs": 0,
+          "se": 0,
+          "si": 0,
+          "sj": 0,
+          "sk": 0,
+          "sm": 0,
+          "sy": 0,
+          "tn": 0,
+          "tr": 0,
+          "ua": 0,
+          "uk": 0,
+          "us": 0,
+          "va": 0,
+          "world": 0,
+          "xk": 0
+        },
+        "transportation_value": 0,
+        "transportation_values": {
+          "ad": 0,
+          "al": 0,
+          "at": 0,
+          "ax": 0,
+          "ba": 0,
+          "be": 0,
+          "bg": 0,
+          "ch": 0,
+          "cy": 0,
+          "cz": 0,
+          "de": 0,
+          "dk": 0,
+          "dz": 0,
+          "ee": 0,
+          "eg": 0,
+          "es": 0,
+          "fi": 0,
+          "fo": 0,
+          "fr": 0,
+          "gg": 0,
+          "gi": 0,
+          "gr": 0,
+          "hr": 0,
+          "hu": 0,
+          "ie": 0,
+          "il": 0,
+          "im": 0,
+          "is": 0,
+          "it": 0,
+          "je": 0,
+          "lb": 0,
+          "li": 0,
+          "lt": 0,
+          "lu": 0,
+          "lv": 0,
+          "ly": 0,
+          "ma": 0,
+          "mc": 0,
+          "md": 0,
+          "me": 0,
+          "mk": 0,
+          "mt": 0,
+          "nl": 0,
+          "no": 0,
+          "pl": 0,
+          "ps": 0,
+          "pt": 0,
+          "ro": 0,
+          "rs": 0,
+          "se": 0,
+          "si": 0,
+          "sj": 0,
+          "sk": 0,
+          "sm": 0,
+          "sy": 0,
+          "tn": 0,
+          "tr": 0,
+          "ua": 0,
+          "uk": 0,
+          "us": 0,
+          "va": 0,
+          "world": 0,
+          "xk": 0
+        },
+        "value": -5,
+        "values": {
+          "ad": -5,
+          "al": -5,
+          "at": -5,
+          "ax": -5,
+          "ba": -5,
+          "be": -5,
+          "bg": -5,
+          "ch": -5,
+          "cy": -5,
+          "cz": -5,
+          "de": -5,
+          "dk": -5,
+          "dz": -5,
+          "ee": -5,
+          "eg": -5,
+          "es": -5,
+          "fi": -5,
+          "fo": -5,
+          "fr": -5,
+          "gg": -5,
+          "gi": -5,
+          "gr": -5,
+          "hr": -5,
+          "hu": -5,
+          "ie": -5,
+          "il": -5,
+          "im": -5,
+          "is": -5,
+          "it": -5,
+          "je": -5,
+          "lb": -5,
+          "li": -5,
+          "lt": -5,
+          "lu": -5,
+          "lv": -5,
+          "ly": -5,
+          "ma": -5,
+          "mc": -5,
+          "md": -5,
+          "me": -5,
+          "mk": -5,
+          "mt": -5,
+          "nl": -5,
+          "no": -5,
+          "pl": -5,
+          "ps": -5,
+          "pt": -5,
+          "ro": -5,
+          "rs": -5,
+          "se": -5,
+          "si": -5,
+          "sj": -5,
+          "sk": -5,
+          "sm": -5,
+          "sy": -5,
+          "tn": -5,
+          "tr": -5,
+          "ua": -5,
+          "uk": -5,
+          "us": -5,
+          "va": -5,
+          "world": -5,
+          "xk": -5
+        },
+        "warning": "origins_are_100_percent_unknown"
+      },
+      "packaging": {
+        "value": -15,
+        "warning": "packaging_data_missing"
+      },
+      "production_system": {
+        "labels": [],
+        "value": 0,
+        "warning": "no_label"
+      },
+      "threatened_species": {
+        "ingredient": "en:palm-oil",
+        "value": -10
+      }
+    },
+    "agribalyse": {
+      "agribalyse_food_code": "24231",
+      "co2_agriculture": 5.2974398,
+      "co2_consumption": 0,
+      "co2_distribution": 0.019437894,
+      "co2_packaging": 0.10985896,
+      "co2_processing": 0.25035551,
+      "co2_total": 5.848293084,
+      "co2_transportation": 0.17120092,
+      "code": "24231",
+      "dqr": "2.42",
+      "ef_agriculture": 0.38571633,
+      "ef_consumption": 0,
+      "ef_distribution": 0.0047895045,
+      "ef_packaging": 0.010908829,
+      "ef_processing": 0.043417677,
+      "ef_total": 0.4598950015,
+      "ef_transportation": 0.015062661,
+      "is_beverage": 0,
+      "name_en": "Biscuit (cookie), snack w chocolate filling",
+      "name_fr": "Go\u00fbter sec fourr\u00e9 (\"sandwich\u00e9\") parfum chocolat",
+      "score": 57,
+      "version": "3.1.1"
+    },
+    "grade": "e",
+    "grades": {
+      "ad": "e",
+      "al": "e",
+      "at": "e",
+      "ax": "e",
+      "ba": "e",
+      "be": "e",
+      "bg": "e",
+      "ch": "e",
+      "cy": "e",
+      "cz": "e",
+      "de": "e",
+      "dk": "e",
+      "dz": "e",
+      "ee": "e",
+      "eg": "e",
+      "es": "e",
+      "fi": "e",
+      "fo": "e",
+      "fr": "e",
+      "gg": "e",
+      "gi": "e",
+      "gr": "e",
+      "hr": "e",
+      "hu": "e",
+      "ie": "e",
+      "il": "e",
+      "im": "e",
+      "is": "e",
+      "it": "e",
+      "je": "e",
+      "lb": "e",
+      "li": "e",
+      "lt": "e",
+      "lu": "e",
+      "lv": "e",
+      "ly": "e",
+      "ma": "e",
+      "mc": "e",
+      "md": "e",
+      "me": "e",
+      "mk": "e",
+      "mt": "e",
+      "nl": "e",
+      "no": "e",
+      "pl": "e",
+      "ps": "e",
+      "pt": "e",
+      "ro": "e",
+      "rs": "e",
+      "se": "e",
+      "si": "e",
+      "sj": "e",
+      "sk": "e",
+      "sm": "e",
+      "sy": "e",
+      "tn": "e",
+      "tr": "e",
+      "ua": "e",
+      "uk": "e",
+      "us": "e",
+      "va": "e",
+      "world": "e",
+      "xk": "e"
+    },
+    "missing": {
+      "labels": 1,
+      "origins": 1,
+      "packagings": 1
+    },
+    "missing_data_warning": 1,
+    "missing_key_data": 1,
+    "score": 27,
+    "scores": {
+      "ad": 27,
+      "al": 27,
+      "at": 27,
+      "ax": 27,
+      "ba": 27,
+      "be": 27,
+      "bg": 27,
+      "ch": 27,
+      "cy": 27,
+      "cz": 27,
+      "de": 27,
+      "dk": 27,
+      "dz": 27,
+      "ee": 27,
+      "eg": 27,
+      "es": 27,
+      "fi": 27,
+      "fo": 27,
+      "fr": 27,
+      "gg": 27,
+      "gi": 27,
+      "gr": 27,
+      "hr": 27,
+      "hu": 27,
+      "ie": 27,
+      "il": 27,
+      "im": 27,
+      "is": 27,
+      "it": 27,
+      "je": 27,
+      "lb": 27,
+      "li": 27,
+      "lt": 27,
+      "lu": 27,
+      "lv": 27,
+      "ly": 27,
+      "ma": 27,
+      "mc": 27,
+      "md": 27,
+      "me": 27,
+      "mk": 27,
+      "mt": 27,
+      "nl": 27,
+      "no": 27,
+      "pl": 27,
+      "ps": 27,
+      "pt": 27,
+      "ro": 27,
+      "rs": 27,
+      "se": 27,
+      "si": 27,
+      "sj": 27,
+      "sk": 27,
+      "sm": 27,
+      "sy": 27,
+      "tn": 27,
+      "tr": 27,
+      "ua": 27,
+      "uk": 27,
+      "us": 27,
+      "va": 27,
+      "world": 27,
+      "xk": 27
+    },
+    "status": "known"
+  },
+  "ecoscore_grade": "e",
+  "ecoscore_score": 27,
+  "ecoscore_tags": [
+    "e"
+  ],
+  "editors_tags": [
+    "foodless",
+    "mahek",
+    "parthprolegend",
+    "virajdaga"
+  ],
+  "entry_dates_tags": [
+    "2024-03-13",
+    "2024-03",
+    "2024"
+  ],
+  "food_groups": "en:biscuits-and-cakes",
+  "food_groups_tags": [
+    "en:sugary-snacks",
+    "en:biscuits-and-cakes"
+  ],
+  "id": "8901719130144",
+  "image_front_small_url": "https://images.openfoodfacts.net/images/products/890/171/913/0144/front_en.22.200.jpg",
+  "image_front_thumb_url": "https://images.openfoodfacts.net/images/products/890/171/913/0144/front_en.22.100.jpg",
+  "image_front_url": "https://images.openfoodfacts.net/images/products/890/171/913/0144/front_en.22.400.jpg",
+  "image_ingredients_small_url": "https://images.openfoodfacts.net/images/products/890/171/913/0144/ingredients_en.10.200.jpg",
+  "image_ingredients_thumb_url": "https://images.openfoodfacts.net/images/products/890/171/913/0144/ingredients_en.10.100.jpg",
+  "image_ingredients_url": "https://images.openfoodfacts.net/images/products/890/171/913/0144/ingredients_en.10.400.jpg",
+  "image_small_url": "https://images.openfoodfacts.net/images/products/890/171/913/0144/front_en.22.200.jpg",
+  "image_thumb_url": "https://images.openfoodfacts.net/images/products/890/171/913/0144/front_en.22.100.jpg",
+  "image_url": "https://images.openfoodfacts.net/images/products/890/171/913/0144/front_en.22.400.jpg",
+  "images": {
+    "1": {
+      "sizes": {
+        "100": {
+          "h": 100,
+          "w": 50
+        },
+        "400": {
+          "h": 400,
+          "w": 201
+        },
+        "full": {
+          "h": 3264,
+          "w": 1644
+        }
+      },
+      "uploaded_t": 1710305111,
+      "uploader": "foodless"
+    },
+    "2": {
+      "sizes": {
+        "100": {
+          "h": 29,
+          "w": 100
+        },
+        "400": {
+          "h": 115,
+          "w": 400
+        },
+        "full": {
+          "h": 911,
+          "w": 3170
+        }
+      },
+      "uploaded_t": 1731501110,
+      "uploader": "virajdaga"
+    },
+    "3": {
+      "sizes": {
+        "100": {
+          "h": 100,
+          "w": 54
+        },
+        "400": {
+          "h": 400,
+          "w": 216
+        },
+        "full": {
+          "h": 4000,
+          "w": 2156
+        }
+      },
+      "uploaded_t": 1755846439,
+      "uploader": "foodless"
+    },
+    "front_en": {
+      "imgid": "3",
+      "rev": "22",
+      "sizes": {
+        "100": {
+          "h": 100,
+          "w": 54
+        },
+        "200": {
+          "h": 200,
+          "w": 108
+        },
+        "400": {
+          "h": 400,
+          "w": 216
+        },
+        "full": {
+          "h": 4000,
+          "w": 2156
+        }
+      }
+    },
+    "ingredients_en": {
+      "coordinates_image_size": "full",
+      "imgid": "2",
+      "rev": "10",
+      "sizes": {
+        "100": {
+          "h": 26,
+          "w": 100
+        },
+        "200": {
+          "h": 53,
+          "w": 200
+        },
+        "400": {
+          "h": 105,
+          "w": 400
+        },
+        "full": {
+          "h": 792,
+          "w": 3010
+        }
+      },
+      "x1": 0,
+      "x2": 3010,
+      "y1": 112,
+      "y2": 904
+    }
+  },
+  "informers_tags": [
+    "foodless",
+    "mahek",
+    "virajdaga"
+  ],
+  "ingredients": [
+    {
+      "id": "en:hide-and-seek-biscuits-ingredients-refined-wheat-flour",
+      "ingredients": [
+        {
+          "ciqual_proxy_food_code": "9410",
+          "ecobalyse_code": "a2e25aca-1f42-4bc8-bc0e-4d7c751775aa",
+          "id": "en:refined-wheat-flour",
+          "is_in_taxonomy": 1,
+          "percent_estimate": 50,
+          "text": "MAIDA",
+          "vegan": "yes",
+          "vegetarian": "yes"
+        }
+      ],
+      "is_in_taxonomy": 0,
+      "percent_estimate": 50,
+      "text": "HIDE and SEEK BISCUITS INGREDIENTS REFINED WHEAT FLOUR"
+    },
+    {
+      "ciqual_proxy_food_code": "31016",
+      "ecobalyse_code": "8f075c25-9ebf-430c-b41d-51d165c6e0d8",
+      "id": "en:sugar",
+      "is_in_taxonomy": 1,
+      "percent_estimate": 25,
+      "text": "SUGAR",
+      "vegan": "yes",
+      "vegetarian": "yes"
+    },
+    {
+      "id": "en:choco-chips-vegetable-fat",
+      "ingredients": [
+        {
+          "from_palm_oil": "maybe",
+          "id": "en:hydrogenated-oil",
+          "is_in_taxonomy": 1,
+          "percent_estimate": 12.5,
+          "text": "HYDROGENATED OILS",
+          "vegan": "maybe",
+          "vegetarian": "maybe"
+        }
+      ],
+      "is_in_taxonomy": 0,
+      "percent_estimate": 12.5,
+      "text": "CHOCO CHIPS VEGETABLE FAT"
+    },
+    {
+      "ciqual_proxy_food_code": "18100",
+      "id": "en:cocoa-solids",
+      "is_in_taxonomy": 1,
+      "percent_estimate": 6.25,
+      "text": "COCOA SOLIDS",
+      "vegan": "yes",
+      "vegetarian": "yes"
+    },
+    {
+      "ciqual_proxy_food_code": "31016",
+      "id": "en:dextrose",
+      "is_in_taxonomy": 1,
+      "percent_estimate": 3.125,
+      "text": "DEXTROSE",
+      "vegan": "yes",
+      "vegetarian": "yes"
+    },
+    {
+      "id": "en:emulsifier-of-vegetable",
+      "is_in_taxonomy": 0,
+      "percent": 3,
+      "percent_estimate": 3,
+      "text": "EMULSIFIER OF VEGETABLE"
+    },
+    {
+      "ciqual_proxy_food_code": "31016",
+      "ecobalyse_code": "8f075c25-9ebf-430c-b41d-51d165c6e0d8",
+      "id": "en:sugar",
+      "is_in_taxonomy": 1,
+      "percent_estimate": 0.0625,
+      "text": "SUGAR",
+      "vegan": "yes",
+      "vegetarian": "yes"
+    },
+    {
+      "id": "en:edible",
+      "ingredients": [
+        {
+          "ciqual_food_code": "42200",
+          "id": "en:soya-lecithin",
+          "is_in_taxonomy": 1,
+          "percent_estimate": 0.03125,
+          "text": "SOY LECITHIN",
+          "vegan": "yes",
+          "vegetarian": "yes"
+        }
+      ],
+      "is_in_taxonomy": 0,
+      "origins": "",
+      "percent_estimate": 0.03125,
+      "text": "EDIBLE"
+    },
+    {
+      "id": "en:artificial-fvouring-substances",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0.015625,
+      "text": "ARTIFICIAL FVOURING SUBSTANCES"
+    },
+    {
+      "id": "en:vanilla",
+      "is_in_taxonomy": 1,
+      "percent_estimate": 0.0078125,
+      "text": "VANILLA",
+      "vegan": "yes",
+      "vegetarian": "yes"
+    },
+    {
+      "ciqual_food_code": "16150",
+      "ecobalyse_code": "45658c32-66d9-4305-a34b-21d6a4cef89c",
+      "from_palm_oil": "yes",
+      "id": "en:refined-palm-oil",
+      "is_in_taxonomy": 1,
+      "percent_estimate": 0.00390625,
+      "text": "REFINED PALM OIL",
+      "vegan": "yes",
+      "vegetarian": "yes"
+    },
+    {
+      "id": "en:chocolate",
+      "is_in_taxonomy": 1,
+      "percent": 5.8,
+      "percent_estimate": 0.00390625,
+      "text": "CHOCOLATE",
+      "vegan": "maybe",
+      "vegetarian": "yes"
+    },
+    {
+      "ciqual_proxy_food_code": "31016",
+      "ecobalyse_code": "8f075c25-9ebf-430c-b41d-51d165c6e0d8",
+      "id": "en:sugar",
+      "is_in_taxonomy": 1,
+      "percent_estimate": 0,
+      "text": "SUGAR",
+      "vegan": "yes",
+      "vegetarian": "yes"
+    },
+    {
+      "id": "en:cocoa-solids-cocoa-butter",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0,
+      "text": "COCOA SOLIDS COCOA BUTTER"
+    },
+    {
+      "id": "en:dextrose-emulsifier-of-vegetable",
+      "ingredients": [
+        {
+          "ciqual_food_code": "42200",
+          "id": "en:soya-lecithin",
+          "is_in_taxonomy": 1,
+          "percent_estimate": 0,
+          "text": "SOY LECITHIN",
+          "vegan": "yes",
+          "vegetarian": "yes"
+        }
+      ],
+      "is_in_taxonomy": 0,
+      "origins": "",
+      "percent_estimate": 0,
+      "text": "DEXTROSE EMULSIFIER OF VEGETABLE"
+    },
+    {
+      "id": "en:artificial-flavouring-substances-vanillat",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0,
+      "text": "ARTIFICIAL FLAVOURING SUBSTANCES-VANILLAT"
+    },
+    {
+      "ciqual_proxy_food_code": "31016",
+      "id": "en:invert-sugar-syrup",
+      "is_in_taxonomy": 1,
+      "percent_estimate": 0,
+      "text": "INVERT SUGAR SYRUP",
+      "vegan": "yes",
+      "vegetarian": "yes"
+    },
+    {
+      "id": "en:raising-agents-1503",
+      "ingredients": [
+        {
+          "id": "en:1",
+          "is_in_taxonomy": 0,
+          "percent_estimate": 0,
+          "text": "1"
+        }
+      ],
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0,
+      "text": "RAISING AGENTS 1503"
+    },
+    {
+      "id": "en:500",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0,
+      "text": "500"
+    },
+    {
+      "ciqual_proxy_food_code": "18100",
+      "id": "en:cocoa-solids",
+      "is_in_taxonomy": 1,
+      "percent_estimate": 0,
+      "text": "COCOA SOLIDS",
+      "vegan": "yes",
+      "vegetarian": "yes"
+    },
+    {
+      "ciqual_food_code": "11058",
+      "id": "en:iodised-salt",
+      "is_in_taxonomy": 1,
+      "origins": "",
+      "percent_estimate": 0,
+      "text": "IODISED SALT",
+      "vegan": "yes",
+      "vegetarian": "yes"
+    },
+    {
+      "id": "en:emulsifier-of-vegetable",
+      "ingredients": [
+        {
+          "id": "en:472e",
+          "is_in_taxonomy": 0,
+          "percent_estimate": 0,
+          "text": "472e"
+        }
+      ],
+      "is_in_taxonomy": 0,
+      "origins": "",
+      "percent_estimate": 0,
+      "text": "EMULSIFIER OF VEGETABLE"
+    },
+    {
+      "id": "en:flavouring",
+      "ingredients": [
+        {
+          "id": "en:artificial-flavouring-substances-vanilla",
+          "is_in_taxonomy": 0,
+          "percent_estimate": 0,
+          "text": "ARTIFICIAL FLAVOURING SUBSTANCES-VANILLA"
+        }
+      ],
+      "is_in_taxonomy": 1,
+      "percent_estimate": 0,
+      "text": "CONTAINS ADDED FLAVOUR",
+      "vegan": "maybe",
+      "vegetarian": "maybe"
+    }
+  ],
+  "ingredients_analysis": {
+    "en:palm-oil": [
+      "en:refined-palm-oil"
+    ],
+    "en:vegan-status-unknown": [
+      "en:emulsifier-of-vegetable",
+      "en:artificial-fvouring-substances",
+      "en:cocoa-solids-cocoa-butter",
+      "en:artificial-flavouring-substances-vanillat",
+      "en:1",
+      "en:500",
+      "en:472e",
+      "en:artificial-flavouring-substances-vanilla"
+    ],
+    "en:vegetarian-status-unknown": [
+      "en:emulsifier-of-vegetable",
+      "en:artificial-fvouring-substances",
+      "en:cocoa-solids-cocoa-butter",
+      "en:artificial-flavouring-substances-vanillat",
+      "en:1",
+      "en:500",
+      "en:472e",
+      "en:artificial-flavouring-substances-vanilla"
+    ]
+  },
+  "ingredients_analysis_tags": [
+    "en:palm-oil",
+    "en:vegan-status-unknown",
+    "en:vegetarian-status-unknown"
+  ],
+  "ingredients_hierarchy": [
+    "en:hide-and-seek-biscuits-ingredients-refined-wheat-flour",
+    "en:sugar",
+    "en:added-sugar",
+    "en:disaccharide",
+    "en:choco-chips-vegetable-fat",
+    "en:cocoa-solids",
+    "en:plant",
+    "en:cocoa",
+    "en:dextrose",
+    "en:monosaccharide",
+    "en:glucose",
+    "en:emulsifier-of-vegetable",
+    "en:edible",
+    "en:artificial-fvouring-substances",
+    "en:vanilla",
+    "en:refined-palm-oil",
+    "en:oil-and-fat",
+    "en:vegetable-oil-and-fat",
+    "en:palm-oil-and-fat",
+    "en:palm-oil",
+    "en:chocolate",
+    "en:cocoa-solids-cocoa-butter",
+    "en:dextrose-emulsifier-of-vegetable",
+    "en:artificial-flavouring-substances-vanillat",
+    "en:invert-sugar-syrup",
+    "en:syrup",
+    "en:invert-sugar",
+    "en:sugar-syrup",
+    "en:raising-agents-1503",
+    "en:500",
+    "en:iodised-salt",
+    "en:salt",
+    "en:flavouring",
+    "en:refined-wheat-flour",
+    "en:cereal",
+    "en:flour",
+    "en:wheat",
+    "en:cereal-flour",
+    "en:wheat-flour",
+    "en:hydrogenated-oil",
+    "en:oil",
+    "en:soya-lecithin",
+    "en:e322",
+    "en:e322i",
+    "en:1",
+    "en:472e",
+    "en:artificial-flavouring-substances-vanilla"
+  ],
+  "ingredients_lc": "en",
+  "ingredients_n": 30,
+  "ingredients_n_tags": [
+    "30",
+    "21-30"
+  ],
+  "ingredients_non_nutritive_sweeteners_n": 0,
+  "ingredients_original_tags": [
+    "en:hide-and-seek-biscuits-ingredients-refined-wheat-flour",
+    "en:sugar",
+    "en:choco-chips-vegetable-fat",
+    "en:cocoa-solids",
+    "en:dextrose",
+    "en:emulsifier-of-vegetable",
+    "en:sugar",
+    "en:edible",
+    "en:artificial-fvouring-substances",
+    "en:vanilla",
+    "en:refined-palm-oil",
+    "en:chocolate",
+    "en:sugar",
+    "en:cocoa-solids-cocoa-butter",
+    "en:dextrose-emulsifier-of-vegetable",
+    "en:artificial-flavouring-substances-vanillat",
+    "en:invert-sugar-syrup",
+    "en:raising-agents-1503",
+    "en:500",
+    "en:cocoa-solids",
+    "en:iodised-salt",
+    "en:emulsifier-of-vegetable",
+    "en:flavouring",
+    "en:refined-wheat-flour",
+    "en:hydrogenated-oil",
+    "en:soya-lecithin",
+    "en:soya-lecithin",
+    "en:1",
+    "en:472e",
+    "en:artificial-flavouring-substances-vanilla"
+  ],
+  "ingredients_percent_analysis": -1,
+  "ingredients_sweeteners_n": 0,
+  "ingredients_tags": [
+    "en:hide-and-seek-biscuits-ingredients-refined-wheat-flour",
+    "en:sugar",
+    "en:added-sugar",
+    "en:disaccharide",
+    "en:choco-chips-vegetable-fat",
+    "en:cocoa-solids",
+    "en:plant",
+    "en:cocoa",
+    "en:dextrose",
+    "en:monosaccharide",
+    "en:glucose",
+    "en:emulsifier-of-vegetable",
+    "en:edible",
+    "en:artificial-fvouring-substances",
+    "en:vanilla",
+    "en:refined-palm-oil",
+    "en:oil-and-fat",
+    "en:vegetable-oil-and-fat",
+    "en:palm-oil-and-fat",
+    "en:palm-oil",
+    "en:chocolate",
+    "en:cocoa-solids-cocoa-butter",
+    "en:dextrose-emulsifier-of-vegetable",
+    "en:artificial-flavouring-substances-vanillat",
+    "en:invert-sugar-syrup",
+    "en:syrup",
+    "en:invert-sugar",
+    "en:sugar-syrup",
+    "en:raising-agents-1503",
+    "en:500",
+    "en:iodised-salt",
+    "en:salt",
+    "en:flavouring",
+    "en:refined-wheat-flour",
+    "en:cereal",
+    "en:flour",
+    "en:wheat",
+    "en:cereal-flour",
+    "en:wheat-flour",
+    "en:hydrogenated-oil",
+    "en:oil",
+    "en:soya-lecithin",
+    "en:e322",
+    "en:e322i",
+    "en:1",
+    "en:472e",
+    "en:artificial-flavouring-substances-vanilla"
+  ],
+  "ingredients_text": "HIDE & SEEK BISCUITS INGREDIENTS REFINED WHEAT FLOUR (MAIDA), SUGAR, CHOCO CHIPS VEGETABLE FAT (HYDROGENATED OILS), COCOA SOLIDS, DEXTROSE, EMULSIFIER OF VEGETABLE 3%) (SUGAR, EDIBLE ORIGIN (SOY LECITHIN) AND ARTIFICIAL FVOURING SUBSTANCES (VANILLA, REFINED PALM OIL, CHOCOLATE (5.8%) (SUGAR, COCOA SOLIDS COCOA BUTTER, DEXTROSE EMULSIFIER OF VEGETABLE ORIGIN (SOY LECITHIN) AND ARTIFICIAL FLAVOURING SUBSTANCES-VANILLAT, INVERT SUGAR SYRUP, RAISING AGENTS 1503(1), 500, COCOA SOLIDS, IODISED SALT AND EMULSIFIER OF VEGETABLE ORIGIN (472e). CONTAINS ADDED FLAVOUR (ARTIFICIAL FLAVOURING SUBSTANCES-VANILLA) CONTAINS: WHEAT, SOY",
+  "ingredients_text_en": "HIDE & SEEK BISCUITS INGREDIENTS REFINED WHEAT FLOUR (MAIDA), SUGAR, CHOCO CHIPS VEGETABLE FAT (HYDROGENATED OILS), COCOA SOLIDS, DEXTROSE, EMULSIFIER OF VEGETABLE 3%) (SUGAR, EDIBLE ORIGIN (SOY LECITHIN) AND ARTIFICIAL FVOURING SUBSTANCES (VANILLA, REFINED PALM OIL, CHOCOLATE (5.8%) (SUGAR, COCOA SOLIDS COCOA BUTTER, DEXTROSE EMULSIFIER OF VEGETABLE ORIGIN (SOY LECITHIN) AND ARTIFICIAL FLAVOURING SUBSTANCES-VANILLAT, INVERT SUGAR SYRUP, RAISING AGENTS 1503(1), 500, COCOA SOLIDS, IODISED SALT AND EMULSIFIER OF VEGETABLE ORIGIN (472e). CONTAINS ADDED FLAVOUR (ARTIFICIAL FLAVOURING SUBSTANCES-VANILLA) CONTAINS: WHEAT, SOY",
+  "ingredients_text_with_allergens": "HIDE & SEEK BISCUITS INGREDIENTS REFINED WHEAT FLOUR (MAIDA), SUGAR, CHOCO CHIPS VEGETABLE FAT (HYDROGENATED OILS), COCOA SOLIDS, DEXTROSE, EMULSIFIER OF VEGETABLE 3%) (SUGAR, EDIBLE ORIGIN (<span class=\"allergen\">SOY LECITHIN</span>) AND ARTIFICIAL FVOURING SUBSTANCES (VANILLA, REFINED PALM OIL, CHOCOLATE (5.8%) (SUGAR, COCOA SOLIDS COCOA BUTTER, DEXTROSE EMULSIFIER OF VEGETABLE ORIGIN (<span class=\"allergen\">SOY LECITHIN</span>) AND ARTIFICIAL FLAVOURING SUBSTANCES-VANILLAT, INVERT SUGAR SYRUP, RAISING AGENTS 1503(1), 500, COCOA SOLIDS, IODISED SALT AND EMULSIFIER OF VEGETABLE ORIGIN (472e). CONTAINS ADDED FLAVOUR (ARTIFICIAL FLAVOURING SUBSTANCES-VANILLA) CONTAINS: <span class=\"allergen\">WHEAT</span>, <span class=\"allergen\">SOY</span>",
+  "ingredients_text_with_allergens_en": "HIDE & SEEK BISCUITS INGREDIENTS REFINED WHEAT FLOUR (MAIDA), SUGAR, CHOCO CHIPS VEGETABLE FAT (HYDROGENATED OILS), COCOA SOLIDS, DEXTROSE, EMULSIFIER OF VEGETABLE 3%) (SUGAR, EDIBLE ORIGIN (<span class=\"allergen\">SOY LECITHIN</span>) AND ARTIFICIAL FVOURING SUBSTANCES (VANILLA, REFINED PALM OIL, CHOCOLATE (5.8%) (SUGAR, COCOA SOLIDS COCOA BUTTER, DEXTROSE EMULSIFIER OF VEGETABLE ORIGIN (<span class=\"allergen\">SOY LECITHIN</span>) AND ARTIFICIAL FLAVOURING SUBSTANCES-VANILLAT, INVERT SUGAR SYRUP, RAISING AGENTS 1503(1), 500, COCOA SOLIDS, IODISED SALT AND EMULSIFIER OF VEGETABLE ORIGIN (472e). CONTAINS ADDED FLAVOUR (ARTIFICIAL FLAVOURING SUBSTANCES-VANILLA) CONTAINS: <span class=\"allergen\">WHEAT</span>, <span class=\"allergen\">SOY</span>",
+  "ingredients_with_specified_percent_n": 2,
+  "ingredients_with_specified_percent_sum": 8.8,
+  "ingredients_with_unspecified_percent_n": 21,
+  "ingredients_with_unspecified_percent_sum": 96.99609375,
+  "ingredients_without_ciqual_codes": [
+    "en:1",
+    "en:472e",
+    "en:500",
+    "en:artificial-flavouring-substances-vanilla",
+    "en:artificial-flavouring-substances-vanillat",
+    "en:artificial-fvouring-substances",
+    "en:choco-chips-vegetable-fat",
+    "en:chocolate",
+    "en:cocoa-solids-cocoa-butter",
+    "en:dextrose-emulsifier-of-vegetable",
+    "en:edible",
+    "en:emulsifier-of-vegetable",
+    "en:flavouring",
+    "en:hide-and-seek-biscuits-ingredients-refined-wheat-flour",
+    "en:hydrogenated-oil",
+    "en:raising-agents-1503",
+    "en:vanilla"
+  ],
+  "ingredients_without_ciqual_codes_n": 17,
+  "ingredients_without_ecobalyse_ids": [
+    "en:1",
+    "en:472e",
+    "en:500",
+    "en:artificial-flavouring-substances-vanilla",
+    "en:artificial-flavouring-substances-vanillat",
+    "en:artificial-fvouring-substances",
+    "en:choco-chips-vegetable-fat",
+    "en:chocolate",
+    "en:cocoa-solids",
+    "en:cocoa-solids-cocoa-butter",
+    "en:dextrose",
+    "en:dextrose-emulsifier-of-vegetable",
+    "en:edible",
+    "en:emulsifier-of-vegetable",
+    "en:flavouring",
+    "en:hide-and-seek-biscuits-ingredients-refined-wheat-flour",
+    "en:hydrogenated-oil",
+    "en:invert-sugar-syrup",
+    "en:iodised-salt",
+    "en:raising-agents-1503",
+    "en:soya-lecithin",
+    "en:vanilla"
+  ],
+  "ingredients_without_ecobalyse_ids_n": 22,
+  "interface_version_created": "20120622",
+  "interface_version_modified": "20150316.jqm2",
+  "known_ingredients_n": 16,
+  "lang": "en",
+  "languages": {
+    "en:english": 4
+  },
+  "languages_codes": {
+    "en": 4
+  },
+  "languages_hierarchy": [
+    "en:english"
+  ],
+  "languages_tags": [
+    "en:english",
+    "en:1"
+  ],
+  "last_edit_dates_tags": [
+    "2025-11-16",
+    "2025-11",
+    "2025"
+  ],
+  "last_editor": "parthprolegend",
+  "last_image_dates_tags": [
+    "2025-08-22",
+    "2025-08",
+    "2025"
+  ],
+  "last_image_t": 1755846440,
+  "last_modified_by": "parthprolegend",
+  "last_modified_t": 1763298294,
+  "last_updated_t": 1763298294,
+  "lc": "en",
+  "main_countries_tags": [],
+  "max_imgid": "3",
+  "minerals_tags": [],
+  "misc_tags": [
+    "en:environmental-score-computed",
+    "en:environmental-score-missing-data-labels",
+    "en:environmental-score-missing-data-no-packagings",
+    "en:environmental-score-missing-data-origins",
+    "en:environmental-score-missing-data-packagings",
+    "en:environmental-score-missing-data-warning",
+    "en:nutriscore-2021-e-2023-e",
+    "en:nutriscore-2021-same-as-2023",
+    "en:nutriscore-computed",
+    "en:nutrition-fruits-vegetables-legumes-estimate-from-ingredients",
+    "en:nutrition-fruits-vegetables-nuts-estimate-from-ingredients",
+    "en:nutrition-no-fiber",
+    "en:nutrition-no-fiber-or-fruits-vegetables-nuts",
+    "en:packagings-empty",
+    "en:packagings-not-complete",
+    "en:packagings-number-of-components-0",
+    "en:some-ingredients-with-specified-percent",
+    "en:main-countries-old-product-without-scans-in-2020"
+  ],
+  "nova_group": 4,
+  "nova_group_debug": "",
+  "nova_groups": "4",
+  "nova_groups_markers": {
+    "3": [
+      [
+        "ingredients",
+        "en:salt"
+      ],
+      [
+        "ingredients",
+        "en:sugar"
+      ],
+      [
+        "categories",
+        "en:sweet-snacks"
+      ]
+    ],
+    "4": [
+      [
+        "additives",
+        "en:e322"
+      ],
+      [
+        "ingredients",
+        "en:dextrose"
+      ],
+      [
+        "ingredients",
+        "en:flavouring"
+      ],
+      [
+        "ingredients",
+        "en:glucose"
+      ],
+      [
+        "ingredients",
+        "en:hydrogenated-oil"
+      ],
+      [
+        "ingredients",
+        "en:invert-sugar"
+      ]
+    ]
+  },
+  "nova_groups_tags": [
+    "en:4-ultra-processed-food-and-drink-products"
+  ],
+  "nucleotides_tags": [],
+  "nutrient_levels": {
+    "fat": "moderate",
+    "salt": "low",
+    "saturated-fat": "high",
+    "sugars": "high"
+  },
+  "nutrient_levels_tags": [
+    "en:fat-in-moderate-quantity",
+    "en:saturated-fat-in-high-quantity",
+    "en:sugars-in-high-quantity",
+    "en:salt-in-low-quantity"
+  ],
+  "nutriments": {
+    "carbohydrates": 73.1,
+    "carbohydrates_100g": 73.1,
+    "carbohydrates_unit": "g",
+    "carbohydrates_value": 73.1,
+    "energy": 2008,
+    "energy-kcal": 480,
+    "energy-kcal_100g": 480,
+    "energy-kcal_unit": "kcal",
+    "energy-kcal_value": 480,
+    "energy_100g": 2008,
+    "energy_unit": "kJ",
+    "energy_value": 2008,
+    "fat": 18.3,
+    "fat_100g": 18.3,
+    "fat_unit": "g",
+    "fat_value": 18.3,
+    "nova-group": 4,
+    "nova-group_100g": 4,
+    "nova-group_serving": 4,
+    "nova-group_unit": "g",
+    "nova-group_value": 4,
+    "proteins": 5.8,
+    "proteins_100g": 5.8,
+    "proteins_unit": "g",
+    "proteins_value": 5.8,
+    "salt": 0.285,
+    "salt_100g": 0.285,
+    "salt_unit": "g",
+    "salt_value": 0.285,
+    "saturated-fat": 11.4,
+    "saturated-fat_100g": 11.4,
+    "saturated-fat_unit": "g",
+    "saturated-fat_value": 11.4,
+    "sodium": 0.114,
+    "sodium_100g": 0.114,
+    "sodium_unit": "g",
+    "sodium_value": 0.114,
+    "sugars": 32.6,
+    "sugars_100g": 32.6,
+    "sugars_unit": "g",
+    "sugars_value": 32.6
+  },
+  "nutriscore": {
+    "2021": {
+      "category_available": 1,
+      "data": {
+        "energy": 2008,
+        "energy_points": 5,
+        "energy_value": 2008,
+        "fiber": 0,
+        "fiber_points": 0,
+        "fiber_value": 0,
+        "fruits_vegetables_nuts_colza_walnut_olive_oils": 0,
+        "fruits_vegetables_nuts_colza_walnut_olive_oils_points": 0,
+        "fruits_vegetables_nuts_colza_walnut_olive_oils_value": 0,
+        "is_beverage": 0,
+        "is_cheese": 0,
+        "is_fat": 0,
+        "is_water": 0,
+        "negative_points": 23,
+        "positive_points": 0,
+        "proteins": 5.8,
+        "proteins_points": 3,
+        "proteins_value": 5.8,
+        "saturated_fat": 11.4,
+        "saturated_fat_points": 10,
+        "saturated_fat_value": 11.4,
+        "sodium": 114.0,
+        "sodium_points": 1,
+        "sodium_value": 114,
+        "sugars": 32.6,
+        "sugars_points": 7,
+        "sugars_value": 32.6
+      },
+      "grade": "e",
+      "nutrients_available": 1,
+      "nutriscore_applicable": 1,
+      "nutriscore_computed": 1,
+      "score": 23
+    },
+    "2023": {
+      "category_available": 1,
+      "data": {
+        "components": {
+          "negative": [
+            {
+              "id": "energy",
+              "points": 5,
+              "points_max": 10,
+              "unit": "kJ",
+              "value": 2008
+            },
+            {
+              "id": "sugars",
+              "points": 9,
+              "points_max": 15,
+              "unit": "g",
+              "value": 32.6
+            },
+            {
+              "id": "saturated_fat",
+              "points": 10,
+              "points_max": 10,
+              "unit": "g",
+              "value": 11.4
+            },
+            {
+              "id": "salt",
+              "points": 1,
+              "points_max": 20,
+              "unit": "g",
+              "value": 0.29
+            }
+          ],
+          "positive": [
+            {
+              "id": "fiber",
+              "points": 0,
+              "points_max": 5,
+              "unit": "g",
+              "value": null
+            },
+            {
+              "id": "fruits_vegetables_legumes",
+              "points": 0,
+              "points_max": 5,
+              "unit": "%",
+              "value": 0
+            }
+          ]
+        },
+        "count_proteins": 0,
+        "count_proteins_reason": "negative_points_greater_than_or_equal_to_11",
+        "is_beverage": 0,
+        "is_cheese": 0,
+        "is_fat_oil_nuts_seeds": 0,
+        "is_red_meat_product": 0,
+        "is_water": 0,
+        "negative_points": 25,
+        "negative_points_max": 55,
+        "positive_nutrients": [
+          "fiber",
+          "fruits_vegetables_legumes"
+        ],
+        "positive_points": 0,
+        "positive_points_max": 10
+      },
+      "grade": "e",
+      "nutrients_available": 1,
+      "nutriscore_applicable": 1,
+      "nutriscore_computed": 1,
+      "score": 25
+    }
+  },
+  "nutriscore_2021_tags": [
+    "e"
+  ],
+  "nutriscore_2023_tags": [
+    "e"
+  ],
+  "nutriscore_data": {
+    "components": {
+      "negative": [
+        {
+          "id": "energy",
+          "points": 5,
+          "points_max": 10,
+          "unit": "kJ",
+          "value": 2008
+        },
+        {
+          "id": "sugars",
+          "points": 9,
+          "points_max": 15,
+          "unit": "g",
+          "value": 32.6
+        },
+        {
+          "id": "saturated_fat",
+          "points": 10,
+          "points_max": 10,
+          "unit": "g",
+          "value": 11.4
+        },
+        {
+          "id": "salt",
+          "points": 1,
+          "points_max": 20,
+          "unit": "g",
+          "value": 0.29
+        }
+      ],
+      "positive": [
+        {
+          "id": "fiber",
+          "points": 0,
+          "points_max": 5,
+          "unit": "g",
+          "value": null
+        },
+        {
+          "id": "fruits_vegetables_legumes",
+          "points": 0,
+          "points_max": 5,
+          "unit": "%",
+          "value": 0
+        }
+      ]
+    },
+    "count_proteins": 0,
+    "count_proteins_reason": "negative_points_greater_than_or_equal_to_11",
+    "grade": "e",
+    "is_beverage": 0,
+    "is_cheese": 0,
+    "is_fat_oil_nuts_seeds": 0,
+    "is_red_meat_product": 0,
+    "is_water": 0,
+    "negative_points": 25,
+    "negative_points_max": 55,
+    "positive_nutrients": [
+      "fiber",
+      "fruits_vegetables_legumes"
+    ],
+    "positive_points": 0,
+    "positive_points_max": 10,
+    "score": 25
+  },
+  "nutriscore_grade": "e",
+  "nutriscore_score": 25,
+  "nutriscore_score_opposite": -25,
+  "nutriscore_tags": [
+    "e"
+  ],
+  "nutriscore_version": "2023",
+  "nutrition_data": "on",
+  "nutrition_data_per": "100g",
+  "nutrition_data_prepared_per": "100g",
+  "nutrition_grade_fr": "e",
+  "nutrition_grades": "e",
+  "nutrition_grades_tags": [
+    "e"
+  ],
+  "nutrition_score_beverage": 0,
+  "nutrition_score_debug": "",
+  "nutrition_score_warning_fruits_vegetables_legumes_estimate_from_ingredients": 1,
+  "nutrition_score_warning_fruits_vegetables_legumes_estimate_from_ingredients_value": 0,
+  "nutrition_score_warning_fruits_vegetables_nuts_estimate_from_ingredients": 1,
+  "nutrition_score_warning_fruits_vegetables_nuts_estimate_from_ingredients_value": 0,
+  "nutrition_score_warning_no_fiber": 1,
+  "other_nutritional_substances_tags": [],
+  "packaging_materials_tags": [],
+  "packaging_recycling_tags": [],
+  "packaging_shapes_tags": [],
+  "packagings": [],
+  "packagings_materials": {},
+  "photographers_tags": [
+    "foodless",
+    "virajdaga"
+  ],
+  "pnns_groups_1": "Sugary snacks",
+  "pnns_groups_1_tags": [
+    "sugary-snacks",
+    "known"
+  ],
+  "pnns_groups_2": "Biscuits and cakes",
+  "pnns_groups_2_tags": [
+    "biscuits-and-cakes",
+    "known"
+  ],
+  "popularity_key": 23900000017,
+  "popularity_tags": [
+    "top-100000-scans-2024",
+    "at-least-5-scans-2024",
+    "top-75-percent-scans-2024",
+    "top-80-percent-scans-2024",
+    "top-85-percent-scans-2024",
+    "top-90-percent-scans-2024",
+    "top-500-in-scans-2024",
+    "top-1000-in-scans-2024",
+    "top-5000-in-scans-2024",
+    "top-10000-in-scans-2024",
+    "top-50000-in-scans-2024",
+    "top-100000-in-scans-2024",
+    "top-country-in-scans-2024",
+    "at-least-5-in-scans-2024"
+  ],
+  "product_name": "PARLE hide&seek400g",
+  "product_name_en": "PARLE hide&seek400g",
+  "product_type": "food",
+  "quantity": "412.5",
+  "removed_countries_tags": [],
+  "rev": 25,
+  "scans_n": 9,
+  "schema_version": 998,
+  "selected_images": {
+    "front": {
+      "display": {
+        "en": "https://images.openfoodfacts.net/images/products/890/171/913/0144/front_en.22.400.jpg"
+      },
+      "small": {
+        "en": "https://images.openfoodfacts.net/images/products/890/171/913/0144/front_en.22.200.jpg"
+      },
+      "thumb": {
+        "en": "https://images.openfoodfacts.net/images/products/890/171/913/0144/front_en.22.100.jpg"
+      }
+    },
+    "ingredients": {
+      "display": {
+        "en": "https://images.openfoodfacts.net/images/products/890/171/913/0144/ingredients_en.10.400.jpg"
+      },
+      "small": {
+        "en": "https://images.openfoodfacts.net/images/products/890/171/913/0144/ingredients_en.10.200.jpg"
+      },
+      "thumb": {
+        "en": "https://images.openfoodfacts.net/images/products/890/171/913/0144/ingredients_en.10.100.jpg"
+      }
+    }
+  },
+  "states": "en:to-be-completed, en:nutrition-facts-completed, en:ingredients-completed, en:expiration-date-to-be-completed, en:packaging-code-to-be-completed, en:characteristics-to-be-completed, en:origins-to-be-completed, en:categories-completed, en:brands-completed, en:packaging-to-be-completed, en:quantity-completed, en:product-name-completed, en:photos-to-be-validated, en:packaging-photo-to-be-selected, en:nutrition-photo-to-be-selected, en:ingredients-photo-selected, en:front-photo-selected, en:photos-uploaded",
+  "states_hierarchy": [
+    "en:to-be-completed",
+    "en:nutrition-facts-completed",
+    "en:ingredients-completed",
+    "en:expiration-date-to-be-completed",
+    "en:packaging-code-to-be-completed",
+    "en:characteristics-to-be-completed",
+    "en:origins-to-be-completed",
+    "en:categories-completed",
+    "en:brands-completed",
+    "en:packaging-to-be-completed",
+    "en:quantity-completed",
+    "en:product-name-completed",
+    "en:photos-to-be-validated",
+    "en:packaging-photo-to-be-selected",
+    "en:nutrition-photo-to-be-selected",
+    "en:ingredients-photo-selected",
+    "en:front-photo-selected",
+    "en:photos-uploaded"
+  ],
+  "states_tags": [
+    "en:to-be-completed",
+    "en:nutrition-facts-completed",
+    "en:ingredients-completed",
+    "en:expiration-date-to-be-completed",
+    "en:packaging-code-to-be-completed",
+    "en:characteristics-to-be-completed",
+    "en:origins-to-be-completed",
+    "en:categories-completed",
+    "en:brands-completed",
+    "en:packaging-to-be-completed",
+    "en:quantity-completed",
+    "en:product-name-completed",
+    "en:photos-to-be-validated",
+    "en:packaging-photo-to-be-selected",
+    "en:nutrition-photo-to-be-selected",
+    "en:ingredients-photo-selected",
+    "en:front-photo-selected",
+    "en:photos-uploaded"
+  ],
+  "traces": "",
+  "traces_from_ingredients": "",
+  "traces_from_user": "(en) ",
+  "traces_hierarchy": [],
+  "traces_tags": [],
+  "unique_scans_n": 7,
+  "unknown_ingredients_n": 14,
+  "unknown_nutrients_tags": [],
+  "update_key": "sort",
+  "vitamins_tags": [],
+  "weighers_tags": []
+}

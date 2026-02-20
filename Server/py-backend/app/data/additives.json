@@ -1,0 +1,326 @@
+{
+    "E100": {
+        "name": "Curcumin",
+        "category": "Colour",
+        "risk": "low",
+        "explanation": "Natural yellow pigment from turmeric. Safe and may have anti-inflammatory benefits."
+    },
+    "E102": {
+        "name": "Tartrazine",
+        "category": "Colour",
+        "risk": "moderate",
+        "explanation": "Synthetic yellow dye. Linked to hyperactivity in children; banned in some countries."
+    },
+    "E110": {
+        "name": "Sunset Yellow FCF",
+        "category": "Colour",
+        "risk": "moderate",
+        "explanation": "Synthetic orange-yellow dye. Associated with hyperactivity in children; requires warning label in the EU."
+    },
+    "E120": {
+        "name": "Cochineal / Carmine",
+        "category": "Colour",
+        "risk": "moderate",
+        "explanation": "Red dye derived from insects. Not suitable for vegans/vegetarians; rare allergic reactions reported."
+    },
+    "E129": {
+        "name": "Allura Red AC",
+        "category": "Colour",
+        "risk": "moderate",
+        "explanation": "Red synthetic dye. Linked to hyperactivity in children; requires warning in the EU."
+    },
+    "E150A": {
+        "name": "Plain Caramel",
+        "category": "Colour",
+        "risk": "low",
+        "explanation": "Caramel colouring made by heating sugar alone. Considered safe at food-use levels."
+    },
+    "E150D": {
+        "name": "Sulphite Ammonia Caramel",
+        "category": "Colour",
+        "risk": "high",
+        "explanation": "Contains 4-methylimidazole (4-MEI), a potential carcinogen. Found in colas and dark sauces."
+    },
+    "E160A": {
+        "name": "Beta-Carotene",
+        "category": "Colour",
+        "risk": "low",
+        "explanation": "Natural provitamin A colouring. Beneficial antioxidant; safe at food levels."
+    },
+    "E160C": {
+        "name": "Paprika Extract",
+        "category": "Colour",
+        "risk": "low",
+        "explanation": "Natural red-orange colouring from paprika. No known safety concerns."
+    },
+    "E202": {
+        "name": "Potassium Sorbate",
+        "category": "Preservative",
+        "risk": "low",
+        "explanation": "Widely used mould and yeast inhibitor. Regarded as safe by EFSA and FDA."
+    },
+    "E211": {
+        "name": "Sodium Benzoate",
+        "category": "Preservative",
+        "risk": "moderate",
+        "explanation": "Common preservative that can react with vitamin C to form trace benzene, a carcinogen."
+    },
+    "E220": {
+        "name": "Sulphur Dioxide",
+        "category": "Preservative",
+        "risk": "moderate",
+        "explanation": "Preservative in dried fruits and wine. Can trigger asthma and allergic reactions in sensitive individuals."
+    },
+    "E250": {
+        "name": "Sodium Nitrite",
+        "category": "Preservative",
+        "risk": "high",
+        "explanation": "Used to cure meat and prevent botulism. Linked to increased colorectal cancer risk at high intake."
+    },
+    "E251": {
+        "name": "Sodium Nitrate",
+        "category": "Preservative",
+        "risk": "high",
+        "explanation": "Precursor to nitrite in cured meats. Associated with colorectal cancer risk at high dietary exposure."
+    },
+    "E290": {
+        "name": "Carbon Dioxide",
+        "category": "Propellant / Carbonating Agent",
+        "risk": "low",
+        "explanation": "Inert gas used for carbonation and packaging. No health concerns at food levels."
+    },
+    "E296": {
+        "name": "Malic Acid",
+        "category": "Acidity Regulator",
+        "risk": "low",
+        "explanation": "Naturally occurring in fruits. Used as an acidulant; safe at food levels."
+    },
+    "E300": {
+        "name": "Ascorbic Acid (Vitamin C)",
+        "category": "Antioxidant",
+        "risk": "low",
+        "explanation": "Essential vitamin and antioxidant. Beneficial; found naturally in fruits and vegetables."
+    },
+    "E306": {
+        "name": "Mixed Tocopherols",
+        "category": "Antioxidant",
+        "risk": "low",
+        "explanation": "Natural vitamin E. Antioxidant that helps preserve fats; beneficial at normal food levels."
+    },
+    "E320": {
+        "name": "BHA (Butylated Hydroxyanisole)",
+        "category": "Antioxidant",
+        "risk": "high",
+        "explanation": "Synthetic antioxidant preservative. Classified as possibly carcinogenic to humans (IARC Group 2B)."
+    },
+    "E321": {
+        "name": "BHT (Butylated Hydroxytoluene)",
+        "category": "Antioxidant",
+        "risk": "moderate",
+        "explanation": "Synthetic antioxidant. Some studies suggest endocrine disruption; moderation advised."
+    },
+    "E322": {
+        "name": "Lecithin",
+        "category": "Emulsifier",
+        "risk": "low",
+        "explanation": "Natural emulsifier from soy or sunflower. Safe and widely tolerated; soy-derived versions may concern allergy sufferers."
+    },
+    "E330": {
+        "name": "Citric Acid",
+        "category": "Acidity Regulator",
+        "risk": "low",
+        "explanation": "Found naturally in citrus fruits. Safe for most people; very high amounts may erode tooth enamel."
+    },
+    "E331": {
+        "name": "Sodium Citrates",
+        "category": "Acidity Regulator",
+        "risk": "low",
+        "explanation": "Sodium salt of citric acid. Used as a buffer and emulsifier; safe at food levels."
+    },
+    "E334": {
+        "name": "Tartaric Acid",
+        "category": "Acidity Regulator",
+        "risk": "low",
+        "explanation": "Naturally present in grapes and wine. Safe at normal food concentrations."
+    },
+    "E338": {
+        "name": "Phosphoric Acid",
+        "category": "Acidity Regulator",
+        "risk": "moderate",
+        "explanation": "Used in colas. High consumption linked to lower bone density due to calcium-phosphorus imbalance."
+    },
+    "E340": {
+        "name": "Potassium Phosphates",
+        "category": "Acidity Regulator / Stabiliser",
+        "risk": "moderate",
+        "explanation": "Phosphate additive. Excess phosphate intake may impair kidney function; concern at high dietary loads."
+    },
+    "E407": {
+        "name": "Carrageenan",
+        "category": "Thickener / Gelling Agent",
+        "risk": "moderate",
+        "explanation": "Derived from red seaweed. Some research links degraded forms to gut inflammation; regulatory status under review."
+    },
+    "E410": {
+        "name": "Locust Bean Gum",
+        "category": "Thickener",
+        "risk": "low",
+        "explanation": "Natural gum from carob seeds. Safe for most people; may cause bloating in large amounts."
+    },
+    "E412": {
+        "name": "Guar Gum",
+        "category": "Thickener",
+        "risk": "low",
+        "explanation": "Natural gum from guar beans. Safe; may lower blood sugar slightly — beneficial for diabetics."
+    },
+    "E415": {
+        "name": "Xanthan Gum",
+        "category": "Thickener",
+        "risk": "low",
+        "explanation": "Fermentation-derived thickener. Safe for most people; may cause digestive discomfort in large quantities."
+    },
+    "E440": {
+        "name": "Pectin",
+        "category": "Gelling Agent",
+        "risk": "low",
+        "explanation": "Natural fibre-like gelling agent from fruit peel. Safe and may have prebiotic benefits."
+    },
+    "E450": {
+        "name": "Diphosphates",
+        "category": "Raising Agent / Stabiliser",
+        "risk": "moderate",
+        "explanation": "Phosphate salts used as raising agents. Excess phosphate intake may affect kidney function."
+    },
+    "E451": {
+        "name": "Triphosphates",
+        "category": "Raising Agent / Stabiliser",
+        "risk": "moderate",
+        "explanation": "Phosphate raising agent. Same concerns as other phosphates at high dietary loads."
+    },
+    "E451I": {
+        "name": "Sodium Triphosphate",
+        "category": "Raising Agent / Stabiliser",
+        "risk": "moderate",
+        "explanation": "Phosphate build-up may impair kidney function at high dietary exposure."
+    },
+    "E470": {
+        "name": "Fatty Acid Salts",
+        "category": "Emulsifier / Stabiliser",
+        "risk": "low",
+        "explanation": "Salts of fatty acids used as emulsifiers. Generally considered safe at food levels."
+    },
+    "E471": {
+        "name": "Mono- and Diglycerides of Fatty Acids",
+        "category": "Emulsifier",
+        "risk": "moderate",
+        "explanation": "Derived from fats (may include palm or animal fat). Can contain traces of trans fats; moderation advised."
+    },
+    "E472E": {
+        "name": "DATEM",
+        "category": "Emulsifier",
+        "risk": "moderate",
+        "explanation": "Diacetyl tartaric acid ester of mono/diglycerides. FDA-approved but associated with heart issues in some animal studies."
+    },
+    "E492": {
+        "name": "Sorbitan Tristearate",
+        "category": "Emulsifier",
+        "risk": "low",
+        "explanation": "Emulsifier used in chocolates and coatings. Considered safe at levels used in food."
+    },
+    "E500": {
+        "name": "Sodium Carbonates",
+        "category": "Raising Agent",
+        "risk": "low",
+        "explanation": "Baking soda family. Common raising agent; safe at food levels."
+    },
+    "E500I": {
+        "name": "Sodium Carbonate",
+        "category": "Raising Agent",
+        "risk": "low",
+        "explanation": "Used as a raising agent and pH regulator. Safe at normal food concentrations."
+    },
+    "E500II": {
+        "name": "Sodium Bicarbonate",
+        "category": "Raising Agent",
+        "risk": "low",
+        "explanation": "Baking soda. Safe; contributes to sodium intake if consumed in large quantities."
+    },
+    "E501I": {
+        "name": "Potassium Carbonate",
+        "category": "Raising Agent",
+        "risk": "low",
+        "explanation": "Stabiliser and raising agent. Safe at food levels."
+    },
+    "E503": {
+        "name": "Ammonium Carbonates",
+        "category": "Raising Agent",
+        "risk": "low",
+        "explanation": "Used in baking; ammonia dissipates during cooking. Safe in finished baked goods."
+    },
+    "E508": {
+        "name": "Potassium Chloride",
+        "category": "Mineral Salt",
+        "risk": "moderate",
+        "explanation": "Salt substitute used to reduce sodium. Excess may affect heart rhythm and kidney function."
+    },
+    "E551": {
+        "name": "Silicon Dioxide",
+        "category": "Anti-Caking Agent",
+        "risk": "low",
+        "explanation": "Naturally occurring mineral used to prevent caking in powders. Safe at food levels."
+    },
+    "E621": {
+        "name": "Monosodium Glutamate (MSG)",
+        "category": "Flavour Enhancer",
+        "risk": "moderate",
+        "explanation": "Umami flavour enhancer. Some individuals report sensitivity (headache, flushing) though large studies show no consistent harm."
+    },
+    "E627": {
+        "name": "Disodium Guanylate",
+        "category": "Flavour Enhancer",
+        "risk": "moderate",
+        "explanation": "Nucleotide flavour enhancer, often paired with MSG. Not suitable for people with gout; may trigger asthma."
+    },
+    "E631": {
+        "name": "Disodium Inosinate",
+        "category": "Flavour Enhancer",
+        "risk": "moderate",
+        "explanation": "Nucleotide flavour enhancer derived from meat or fish. Not vegan; gout sufferers should avoid."
+    },
+    "E635": {
+        "name": "Disodium Ribonucleotides",
+        "category": "Flavour Enhancer",
+        "risk": "moderate",
+        "explanation": "Blend of E627 and E631. Potent flavour enhancer; same concerns as its components (gout, asthma)."
+    },
+    "E950": {
+        "name": "Acesulfame K",
+        "category": "Sweetener",
+        "risk": "moderate",
+        "explanation": "Artificial sweetener ~200x sweeter than sugar. Generally regarded as safe but some studies raise concern about gut microbiome disruption."
+    },
+    "E951": {
+        "name": "Aspartame",
+        "category": "Sweetener",
+        "risk": "moderate",
+        "explanation": "Widely used artificial sweetener. IARC classified as possibly carcinogenic (Group 2B) in 2023; safe within ADI according to EFSA/FDA. Avoid with PKU."
+    },
+    "E952": {
+        "name": "Cyclamate",
+        "category": "Sweetener",
+        "risk": "moderate",
+        "explanation": "Synthetic sweetener banned in the USA; permitted in the EU. Some studies suggest possible carcinogenicity at very high doses."
+    },
+    "E955": {
+        "name": "Sucralose",
+        "category": "Sweetener",
+        "risk": "low",
+        "explanation": "Made from sugar; 600x sweeter. Generally regarded as safe; some evidence of gut microbiome effects at high doses."
+    },
+    "E960": {
+        "name": "Steviol Glycosides (Stevia)",
+        "category": "Sweetener",
+        "risk": "low",
+        "explanation": "Natural sweetener from the stevia plant. Safe; may slightly lower blood pressure."
+    }
+}

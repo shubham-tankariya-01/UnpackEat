@@ -1,0 +1,562 @@
+{
+  "barcode": "8901719130144",
+  "product": {
+    "code": "8901719130144",
+    "name": "PARLE hide&seek400g",
+    "brand": "Parle",
+    "image": "https://images.openfoodfacts.net/images/products/890/171/913/0144/front_en.22.400.jpg",
+    "quantity": "412.5",
+    "categories": [
+      "en:snacks",
+      "en:sweet-snacks",
+      "en:biscuits-and-cakes",
+      "en:biscuits-and-crackers",
+      "en:biscuits",
+      "en:chocolate-biscuits",
+      "en:biscuit-cookie-snack-w-chocolate-filling"
+    ]
+  },
+  "highlights": {
+    "health_score": 65,
+    "verdict": "Moderate consumption recommended",
+    "likes": [
+      "Low salt"
+    ],
+    "concerns": [
+      "High saturated fat",
+      "Contains palm oil",
+      "Ultra-processed food"
+    ],
+    "nova_group": 4
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 480.0,
+      "unit": "kcal",
+      "rda_percent": 24.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 18.3,
+      "unit": "g",
+      "rda_percent": 26.1,
+      "rating": "neutral"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 11.4,
+      "unit": "g",
+      "rda_percent": 57.0,
+      "rating": "red"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 73.1,
+      "unit": "g",
+      "rda_percent": 73.1,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 32.6,
+      "unit": "g",
+      "rda_percent": 65.2,
+      "rating": "orange"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 5.8,
+      "unit": "g",
+      "rda_percent": 11.6,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.285,
+      "unit": "g",
+      "rda_percent": 5.7,
+      "rating": "green"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.1425,
+    "saturated_fat": 1,
+    "sugars": 1,
+    "energy": 0.8,
+    "fiber": 0.0,
+    "protein": 0.29
+  },
+  "ingredients": {
+    "text": "HIDE & SEEK BISCUITS INGREDIENTS REFINED WHEAT FLOUR (MAIDA), SUGAR, CHOCO CHIPS VEGETABLE FAT (HYDROGENATED OILS), COCOA SOLIDS, DEXTROSE, EMULSIFIER OF VEGETABLE 3%) (SUGAR, EDIBLE ORIGIN (SOY LECITHIN) AND ARTIFICIAL FVOURING SUBSTANCES (VANILLA, REFINED PALM OIL, CHOCOLATE (5.8%) (SUGAR, COCOA SOLIDS COCOA BUTTER, DEXTROSE EMULSIFIER OF VEGETABLE ORIGIN (SOY LECITHIN) AND ARTIFICIAL FLAVOURING SUBSTANCES-VANILLAT, INVERT SUGAR SYRUP, RAISING AGENTS 1503(1), 500, COCOA SOLIDS, IODISED SALT AND EMULSIFIER OF VEGETABLE ORIGIN (472e). CONTAINS ADDED FLAVOUR (ARTIFICIAL FLAVOURING SUBSTANCES-VANILLA) CONTAINS: WHEAT, SOY",
+    "ingredients": [
+      {
+        "id": "en:hide-and-seek-biscuits-ingredients-refined-wheat-flour",
+        "text": "HIDE and SEEK BISCUITS INGREDIENTS REFINED WHEAT FLOUR",
+        "percent_estimate": 50,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:refined-wheat-flour",
+        "text": "MAIDA",
+        "percent_estimate": 50,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "9410",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "a2e25aca-1f42-4bc8-bc0e-4d7c751775aa",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:sugar",
+        "text": "SUGAR",
+        "percent_estimate": 25,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "8f075c25-9ebf-430c-b41d-51d165c6e0d8",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:choco-chips-vegetable-fat",
+        "text": "CHOCO CHIPS VEGETABLE FAT",
+        "percent_estimate": 12.5,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:hydrogenated-oil",
+        "text": "HYDROGENATED OILS",
+        "percent_estimate": 12.5,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": "maybe",
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:cocoa-solids",
+        "text": "COCOA SOLIDS",
+        "percent_estimate": 6.25,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "18100",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:dextrose",
+        "text": "DEXTROSE",
+        "percent_estimate": 3.125,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:emulsifier-of-vegetable",
+        "text": "EMULSIFIER OF VEGETABLE",
+        "percent_estimate": 3,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:sugar",
+        "text": "SUGAR",
+        "percent_estimate": 0.0625,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "8f075c25-9ebf-430c-b41d-51d165c6e0d8",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:edible",
+        "text": "EDIBLE",
+        "percent_estimate": 0.03125,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:soya-lecithin",
+        "text": "SOY LECITHIN",
+        "percent_estimate": 0.03125,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "42200",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:artificial-fvouring-substances",
+        "text": "ARTIFICIAL FVOURING SUBSTANCES",
+        "percent_estimate": 0.015625,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:vanilla",
+        "text": "VANILLA",
+        "percent_estimate": 0.0078125,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:refined-palm-oil",
+        "text": "REFINED PALM OIL",
+        "percent_estimate": 0.00390625,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "16150",
+        "ecobalyse_code": "45658c32-66d9-4305-a34b-21d6a4cef89c",
+        "from_palm_oil": "yes",
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:chocolate",
+        "text": "CHOCOLATE",
+        "percent_estimate": 0.00390625,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "maybe",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:sugar",
+        "text": "SUGAR",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "8f075c25-9ebf-430c-b41d-51d165c6e0d8",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:cocoa-solids-cocoa-butter",
+        "text": "COCOA SOLIDS COCOA BUTTER",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:dextrose-emulsifier-of-vegetable",
+        "text": "DEXTROSE EMULSIFIER OF VEGETABLE",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:soya-lecithin",
+        "text": "SOY LECITHIN",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "42200",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:artificial-flavouring-substances-vanillat",
+        "text": "ARTIFICIAL FLAVOURING SUBSTANCES-VANILLAT",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:invert-sugar-syrup",
+        "text": "INVERT SUGAR SYRUP",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:raising-agents-1503",
+        "text": "RAISING AGENTS 1503",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:1",
+        "text": "1",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:500",
+        "text": "500",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:cocoa-solids",
+        "text": "COCOA SOLIDS",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "18100",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:iodised-salt",
+        "text": "IODISED SALT",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11058",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:emulsifier-of-vegetable",
+        "text": "EMULSIFIER OF VEGETABLE",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:472e",
+        "text": "472e",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:flavouring",
+        "text": "CONTAINS ADDED FLAVOUR",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:artificial-flavouring-substances-vanilla",
+        "text": "ARTIFICIAL FLAVOURING SUBSTANCES-VANILLA",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      }
+    ],
+    "additives": [],
+    "dominant": [
+      {
+        "ingredient": "HIDE and SEEK BISCUITS INGREDIENTS REFINED WHEAT FLOUR",
+        "percent": 50
+      },
+      {
+        "ingredient": "MAIDA",
+        "percent": 50
+      },
+      {
+        "ingredient": "SUGAR",
+        "percent": 25
+      },
+      {
+        "ingredient": "CHOCO CHIPS VEGETABLE FAT",
+        "percent": 12.5
+      }
+    ],
+    "contains_palm_oil": true,
+    "complexity": "Highly complex"
+  },
+  "additives_full": [],
+  "allergens": [
+    "gluten",
+    "soy",
+    "soybeans",
+    "wheat"
+  ],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 480.0,
+      "fat": 18.3,
+      "saturated_fat": 11.4,
+      "carbohydrates": 73.1,
+      "sugars": 32.6,
+      "fiber": null,
+      "protein": 5.8,
+      "salt": 0.285
+    },
+    "per_serving": null,
+    "serving_size_g": null
+  },
+  "environment": {
+    "ecoscore": "e",
+    "packaging": []
+  }
+}

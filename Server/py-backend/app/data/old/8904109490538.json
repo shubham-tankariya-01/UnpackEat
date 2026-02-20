@@ -1,0 +1,121 @@
+{
+  "barcode": "8904109490538",
+  "product": {
+    "code": "8904109490538",
+    "name": "Cow\u2019s ghee",
+    "brand": "Unknown",
+    "image": "https://images.openfoodfacts.net/images/products/890/410/949/0538/front_fr.3.400.jpg",
+    "quantity": "",
+    "categories": [
+      "en:fats",
+      "en:animal-fats",
+      "en:butter-fat",
+      "en:ghee"
+    ]
+  },
+  "highlights": {
+    "health_score": 80,
+    "verdict": "Healthy choice",
+    "likes": [
+      "Low salt"
+    ],
+    "concerns": [
+      "High saturated fat"
+    ],
+    "nova_group": 2
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 897.3,
+      "unit": "kcal",
+      "rda_percent": 44.9,
+      "rating": "neutral"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 99.7,
+      "unit": "g",
+      "rda_percent": 142.4,
+      "rating": "neutral"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 78.46,
+      "unit": "g",
+      "rda_percent": 392.3,
+      "rating": "red"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    },
+    {
+      "name": "fiber",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "red"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.0,
+    "saturated_fat": 1,
+    "sugars": 0.0,
+    "energy": 1,
+    "fiber": 0.0,
+    "protein": 0.0
+  },
+  "ingredients": {
+    "text": "",
+    "ingredients": [],
+    "additives": [],
+    "dominant": [],
+    "contains_palm_oil": false,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 897.3,
+      "fat": 99.7,
+      "saturated_fat": 78.46,
+      "carbohydrates": 0.0,
+      "sugars": 0.0,
+      "fiber": 0.0,
+      "protein": 0.0,
+      "salt": 0.0
+    },
+    "per_serving": null,
+    "serving_size_g": null
+  },
+  "environment": {
+    "ecoscore": "unknown",
+    "packaging": []
+  }
+}

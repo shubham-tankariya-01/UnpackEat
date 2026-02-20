@@ -1,0 +1,282 @@
+{
+  "barcode": "4008400402222",
+  "product": {
+    "code": "4008400402222",
+    "name": "Nutella",
+    "brand": "Ferrero",
+    "image": "https://images.openfoodfacts.net/images/products/400/840/040/2222/front_en.161.400.jpg",
+    "quantity": "500g",
+    "categories": [
+      "en:breakfasts",
+      "en:spreads",
+      "en:sweet-spreads",
+      "fr:pates-a-tartiner",
+      "en:hazelnut-spreads"
+    ]
+  },
+  "highlights": {
+    "health_score": 65,
+    "verdict": "Moderate consumption recommended",
+    "likes": [
+      "Low salt",
+      "Good fiber content"
+    ],
+    "concerns": [
+      "High saturated fat",
+      "Contains palm oil",
+      "Ultra-processed food"
+    ],
+    "nova_group": 4
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 539.0,
+      "unit": "kcal",
+      "rda_percent": 27.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 30.9,
+      "unit": "g",
+      "rda_percent": 44.1,
+      "rating": "neutral"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 10.6,
+      "unit": "g",
+      "rda_percent": 53.0,
+      "rating": "red"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 57.5,
+      "unit": "g",
+      "rda_percent": 57.5,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 56.3,
+      "unit": "g",
+      "rda_percent": 112.6,
+      "rating": "orange"
+    },
+    {
+      "name": "fiber",
+      "amount_100g": 3.0,
+      "unit": "g",
+      "rda_percent": 12.0,
+      "rating": "green"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 6.3,
+      "unit": "g",
+      "rda_percent": 12.6,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.11,
+      "unit": "g",
+      "rda_percent": 2.2,
+      "rating": "green"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.055,
+    "saturated_fat": 1,
+    "sugars": 1,
+    "energy": 0.8983333333333333,
+    "fiber": 0.3,
+    "protein": 0.315
+  },
+  "ingredients": {
+    "text": "Zucker, Palm\u00f6l, HASELN\u00dcSSE (13%), MAGERMILCHPULVER (8,7 %), fettarmer Kakao (7,4%), Emulgator Lecithine (SOJA), Vanillin.",
+    "ingredients": [
+      {
+        "id": "en:sugar",
+        "text": "Zucker",
+        "percent_estimate": 39.275,
+        "percent_min": 20.65,
+        "percent_max": 57.9,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "8f075c25-9ebf-430c-b41d-51d165c6e0d8",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:palm-oil",
+        "text": "Palm\u00f6l",
+        "percent_estimate": 24.225,
+        "percent_min": 13,
+        "percent_max": 35.45,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "16129",
+        "ecobalyse_code": "45658c32-66d9-4305-a34b-21d6a4cef89c",
+        "from_palm_oil": "yes",
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:hazelnut",
+        "text": "HASELN\u00dcSSE",
+        "percent_estimate": 13,
+        "percent_min": 13,
+        "percent_max": 13,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "15004",
+        "ecobalyse_code": "hazelnut-unshelled-non-eu",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:skimmed-milk-powder",
+        "text": "MAGERMILCHPULVER",
+        "percent_estimate": 8.7,
+        "percent_min": 8.7,
+        "percent_max": 8.7,
+        "vegan": "no",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "19054",
+        "ecobalyse_code": "b6776a28-ec84-4bf3-988c-07b3c29f6136",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:fat-reduced-cocoa",
+        "text": "fettarmer Kakao",
+        "percent_estimate": 7.4,
+        "percent_min": 7.4,
+        "percent_max": 7.4,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "18100",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:emulsifier",
+        "text": "Emulgator",
+        "percent_estimate": 3.7,
+        "percent_min": 0,
+        "percent_max": 7.4,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:vanillin",
+        "text": "Vanillin",
+        "percent_estimate": 3.69999999999999,
+        "percent_min": 0,
+        "percent_max": 7.4,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "additives": [
+      {
+        "id": "en:e322",
+        "text": "Lecithine",
+        "percent_estimate": 3.7,
+        "percent_min": 0,
+        "percent_max": 7.4,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "dominant": [
+      {
+        "ingredient": "Zucker",
+        "percent": 39.275
+      },
+      {
+        "ingredient": "Palm\u00f6l",
+        "percent": 24.225
+      },
+      {
+        "ingredient": "HASELN\u00dcSSE",
+        "percent": 13
+      },
+      {
+        "ingredient": "MAGERMILCHPULVER",
+        "percent": 8.7
+      }
+    ],
+    "contains_palm_oil": true,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [
+    {
+      "code": "E322",
+      "name": "Lecithine",
+      "risk": "unknown",
+      "explanation": "No reliable information."
+    }
+  ],
+  "allergens": [
+    "milk",
+    "nuts",
+    "soy",
+    "soybeans"
+  ],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 539.0,
+      "fat": 30.9,
+      "saturated_fat": 10.6,
+      "carbohydrates": 57.5,
+      "sugars": 56.3,
+      "fiber": 3.0,
+      "protein": 6.3,
+      "salt": 0.11
+    },
+    "per_serving": {
+      "energy_kcal": 80.85,
+      "fat": 4.63,
+      "saturated_fat": 1.59,
+      "carbohydrates": 8.62,
+      "sugars": 8.45,
+      "fiber": 0.45,
+      "protein": 0.94,
+      "salt": 0.02
+    },
+    "serving_size_g": 15.0
+  },
+  "environment": {
+    "ecoscore": "e",
+    "packaging": [
+      "en:clear-glass",
+      "en:non-corrugated-cardboard",
+      "en:pp-5-polypropylene",
+      "xx:82-c-pap"
+    ]
+  }
+}

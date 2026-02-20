@@ -1,0 +1,114 @@
+{
+  "barcode": "8906010500139",
+  "product": {
+    "code": "8906010500139",
+    "name": "Balaji Wafers",
+    "brand": "Balaji",
+    "image": "https://images.openfoodfacts.net/images/products/890/601/050/0139/front_en.10.400.jpg",
+    "quantity": "35 g",
+    "categories": [
+      "en:snacks",
+      "en:sweet-snacks",
+      "en:biscuits-and-cakes",
+      "en:biscuits",
+      "en:wafers"
+    ]
+  },
+  "highlights": {
+    "health_score": 100,
+    "verdict": "Healthy choice",
+    "likes": [
+      "Low salt",
+      "Low saturated fat"
+    ],
+    "concerns": [],
+    "nova_group": null
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 526.0,
+      "unit": "kcal",
+      "rda_percent": 26.3,
+      "rating": "neutral"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 30.5,
+      "unit": "g",
+      "rda_percent": 43.6,
+      "rating": "neutral"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 58.1,
+      "unit": "g",
+      "rda_percent": 58.1,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 8.1,
+      "unit": "g",
+      "rda_percent": 16.2,
+      "rating": "green"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 4.8,
+      "unit": "g",
+      "rda_percent": 9.6,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.0,
+    "saturated_fat": 0.0,
+    "sugars": 0.40499999999999997,
+    "energy": 0.8766666666666667,
+    "fiber": 0.0,
+    "protein": 0.24
+  },
+  "ingredients": {
+    "text": "",
+    "ingredients": [],
+    "additives": [],
+    "dominant": [],
+    "contains_palm_oil": false,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 526.0,
+      "fat": 30.5,
+      "saturated_fat": 0.0,
+      "carbohydrates": 58.1,
+      "sugars": 8.1,
+      "fiber": null,
+      "protein": 4.8,
+      "salt": 0.0
+    },
+    "per_serving": null,
+    "serving_size_g": null
+  },
+  "environment": {
+    "ecoscore": "c",
+    "packaging": []
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "barcode": "8901058023800",
+  "product": {
+    "code": "8901058023800",
+    "name": "Maggi",
+    "brand": "Maggi",
+    "image": "https://images.openfoodfacts.net/images/products/890/105/802/3800/front_en.3.400.jpg",
+    "quantity": "560",
+    "categories": [
+      "en:plant-based-foods-and-beverages",
+      "en:plant-based-foods",
+      "en:condiments",
+      "en:herbs-and-spices",
+      "en:pastas",
+      "en:spices",
+      "en:noodles"
+    ]
+  },
+  "highlights": {
+    "health_score": 100,
+    "verdict": "Healthy choice",
+    "likes": [
+      "Low salt",
+      "Low saturated fat"
+    ],
+    "concerns": [],
+    "nova_group": null
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 401.428571428571,
+      "unit": "kcal",
+      "rda_percent": 20.1,
+      "rating": "neutral"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 12.5714285714286,
+      "unit": "g",
+      "rda_percent": 18.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 59.5714285714286,
+      "unit": "g",
+      "rda_percent": 59.6,
+      "rating": "neutral"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 8.14285714285714,
+      "unit": "g",
+      "rda_percent": 16.3,
+      "rating": "neutral"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.0,
+    "saturated_fat": 0.0,
+    "sugars": 0.0,
+    "energy": 0.6690476190476183,
+    "fiber": 0.0,
+    "protein": 0.40714285714285703
+  },
+  "ingredients": {
+    "text": "",
+    "ingredients": [],
+    "additives": [],
+    "dominant": [],
+    "contains_palm_oil": false,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 401.428571428571,
+      "fat": 12.5714285714286,
+      "saturated_fat": null,
+      "carbohydrates": 59.5714285714286,
+      "sugars": null,
+      "fiber": null,
+      "protein": 8.14285714285714,
+      "salt": null
+    },
+    "per_serving": {
+      "energy_kcal": 281.0,
+      "fat": 8.8,
+      "carbohydrates": 41.7,
+      "protein": 5.7
+    },
+    "serving_size_g": 70.0
+  },
+  "environment": {
+    "ecoscore": "unknown",
+    "packaging": []
+  }
+}

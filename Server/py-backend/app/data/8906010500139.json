@@ -1,0 +1,146 @@
+{
+  "barcode": "8906010500139",
+  "product": {
+    "code": "8906010500139",
+    "name": "Balaji Wafers",
+    "brand": "Balaji",
+    "image": "https://images.openfoodfacts.net/images/products/890/601/050/0139/front_en.10.400.jpg",
+    "quantity": "35 g",
+    "categories": [
+      "en:snacks",
+      "en:sweet-snacks",
+      "en:biscuits-and-cakes",
+      "en:biscuits",
+      "en:wafers"
+    ]
+  },
+  "highlights": {
+    "health_score": 76,
+    "verdict": "Healthy choice",
+    "likes": [
+      "Low salt",
+      "Low saturated fat"
+    ],
+    "concerns": [
+      "High total fat",
+      "Moderate sugar",
+      "Very high calorie density"
+    ],
+    "nova_group": null
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 526.0,
+      "unit": "kcal",
+      "rda_percent": 26.3,
+      "rating": "red"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 30.5,
+      "unit": "g",
+      "rda_percent": 43.6,
+      "rating": "red"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 58.1,
+      "unit": "g",
+      "rda_percent": 22.3,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 8.1,
+      "unit": "g",
+      "rda_percent": 16.2,
+      "rating": "orange"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 4.8,
+      "unit": "g",
+      "rda_percent": 9.6,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.0,
+    "saturated_fat": 0.0,
+    "sugars": 0.324,
+    "energy": 0.8766666666666667,
+    "fiber": 0.0,
+    "protein": 0.192
+  },
+  "ingredients": {
+    "text": "",
+    "ingredients": [],
+    "additives": [],
+    "dominant": [],
+    "contains_palm_oil": false,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 526.0,
+      "fat": 30.5,
+      "saturated_fat": 0.0,
+      "carbohydrates": 58.1,
+      "sugars": 8.1,
+      "fiber": null,
+      "protein": 4.8,
+      "salt": 0.0,
+      "cholesterol": null
+    },
+    "per_serving": null,
+    "serving_size_g": null
+  },
+  "metadata": {
+    "nova_group": null,
+    "nova_group_error": "missing_ingredients",
+    "nutriscore_grade": "c",
+    "nutrient_levels": {
+      "fat": "high",
+      "salt": "low",
+      "saturated-fat": "low",
+      "sugars": "moderate"
+    },
+    "labels": [],
+    "food_groups": [
+      "en:sugary-snacks",
+      "en:biscuits-and-cakes"
+    ],
+    "countries": [
+      "en:india"
+    ],
+    "off_completeness": 0.575,
+    "data_quality_warnings": [
+      "en:ecoscore-origins-of-ingredients-origins-are-100-percent-unknown",
+      "en:ecoscore-packaging-packaging-data-missing",
+      "en:ecoscore-production-system-no-label",
+      "en:ecoscore-threatened-species-ingredients-missing"
+    ],
+    "nutrition_data_per": "100g"
+  },
+  "environment": {
+    "ecoscore": "c",
+    "packaging": []
+  }
+}

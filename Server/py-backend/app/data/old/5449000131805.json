@@ -1,0 +1,326 @@
+{
+  "barcode": "5449000131805",
+  "product": {
+    "code": "5449000131805",
+    "name": "HIGH PROTEIN Caramel Pudding",
+    "brand": "Millbona",
+    "image": "https://images.openfoodfacts.net/images/products/544/900/013/1805/front_en.687.400.jpg",
+    "quantity": "330ml",
+    "categories": [
+      "en:beverages-and-beverages-preparations",
+      "en:beverages",
+      "en:carbonated-drinks",
+      "en:artificially-sweetened-beverages",
+      "en:sodas",
+      "en:diet-beverages",
+      "en:colas",
+      "en:diet-sodas",
+      "en:diet-cola-soft-drink"
+    ]
+  },
+  "highlights": {
+    "health_score": 85,
+    "verdict": "Healthy choice",
+    "likes": [
+      "Low salt",
+      "Low saturated fat"
+    ],
+    "concerns": [
+      "Ultra-processed food"
+    ],
+    "nova_group": 4
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 0.2,
+      "unit": "kcal",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.02,
+      "unit": "g",
+      "rda_percent": 0.4,
+      "rating": "green"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.01,
+    "saturated_fat": 0.0,
+    "sugars": 0.0,
+    "energy": 0.0003333333333333334,
+    "fiber": 0.0,
+    "protein": 0.0
+  },
+  "ingredients": {
+    "text": "carbonated water, colour (e150d), acid (phosphoric acid) sweeteners (aspartame, acesulfame-k enzymatically produced steviol glycosides), natural flavourings, caffeine flavouring, acidity regulator (sodium citrates), contains a source of phenylalanine,",
+    "ingredients": [
+      {
+        "id": "en:carbonated-water",
+        "text": "carbonated water",
+        "percent_estimate": 57.1428571428571,
+        "percent_min": 14.2857142857143,
+        "percent_max": 100,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "18066",
+        "ecobalyse_code": "36b3ffec-51e7-4e26-b1b5-7d52554e0aa6",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:colour",
+        "text": "colour",
+        "percent_estimate": 21.4285714285714,
+        "percent_min": 0,
+        "percent_max": 50,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:acid",
+        "text": "acid",
+        "percent_estimate": 10.7142857142857,
+        "percent_min": 0,
+        "percent_max": 33.3333333333333,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:sweetener",
+        "text": "sweeteners",
+        "percent_estimate": 5.35714285714286,
+        "percent_min": 0,
+        "percent_max": 25,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:acesulfame-k-enzymatically-produced-steviol-glycosides",
+        "text": "acesulfame-k enzymatically produced steviol glycosides",
+        "percent_estimate": 2.67857142857143,
+        "percent_min": 0,
+        "percent_max": 12.5,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:natural-flavouring",
+        "text": "natural flavourings",
+        "percent_estimate": 2.5,
+        "percent_min": 0,
+        "percent_max": 5,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:caffeine-flavour",
+        "text": "caffeine flavouring",
+        "percent_estimate": 1.42857142857143,
+        "percent_min": 0,
+        "percent_max": 5,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:acidity-regulator",
+        "text": "acidity regulator",
+        "percent_estimate": 1.42857142857143,
+        "percent_min": 0,
+        "percent_max": 5,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "additives": [
+      {
+        "id": "en:e150d",
+        "text": "e150d",
+        "percent_estimate": 21.4285714285714,
+        "percent_min": 0,
+        "percent_max": 50,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e338",
+        "text": "phosphoric acid",
+        "percent_estimate": 10.7142857142857,
+        "percent_min": 0,
+        "percent_max": 33.3333333333333,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e951",
+        "text": "aspartame",
+        "percent_estimate": 2.67857142857143,
+        "percent_min": 0,
+        "percent_max": 25,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e331",
+        "text": "sodium citrates",
+        "percent_estimate": 1.42857142857143,
+        "percent_min": 0,
+        "percent_max": 5,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "dominant": [
+      {
+        "ingredient": "carbonated water",
+        "percent": 57.1428571428571
+      },
+      {
+        "ingredient": "colour",
+        "percent": 21.4285714285714
+      },
+      {
+        "ingredient": "e150d",
+        "percent": 21.4285714285714
+      },
+      {
+        "ingredient": "acid",
+        "percent": 10.7142857142857
+      }
+    ],
+    "contains_palm_oil": false,
+    "complexity": "Moderately complex"
+  },
+  "additives_full": [
+    {
+      "code": "E150D",
+      "name": "Caramel Color IV",
+      "risk": "high",
+      "explanation": "May contain 4-MEI."
+    },
+    {
+      "code": "E338",
+      "name": "phosphoric acid",
+      "risk": "unknown",
+      "explanation": "No reliable information."
+    },
+    {
+      "code": "E951",
+      "name": "aspartame",
+      "risk": "unknown",
+      "explanation": "No reliable information."
+    },
+    {
+      "code": "E331",
+      "name": "sodium citrates",
+      "risk": "unknown",
+      "explanation": "No reliable information."
+    }
+  ],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 0.2,
+      "fat": 0.0,
+      "saturated_fat": null,
+      "carbohydrates": 0.0,
+      "sugars": null,
+      "fiber": null,
+      "protein": 0.0,
+      "salt": 0.02
+    },
+    "per_serving": {
+      "energy_kcal": 0.66,
+      "fat": 0.0,
+      "carbohydrates": 0.0,
+      "protein": 0.0,
+      "salt": 0.07
+    },
+    "serving_size_g": 330.0
+  },
+  "environment": {
+    "ecoscore": "not-applicable",
+    "packaging": [
+      "en:aluminium"
+    ]
+  }
+}

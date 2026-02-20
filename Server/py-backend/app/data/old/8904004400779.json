@@ -1,0 +1,526 @@
+{
+  "barcode": "8904004400779",
+  "product": {
+    "code": "8904004400779",
+    "name": "Haldiram's Aloo Bhujia",
+    "brand": "Haldiram's",
+    "image": "https://images.openfoodfacts.net/images/products/890/400/440/0779/front_fr.9.400.jpg",
+    "quantity": null,
+    "categories": [
+      "en:sev",
+      "en:snakes"
+    ]
+  },
+  "highlights": {
+    "health_score": 65,
+    "verdict": "Moderate consumption recommended",
+    "likes": [
+      "Low salt",
+      "Good fiber content"
+    ],
+    "concerns": [
+      "High saturated fat",
+      "Contains palm oil",
+      "Ultra-processed food"
+    ],
+    "nova_group": 4
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 564.0,
+      "unit": "kcal",
+      "rda_percent": 28.2,
+      "rating": "neutral"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 37.48,
+      "unit": "g",
+      "rda_percent": 53.5,
+      "rating": "neutral"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 16.42,
+      "unit": "g",
+      "rda_percent": 82.1,
+      "rating": "red"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 47.71,
+      "unit": "g",
+      "rda_percent": 47.7,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    },
+    {
+      "name": "fiber",
+      "amount_100g": 4.04,
+      "unit": "g",
+      "rda_percent": 16.2,
+      "rating": "green"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 8.97,
+      "unit": "g",
+      "rda_percent": 17.9,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.615,
+      "unit": "g",
+      "rda_percent": 12.3,
+      "rating": "orange"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.3075,
+    "saturated_fat": 1,
+    "sugars": 0.0,
+    "energy": 0.94,
+    "fiber": 0.404,
+    "protein": 0.4485
+  },
+  "ingredients": {
+    "text": "Potato, Refined Palmolein Oil, Bengal Gram Flour (Besan), Potato Flakes, Potato Starch, Tapioca Starch, Tapary Beans (Moth dal) Flour, lodised Salt, Red Chilli Powder, Black Salt, Acidity Regulator (INS 330), Black Pepper, Clove, Cardamom, Dried Ginger Powder, Dried Garlic Powder, Refined Sugar, Cumin Powder, Bay Leaves, Nutmeg, Cinnamon & Mint Leaves. CONTAINS ADDED NATURAL, NATURE IDENTICAL & ARTIFICIAL FLAVOURING SUBSTANCES Allergy Advice.",
+    "ingredients": [
+      {
+        "id": "fr:potato",
+        "text": "Potato",
+        "percent_estimate": 52.0833333333333,
+        "percent_min": 4.16666666666667,
+        "percent_max": 100,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:refined-palmolein-oil",
+        "text": "Refined Palmolein Oil",
+        "percent_estimate": 23.9583333333333,
+        "percent_min": 0,
+        "percent_max": 50,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:bengal-gram-flour",
+        "text": "Bengal Gram Flour",
+        "percent_estimate": 11.9791666666667,
+        "percent_min": 0,
+        "percent_max": 33.3333333333333,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:besan",
+        "text": "Besan",
+        "percent_estimate": 11.9791666666667,
+        "percent_min": 0,
+        "percent_max": 33.3333333333333,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:potato-flakes",
+        "text": "Potato Flakes",
+        "percent_estimate": 5.98958333333333,
+        "percent_min": 0,
+        "percent_max": 25,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:potato-starch",
+        "text": "Potato Starch",
+        "percent_estimate": 2.99479166666666,
+        "percent_min": 0,
+        "percent_max": 20,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:tapioca-starch",
+        "text": "Tapioca Starch",
+        "percent_estimate": 1.49739583333333,
+        "percent_min": 0,
+        "percent_max": 16.6666666666667,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:tapary-beans",
+        "text": "Tapary Beans",
+        "percent_estimate": 0.748697916666664,
+        "percent_min": 0,
+        "percent_max": 14.2857142857143,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:moth-dal",
+        "text": "Moth dal",
+        "percent_estimate": 0.748697916666664,
+        "percent_min": 0,
+        "percent_max": 14.2857142857143,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:flour",
+        "text": "Flour",
+        "percent_estimate": 0.374348958333329,
+        "percent_min": 0,
+        "percent_max": 12.5,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:lodised-salt",
+        "text": "lodised Salt",
+        "percent_estimate": 0.187174479166664,
+        "percent_min": 0,
+        "percent_max": 11.1111111111111,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:red-chilli-powder",
+        "text": "Red Chilli Powder",
+        "percent_estimate": 0.0935872395833286,
+        "percent_min": 0,
+        "percent_max": 10,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:black-salt",
+        "text": "Black Salt",
+        "percent_estimate": 0.0467936197916643,
+        "percent_min": 0,
+        "percent_max": 9.09090909090909,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:acidity-regulator",
+        "text": "Acidity Regulator",
+        "percent_estimate": 0.0233968098958286,
+        "percent_min": 0,
+        "percent_max": 8.33333333333333,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:black-pepper",
+        "text": "Black Pepper",
+        "percent_estimate": 0.0116984049479143,
+        "percent_min": 0,
+        "percent_max": 7.69230769230769,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:clove",
+        "text": "Clove",
+        "percent_estimate": 0.0058492024739536,
+        "percent_min": 0,
+        "percent_max": 7.14285714285714,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:cardamom",
+        "text": "Cardamom",
+        "percent_estimate": 0.0029246012369768,
+        "percent_min": 0,
+        "percent_max": 6.66666666666667,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:dried-ginger-powder",
+        "text": "Dried Ginger Powder",
+        "percent_estimate": 0.00146230061848485,
+        "percent_min": 0,
+        "percent_max": 6.25,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:dried-garlic-powder",
+        "text": "Dried Garlic Powder",
+        "percent_estimate": 0.000731150309242423,
+        "percent_min": 0,
+        "percent_max": 5.88235294117647,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:refined-sugar",
+        "text": "Refined Sugar",
+        "percent_estimate": 0.000365575154617659,
+        "percent_min": 0,
+        "percent_max": 5.55555555555556,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:cumin-powder",
+        "text": "Cumin Powder",
+        "percent_estimate": 0.000182787577308829,
+        "percent_min": 0,
+        "percent_max": 5.26315789473684,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:bay-leaves",
+        "text": "Bay Leaves",
+        "percent_estimate": 9.1393788650862e-05,
+        "percent_min": 0,
+        "percent_max": 5,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:nutmeg",
+        "text": "Nutmeg",
+        "percent_estimate": 4.5696894325431e-05,
+        "percent_min": 0,
+        "percent_max": 4.76190476190476,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:cinnamon-et-mint-leaves",
+        "text": "Cinnamon et Mint Leaves",
+        "percent_estimate": 2.28484471591628e-05,
+        "percent_min": 0,
+        "percent_max": 4.54545454545455,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:contains-added-natural",
+        "text": "CONTAINS ADDED NATURAL",
+        "percent_estimate": 1.14242235795814e-05,
+        "percent_min": 0,
+        "percent_max": 4.34782608695652,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "fr:nature-identical-et-artificial-flavouring-substances-allergy-advice",
+        "text": "NATURE IDENTICAL et ARTIFICIAL FLAVOURING SUBSTANCES Allergy Advice",
+        "percent_estimate": 1.1424223572476e-05,
+        "percent_min": 0,
+        "percent_max": 4.16666666666667,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      }
+    ],
+    "additives": [
+      {
+        "id": "en:e330",
+        "text": "e330",
+        "percent_estimate": 0.0233968098958286,
+        "percent_min": 0,
+        "percent_max": 8.33333333333333,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "dominant": [
+      {
+        "ingredient": "Potato",
+        "percent": 52.0833333333333
+      },
+      {
+        "ingredient": "Refined Palmolein Oil",
+        "percent": 23.9583333333333
+      },
+      {
+        "ingredient": "Bengal Gram Flour",
+        "percent": 11.9791666666667
+      },
+      {
+        "ingredient": "Besan",
+        "percent": 11.9791666666667
+      }
+    ],
+    "contains_palm_oil": true,
+    "complexity": "Highly complex"
+  },
+  "additives_full": [
+    {
+      "code": "E330",
+      "name": "Citric Acid",
+      "risk": "low",
+      "explanation": "Common regulator."
+    }
+  ],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 564.0,
+      "fat": 37.48,
+      "saturated_fat": 16.42,
+      "carbohydrates": 47.71,
+      "sugars": 0.0,
+      "fiber": 4.04,
+      "protein": 8.97,
+      "salt": 0.615
+    },
+    "per_serving": null,
+    "serving_size_g": null
+  },
+  "environment": {
+    "ecoscore": "unknown",
+    "packaging": []
+  }
+}

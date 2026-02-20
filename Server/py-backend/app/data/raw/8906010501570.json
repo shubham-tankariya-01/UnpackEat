@@ -1,0 +1,1969 @@
+{
+  "_id": "8906010501570",
+  "_keywords": [
+    "and",
+    "balaji",
+    "chip",
+    "crunchex",
+    "dot",
+    "frie",
+    "green",
+    "india",
+    "kurkure",
+    "salty-snacks-made-from-potato",
+    "wafer"
+  ],
+  "added_countries_tags": [],
+  "additives_n": 9,
+  "additives_original_tags": [
+    "en:e330",
+    "en:e296",
+    "en:e334",
+    "en:e551",
+    "en:e627",
+    "en:e631",
+    "en:e160c",
+    "en:e340",
+    "en:e470"
+  ],
+  "additives_tags": [
+    "en:e160c",
+    "en:e296",
+    "en:e330",
+    "en:e334",
+    "en:e340",
+    "en:e470",
+    "en:e551",
+    "en:e627",
+    "en:e631"
+  ],
+  "allergens": "",
+  "allergens_from_ingredients": "",
+  "allergens_from_user": "(fr) ",
+  "allergens_hierarchy": [],
+  "allergens_lc": "fr",
+  "allergens_tags": [],
+  "amino_acids_tags": [],
+  "brands": "Balaji",
+  "brands_tags": [
+    "balaji"
+  ],
+  "categories": "Chips and fries, Kurkure, en:salty-snacks-made-from-potato",
+  "categories_hierarchy": [
+    "en:snacks",
+    "en:salty-snacks",
+    "en:appetizers",
+    "en:chips-and-fries",
+    "en:crisps",
+    "en:salty-snacks-made-from-potato",
+    "en:Kurkure"
+  ],
+  "categories_lc": "en",
+  "categories_old": "",
+  "categories_properties": {
+    "agribalyse_food_code:en": "38405",
+    "ciqual_food_code:en": "38405"
+  },
+  "categories_properties_tags": [
+    "all-products",
+    "categories-known",
+    "agribalyse-food-code-38405",
+    "agribalyse-food-code-known",
+    "agribalyse-proxy-food-code-unknown",
+    "ciqual-food-code-38405",
+    "ciqual-food-code-known",
+    "agribalyse-known",
+    "agribalyse-38405"
+  ],
+  "categories_tags": [
+    "en:snacks",
+    "en:salty-snacks",
+    "en:appetizers",
+    "en:chips-and-fries",
+    "en:crisps",
+    "en:salty-snacks-made-from-potato",
+    "en:kurkure"
+  ],
+  "category_properties": {},
+  "checkers_tags": [],
+  "ciqual_food_name_tags": [
+    "unknown"
+  ],
+  "cities_tags": [],
+  "code": "8906010501570",
+  "codes_tags": [
+    "code-13",
+    "8906010501xxx",
+    "890601050xxxx",
+    "89060105xxxxx",
+    "8906010xxxxxx",
+    "890601xxxxxxx",
+    "89060xxxxxxxx",
+    "8906xxxxxxxxx",
+    "890xxxxxxxxxx",
+    "89xxxxxxxxxxx",
+    "8xxxxxxxxxxxx"
+  ],
+  "compared_to_category": "en:salty-snacks-made-from-potato",
+  "complete": 0,
+  "completeness": 0.775,
+  "correctors_tags": [
+    "openfoodfacts-contributors",
+    "sebleouf",
+    "vaporous",
+    "shrikrushna",
+    "roboto-app",
+    "nizilshah"
+  ],
+  "countries": "Inde",
+  "countries_hierarchy": [
+    "en:india"
+  ],
+  "countries_lc": "fr",
+  "countries_tags": [
+    "en:india"
+  ],
+  "created_t": 1575971185,
+  "creator": "veganeamos",
+  "data_quality_bugs_tags": [],
+  "data_quality_completeness_tags": [
+    "en:photo-and-data-to-be-checked-by-an-experienced-contributor",
+    "en:ingredients-en-photo-to-be-selected",
+    "en:ingredients-en-completed",
+    "en:ingredients-completed-at-least-for-one-language",
+    "en:nutrition-photo-to-be-selected",
+    "en:categories-completed",
+    "en:nutriments-completed",
+    "en:packaging-photo-to-be-selected",
+    "en:packagings-completed",
+    "en:traceability-codes-to-be-completed",
+    "en:front-photo-to-be-selected",
+    "en:product-name-completed",
+    "en:quantity-completed",
+    "en:brands-completed",
+    "en:expiration-date-to-be-completed"
+  ],
+  "data_quality_dimensions": {
+    "accuracy": {
+      "overall": "0.00"
+    },
+    "completeness": {
+      "general_information": "0.60",
+      "ingredients": "0.50",
+      "nutrition": "0.67",
+      "overall": "0.54",
+      "packaging": "0.33"
+    }
+  },
+  "data_quality_errors_tags": [],
+  "data_quality_info_tags": [
+    "en:packaging-data-incomplete",
+    "en:food-groups-1-known",
+    "en:food-groups-2-known",
+    "en:food-groups-3-unknown"
+  ],
+  "data_quality_tags": [
+    "en:photo-and-data-to-be-checked-by-an-experienced-contributor",
+    "en:ingredients-en-photo-to-be-selected",
+    "en:ingredients-en-completed",
+    "en:ingredients-completed-at-least-for-one-language",
+    "en:nutrition-photo-to-be-selected",
+    "en:categories-completed",
+    "en:nutriments-completed",
+    "en:packaging-photo-to-be-selected",
+    "en:packagings-completed",
+    "en:traceability-codes-to-be-completed",
+    "en:front-photo-to-be-selected",
+    "en:product-name-completed",
+    "en:quantity-completed",
+    "en:brands-completed",
+    "en:expiration-date-to-be-completed",
+    "en:packaging-data-incomplete",
+    "en:food-groups-1-known",
+    "en:food-groups-2-known",
+    "en:food-groups-3-unknown",
+    "en:ingredients-percent-analysis-not-ok",
+    "en:nutrition-value-under-0-01-g-salt",
+    "en:nutrition-value-very-high-for-category-fiber",
+    "en:nutrition-value-very-low-for-category-salt",
+    "en:vegetarian-label-but-could-not-confirm-for-all-ingredients",
+    "en:environmental-score-packaging-unspecified-shape",
+    "en:environmental-score-production-system-no-label"
+  ],
+  "data_quality_warnings_tags": [
+    "en:ingredients-percent-analysis-not-ok",
+    "en:nutrition-value-under-0-01-g-salt",
+    "en:nutrition-value-very-high-for-category-fiber",
+    "en:nutrition-value-very-low-for-category-salt",
+    "en:vegetarian-label-but-could-not-confirm-for-all-ingredients",
+    "en:environmental-score-packaging-unspecified-shape",
+    "en:environmental-score-production-system-no-label"
+  ],
+  "data_sources": "App - smoothie-openfoodfacts, Apps",
+  "data_sources_tags": [
+    "app-smoothie-openfoodfacts",
+    "apps"
+  ],
+  "debug_param_sorted_langs": [
+    "en"
+  ],
+  "ecoscore_data": {
+    "adjustments": {
+      "origins_of_ingredients": {
+        "aggregated_origins": [
+          {
+            "epi_score": 0,
+            "origin": "en:india",
+            "percent": 100,
+            "transportation_score": 0
+          }
+        ],
+        "epi_score": 0,
+        "epi_value": -5,
+        "origins_from_categories": [
+          "en:unknown"
+        ],
+        "origins_from_origins_field": [
+          "en:india"
+        ],
+        "transportation_score": 0,
+        "transportation_scores": {
+          "ad": 0,
+          "al": 13,
+          "at": 0,
+          "ax": 0,
+          "ba": 0,
+          "be": 0,
+          "bg": 0,
+          "ch": 0,
+          "cy": 17,
+          "cz": 0,
+          "de": 0,
+          "dk": 0,
+          "dz": 0,
+          "ee": 0,
+          "eg": 13,
+          "es": 5,
+          "fi": 0,
+          "fo": 0,
+          "fr": 0,
+          "gg": 0,
+          "gi": 7,
+          "gr": 17,
+          "hr": 4,
+          "hu": 0,
+          "ie": 0,
+          "il": 13,
+          "im": 0,
+          "is": 0,
+          "it": 0,
+          "je": 0,
+          "lb": 18,
+          "li": 0,
+          "lt": 0,
+          "lu": 0,
+          "lv": 0,
+          "ly": 15,
+          "ma": 0,
+          "mc": 11,
+          "md": 2,
+          "me": 9,
+          "mk": 0,
+          "mt": 14,
+          "nl": 0,
+          "no": 0,
+          "pl": 0,
+          "ps": 21,
+          "pt": 0,
+          "ro": 4,
+          "rs": 0,
+          "se": 0,
+          "si": 7,
+          "sj": 0,
+          "sk": 0,
+          "sm": 0,
+          "sy": 4,
+          "tn": 13,
+          "tr": 0,
+          "ua": 14,
+          "uk": 0,
+          "us": 0,
+          "va": 0,
+          "world": 0,
+          "xk": 0
+        },
+        "transportation_value": 0,
+        "transportation_values": {
+          "ad": 0,
+          "al": 2,
+          "at": 0,
+          "ax": 0,
+          "ba": 0,
+          "be": 0,
+          "bg": 0,
+          "ch": 0,
+          "cy": 3,
+          "cz": 0,
+          "de": 0,
+          "dk": 0,
+          "dz": 0,
+          "ee": 0,
+          "eg": 2,
+          "es": 1,
+          "fi": 0,
+          "fo": 0,
+          "fr": 0,
+          "gg": 0,
+          "gi": 1,
+          "gr": 3,
+          "hr": 1,
+          "hu": 0,
+          "ie": 0,
+          "il": 2,
+          "im": 0,
+          "is": 0,
+          "it": 0,
+          "je": 0,
+          "lb": 3,
+          "li": 0,
+          "lt": 0,
+          "lu": 0,
+          "lv": 0,
+          "ly": 2,
+          "ma": 0,
+          "mc": 2,
+          "md": 0,
+          "me": 1,
+          "mk": 0,
+          "mt": 2,
+          "nl": 0,
+          "no": 0,
+          "pl": 0,
+          "ps": 3,
+          "pt": 0,
+          "ro": 1,
+          "rs": 0,
+          "se": 0,
+          "si": 1,
+          "sj": 0,
+          "sk": 0,
+          "sm": 0,
+          "sy": 1,
+          "tn": 2,
+          "tr": 0,
+          "ua": 2,
+          "uk": 0,
+          "us": 0,
+          "va": 0,
+          "world": 0,
+          "xk": 0
+        },
+        "value": -5,
+        "values": {
+          "ad": -5,
+          "al": -3,
+          "at": -5,
+          "ax": -5,
+          "ba": -5,
+          "be": -5,
+          "bg": -5,
+          "ch": -5,
+          "cy": -2,
+          "cz": -5,
+          "de": -5,
+          "dk": -5,
+          "dz": -5,
+          "ee": -5,
+          "eg": -3,
+          "es": -4,
+          "fi": -5,
+          "fo": -5,
+          "fr": -5,
+          "gg": -5,
+          "gi": -4,
+          "gr": -2,
+          "hr": -4,
+          "hu": -5,
+          "ie": -5,
+          "il": -3,
+          "im": -5,
+          "is": -5,
+          "it": -5,
+          "je": -5,
+          "lb": -2,
+          "li": -5,
+          "lt": -5,
+          "lu": -5,
+          "lv": -5,
+          "ly": -3,
+          "ma": -5,
+          "mc": -3,
+          "md": -5,
+          "me": -4,
+          "mk": -5,
+          "mt": -3,
+          "nl": -5,
+          "no": -5,
+          "pl": -5,
+          "ps": -2,
+          "pt": -5,
+          "ro": -4,
+          "rs": -5,
+          "se": -5,
+          "si": -4,
+          "sj": -5,
+          "sk": -5,
+          "sm": -5,
+          "sy": -4,
+          "tn": -3,
+          "tr": -5,
+          "ua": -3,
+          "uk": -5,
+          "us": -5,
+          "va": -5,
+          "world": -5,
+          "xk": -5
+        }
+      },
+      "packaging": {
+        "non_recyclable_and_non_biodegradable_materials": 1,
+        "packagings": [
+          {
+            "environmental_score_material_score": 0,
+            "environmental_score_shape_ratio": 1,
+            "food_contact": 1,
+            "material": "en:plastic",
+            "non_recyclable_and_non_biodegradable": "maybe",
+            "number_of_units": 1,
+            "shape": "en:unknown"
+          }
+        ],
+        "score": 0,
+        "value": -10,
+        "warning": "unspecified_shape"
+      },
+      "production_system": {
+        "labels": [],
+        "value": 0,
+        "warning": "no_label"
+      },
+      "threatened_species": {
+        "ingredient": "en:palm-oil",
+        "value": -10
+      }
+    },
+    "agribalyse": {
+      "agribalyse_food_code": "38405",
+      "co2_agriculture": 0.85124335,
+      "co2_consumption": 0,
+      "co2_distribution": 0.019437894,
+      "co2_packaging": 0.28132688,
+      "co2_processing": 0.29801521,
+      "co2_total": 1.587567974,
+      "co2_transportation": 0.13754464,
+      "code": "38405",
+      "dqr": "2.68",
+      "ef_agriculture": 0.12973953,
+      "ef_consumption": 0,
+      "ef_distribution": 0.0047895045,
+      "ef_packaging": 0.02360145,
+      "ef_processing": 0.049695845,
+      "ef_total": 0.2193642885,
+      "ef_transportation": 0.011537959,
+      "is_beverage": 0,
+      "name_en": "Salty snacks, made from potato",
+      "name_fr": "Biscuit ap\u00e9ritif \u00e0 base de pomme de terre, type tuile sal\u00e9e",
+      "score": 87,
+      "version": "3.1.1"
+    },
+    "grade": "b",
+    "grades": {
+      "ad": "b",
+      "al": "b",
+      "at": "b",
+      "ax": "b",
+      "ba": "b",
+      "be": "b",
+      "bg": "b",
+      "ch": "b",
+      "cy": "b",
+      "cz": "b",
+      "de": "b",
+      "dk": "b",
+      "dz": "b",
+      "ee": "b",
+      "eg": "b",
+      "es": "b",
+      "fi": "b",
+      "fo": "b",
+      "fr": "b",
+      "gg": "b",
+      "gi": "b",
+      "gr": "b",
+      "hr": "b",
+      "hu": "b",
+      "ie": "b",
+      "il": "b",
+      "im": "b",
+      "is": "b",
+      "it": "b",
+      "je": "b",
+      "lb": "b",
+      "li": "b",
+      "lt": "b",
+      "lu": "b",
+      "lv": "b",
+      "ly": "b",
+      "ma": "b",
+      "mc": "b",
+      "md": "b",
+      "me": "b",
+      "mk": "b",
+      "mt": "b",
+      "nl": "b",
+      "no": "b",
+      "pl": "b",
+      "ps": "b",
+      "pt": "b",
+      "ro": "b",
+      "rs": "b",
+      "se": "b",
+      "si": "b",
+      "sj": "b",
+      "sk": "b",
+      "sm": "b",
+      "sy": "b",
+      "tn": "b",
+      "tr": "b",
+      "ua": "b",
+      "uk": "b",
+      "us": "b",
+      "va": "b",
+      "world": "b",
+      "xk": "b"
+    },
+    "missing": {
+      "labels": 1,
+      "packagings": 1
+    },
+    "missing_data_warning": 1,
+    "previous_data": {
+      "agribalyse": {
+        "warning": "missing_agribalyse_match"
+      },
+      "grade": "unknown",
+      "score": null
+    },
+    "score": 62,
+    "scores": {
+      "ad": 62,
+      "al": 64,
+      "at": 62,
+      "ax": 62,
+      "ba": 62,
+      "be": 62,
+      "bg": 62,
+      "ch": 62,
+      "cy": 65,
+      "cz": 62,
+      "de": 62,
+      "dk": 62,
+      "dz": 62,
+      "ee": 62,
+      "eg": 64,
+      "es": 63,
+      "fi": 62,
+      "fo": 62,
+      "fr": 62,
+      "gg": 62,
+      "gi": 63,
+      "gr": 65,
+      "hr": 63,
+      "hu": 62,
+      "ie": 62,
+      "il": 64,
+      "im": 62,
+      "is": 62,
+      "it": 62,
+      "je": 62,
+      "lb": 65,
+      "li": 62,
+      "lt": 62,
+      "lu": 62,
+      "lv": 62,
+      "ly": 64,
+      "ma": 62,
+      "mc": 64,
+      "md": 62,
+      "me": 63,
+      "mk": 62,
+      "mt": 64,
+      "nl": 62,
+      "no": 62,
+      "pl": 62,
+      "ps": 65,
+      "pt": 62,
+      "ro": 63,
+      "rs": 62,
+      "se": 62,
+      "si": 63,
+      "sj": 62,
+      "sk": 62,
+      "sm": 62,
+      "sy": 63,
+      "tn": 64,
+      "tr": 62,
+      "ua": 64,
+      "uk": 62,
+      "us": 62,
+      "va": 62,
+      "world": 62,
+      "xk": 62
+    },
+    "status": "known"
+  },
+  "ecoscore_grade": "b",
+  "ecoscore_score": 62,
+  "ecoscore_tags": [
+    "b"
+  ],
+  "editors_tags": [
+    "nizilshah",
+    "openfoodfacts-contributors",
+    "roboto-app",
+    "sebleouf",
+    "shrikrushna",
+    "vaporous",
+    "veganeamos",
+    "yesu"
+  ],
+  "emb_codes": "",
+  "emb_codes_tags": [],
+  "entry_dates_tags": [
+    "2019-12-10",
+    "2019-12",
+    "2019"
+  ],
+  "expiration_date": "",
+  "food_groups": "en:appetizers",
+  "food_groups_tags": [
+    "en:salty-snacks",
+    "en:appetizers"
+  ],
+  "generic_name": "",
+  "generic_name_en": "",
+  "id": "8906010501570",
+  "image_front_small_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.200.jpg",
+  "image_front_thumb_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.100.jpg",
+  "image_front_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.400.jpg",
+  "image_ingredients_small_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/ingredients_en.21.200.jpg",
+  "image_ingredients_thumb_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/ingredients_en.21.100.jpg",
+  "image_ingredients_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/ingredients_en.21.400.jpg",
+  "image_small_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.200.jpg",
+  "image_thumb_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.100.jpg",
+  "image_url": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.400.jpg",
+  "images": {
+    "1": {
+      "sizes": {
+        "100": {
+          "h": 99,
+          "w": 100
+        },
+        "400": {
+          "h": 396,
+          "w": 400
+        },
+        "full": {
+          "h": 2397,
+          "w": 2420
+        }
+      },
+      "uploaded_t": 1575971190,
+      "uploader": "openfoodfacts-contributors"
+    },
+    "2": {
+      "sizes": {
+        "100": {
+          "h": 99,
+          "w": 100
+        },
+        "400": {
+          "h": 396,
+          "w": 400
+        },
+        "full": {
+          "h": 2397,
+          "w": 2420
+        }
+      },
+      "uploaded_t": 1575971190,
+      "uploader": "openfoodfacts-contributors"
+    },
+    "3": {
+      "sizes": {
+        "100": {
+          "h": 100,
+          "w": 100
+        },
+        "400": {
+          "h": 400,
+          "w": 400
+        },
+        "full": {
+          "h": 3000,
+          "w": 3000
+        }
+      },
+      "uploaded_t": 1749476427,
+      "uploader": "shrikrushna"
+    },
+    "4": {
+      "sizes": {
+        "100": {
+          "h": 56,
+          "w": 100
+        },
+        "400": {
+          "h": 225,
+          "w": 400
+        },
+        "full": {
+          "h": 1035,
+          "w": 1837
+        }
+      },
+      "uploaded_t": 1764429844,
+      "uploader": "nizilshah"
+    },
+    "front_en": {
+      "imgid": "3",
+      "rev": "13",
+      "sizes": {
+        "100": {
+          "h": 100,
+          "w": 100
+        },
+        "200": {
+          "h": 200,
+          "w": 200
+        },
+        "400": {
+          "h": 400,
+          "w": 400
+        },
+        "full": {
+          "h": 3000,
+          "w": 3000
+        }
+      }
+    },
+    "ingredients_en": {
+      "imgid": 4,
+      "rev": 21,
+      "sizes": {
+        "100": {
+          "h": 56,
+          "w": 100
+        },
+        "200": {
+          "h": 113,
+          "w": 200
+        },
+        "400": {
+          "h": 225,
+          "w": 400
+        },
+        "full": {
+          "h": 1035,
+          "w": 1837
+        }
+      }
+    }
+  },
+  "informers_tags": [
+    "veganeamos",
+    "openfoodfacts-contributors",
+    "vaporous",
+    "yesu",
+    "shrikrushna",
+    "nizilshah"
+  ],
+  "ingredients": [
+    {
+      "ciqual_food_code": "4003",
+      "ecobalyse_code": "potato-industry-fr",
+      "id": "en:potato",
+      "is_in_taxonomy": 1,
+      "percent": 84,
+      "percent_estimate": 84,
+      "text": "POTATO",
+      "vegan": "yes",
+      "vegetarian": "yes"
+    },
+    {
+      "from_palm_oil": "maybe",
+      "id": "en:vegetable-oil",
+      "ingredients": [
+        {
+          "id": "en:contains-one-and-more-of-the-followings",
+          "ingredients": [
+            {
+              "ciqual_food_code": "16129",
+              "ecobalyse_code": "45658c32-66d9-4305-a34b-21d6a4cef89c",
+              "from_palm_oil": "yes",
+              "id": "en:palm-olein",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 4,
+              "text": "PALMOLEIN",
+              "vegan": "yes",
+              "vegetarian": "yes"
+            }
+          ],
+          "is_in_taxonomy": 0,
+          "percent_estimate": 4,
+          "text": "CONTAINS ONE and MORE OF THE FOLLOWINGS"
+        },
+        {
+          "id": "en:groundnut",
+          "is_in_taxonomy": 0,
+          "percent_estimate": 4,
+          "text": "GROUNDNUT"
+        }
+      ],
+      "is_in_taxonomy": 1,
+      "percent_estimate": 8,
+      "text": "EDIBLE VEGETABLE OIL",
+      "vegan": "yes",
+      "vegetarian": "yes"
+    },
+    {
+      "id": "en:coating",
+      "ingredients": [
+        {
+          "ciqual_proxy_food_code": "31016",
+          "ecobalyse_code": "8f075c25-9ebf-430c-b41d-51d165c6e0d8",
+          "id": "en:sugar-coating",
+          "is_in_taxonomy": 1,
+          "percent_estimate": 4,
+          "text": "SUGAR",
+          "vegan": "maybe",
+          "vegetarian": "maybe"
+        },
+        {
+          "id": "en:maltodextrin",
+          "is_in_taxonomy": 1,
+          "percent_estimate": 2,
+          "text": "MALTODEXTRIN",
+          "vegan": "yes",
+          "vegetarian": "yes"
+        },
+        {
+          "ciqual_food_code": "11058",
+          "id": "en:salt",
+          "is_in_taxonomy": 1,
+          "percent_estimate": 1,
+          "text": "SALT",
+          "vegan": "yes",
+          "vegetarian": "yes"
+        },
+        {
+          "id": "en:spice",
+          "is_in_taxonomy": 1,
+          "percent_estimate": 0.5,
+          "text": "SPICES",
+          "vegan": "yes",
+          "vegetarian": "yes"
+        },
+        {
+          "id": "en:condiment",
+          "ingredients": [
+            {
+              "ciqual_food_code": "20151",
+              "id": "en:chili-pepper",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0.125,
+              "text": "CHILLI",
+              "vegan": "yes",
+              "vegetarian": "yes"
+            },
+            {
+              "ciqual_proxy_food_code": "11015",
+              "id": "en:pepper",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0.125,
+              "text": "PEPPER",
+              "vegan": "yes",
+              "vegetarian": "yes"
+            }
+          ],
+          "is_in_taxonomy": 1,
+          "percent_estimate": 0.25,
+          "text": "CONDIMENTS",
+          "vegan": "maybe",
+          "vegetarian": "maybe"
+        },
+        {
+          "id": "en:vegetable",
+          "ingredients": [
+            {
+              "ciqual_food_code": "20034",
+              "ecobalyse_code": "onion-non-eu",
+              "id": "en:onion",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0.0625,
+              "text": "ONION",
+              "vegan": "yes",
+              "vegetarian": "yes"
+            },
+            {
+              "ciqual_food_code": "11000",
+              "id": "en:garlic",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0.03125,
+              "text": "GARLIC",
+              "vegan": "yes",
+              "vegetarian": "yes"
+            },
+            {
+              "ciqual_food_code": "20047",
+              "ecobalyse_code": "tomato-heated-greenhouse-eu",
+              "id": "en:tomato",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0.03125,
+              "text": "TOMATO",
+              "vegan": "yes",
+              "vegetarian": "yes"
+            }
+          ],
+          "is_in_taxonomy": 1,
+          "percent_estimate": 0.125,
+          "processing": "en:dehydrated,en:powder",
+          "text": "VEGETABLE",
+          "vegan": "yes",
+          "vegetarian": "yes"
+        },
+        {
+          "ciqual_food_code": "11058",
+          "id": "en:black-salt",
+          "is_in_taxonomy": 1,
+          "percent_estimate": 0.0625,
+          "text": "BLACK SALT",
+          "vegan": "yes",
+          "vegetarian": "yes"
+        },
+        {
+          "id": "en:acidity-regulator",
+          "ingredients": [
+            {
+              "id": "en:e330",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0.015625,
+              "text": "e330",
+              "vegan": "yes",
+              "vegetarian": "yes"
+            },
+            {
+              "id": "en:e296",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0.0078125,
+              "text": "e296",
+              "vegan": "yes",
+              "vegetarian": "yes"
+            },
+            {
+              "id": "en:e334",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0.0078125,
+              "text": "e334",
+              "vegan": "yes",
+              "vegetarian": "yes"
+            }
+          ],
+          "is_in_taxonomy": 1,
+          "percent_estimate": 0.03125,
+          "text": "ACIDITY REGULATOR"
+        },
+        {
+          "id": "en:milk-coating",
+          "is_in_taxonomy": 1,
+          "percent": 0.1,
+          "percent_estimate": 0.03125,
+          "processing": "en:solids",
+          "text": "MILK",
+          "vegan": "maybe",
+          "vegetarian": "maybe"
+        },
+        {
+          "id": "en:hydrolyzed-vegetable-protein-soya",
+          "is_in_taxonomy": 0,
+          "percent_estimate": 0,
+          "text": "HYDROLYZED VEGETABLE PROTEIN SOYA"
+        },
+        {
+          "id": "en:anti-caking-agent",
+          "ingredients": [
+            {
+              "id": "en:e551",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0,
+              "text": "e551",
+              "vegan": "yes",
+              "vegetarian": "yes"
+            }
+          ],
+          "is_in_taxonomy": 1,
+          "percent_estimate": 0,
+          "text": "ANTICAKING AGENT"
+        },
+        {
+          "id": "en:flavour-enhancer",
+          "ingredients": [
+            {
+              "id": "en:e627",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0,
+              "text": "e627",
+              "vegan": "maybe",
+              "vegetarian": "maybe"
+            },
+            {
+              "id": "en:e631",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0,
+              "text": "e631",
+              "vegan": "maybe",
+              "vegetarian": "maybe"
+            }
+          ],
+          "is_in_taxonomy": 1,
+          "percent_estimate": 0,
+          "text": "FLAVOUR ENHANCER"
+        },
+        {
+          "id": "en:flavouring",
+          "ingredients": [
+            {
+              "id": "en:flavouring",
+              "ingredients": [
+                {
+                  "id": "en:natural-flavouring",
+                  "is_in_taxonomy": 1,
+                  "percent_estimate": 0,
+                  "text": "NATURAL FLAVOURING",
+                  "vegan": "maybe",
+                  "vegetarian": "maybe"
+                },
+                {
+                  "id": "en:nature-identical-flavouring",
+                  "is_in_taxonomy": 1,
+                  "percent_estimate": 0,
+                  "text": "NATURE IDENTICAL FLAVOURING",
+                  "vegan": "maybe",
+                  "vegetarian": "maybe"
+                }
+              ],
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0,
+              "text": "FLAVOURING",
+              "vegan": "maybe",
+              "vegetarian": "maybe"
+            },
+            {
+              "id": "en:flavouring",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0,
+              "text": "SUBSTANCES",
+              "vegan": "maybe",
+              "vegetarian": "maybe"
+            }
+          ],
+          "is_in_taxonomy": 1,
+          "percent_estimate": 0,
+          "text": "FLAVOUR",
+          "vegan": "maybe",
+          "vegetarian": "maybe"
+        },
+        {
+          "id": "en:e160c",
+          "ingredients": [
+            {
+              "id": "en:e160c",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0,
+              "text": "e160C",
+              "vegan": "yes",
+              "vegetarian": "yes"
+            }
+          ],
+          "is_in_taxonomy": 1,
+          "percent_estimate": 0,
+          "text": "PAPRIKA EXTRACT",
+          "vegan": "yes",
+          "vegetarian": "yes"
+        },
+        {
+          "id": "en:stabiliser",
+          "ingredients": [
+            {
+              "id": "en:e340",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0,
+              "text": "e340",
+              "vegan": "yes",
+              "vegetarian": "yes"
+            }
+          ],
+          "is_in_taxonomy": 1,
+          "percent_estimate": 0,
+          "text": "STABILIZER"
+        },
+        {
+          "id": "en:emulsifier",
+          "ingredients": [
+            {
+              "from_palm_oil": "maybe",
+              "id": "en:e470",
+              "is_in_taxonomy": 1,
+              "percent_estimate": 0,
+              "text": "e470",
+              "vegan": "maybe",
+              "vegetarian": "maybe"
+            }
+          ],
+          "is_in_taxonomy": 1,
+          "percent_estimate": 0,
+          "text": "EMULSIFIER"
+        }
+      ],
+      "is_in_taxonomy": 1,
+      "percent_estimate": 8,
+      "text": "SEASONING",
+      "vegan": "maybe",
+      "vegetarian": "maybe"
+    }
+  ],
+  "ingredients_analysis": {
+    "en:palm-oil": [
+      "en:palm-olein"
+    ],
+    "en:vegan-status-unknown": [
+      "en:groundnut",
+      "en:hydrolyzed-vegetable-protein-soya"
+    ],
+    "en:vegetarian-status-unknown": [
+      "en:groundnut",
+      "en:hydrolyzed-vegetable-protein-soya"
+    ]
+  },
+  "ingredients_analysis_tags": [
+    "en:palm-oil",
+    "en:vegan-status-unknown",
+    "en:vegetarian"
+  ],
+  "ingredients_from_or_that_may_be_from_palm_oil_n": 0,
+  "ingredients_from_palm_oil_n": 0,
+  "ingredients_from_palm_oil_tags": [],
+  "ingredients_hierarchy": [
+    "en:potato",
+    "en:vegetable",
+    "en:root-vegetable",
+    "en:tuber",
+    "en:vegetable-oil",
+    "en:oil-and-fat",
+    "en:vegetable-oil-and-fat",
+    "en:coating",
+    "en:contains-one-and-more-of-the-followings",
+    "en:groundnut",
+    "en:sugar-coating",
+    "en:added-sugar",
+    "en:disaccharide",
+    "en:sugar",
+    "en:maltodextrin",
+    "en:salt",
+    "en:spice",
+    "en:condiment",
+    "en:black-salt",
+    "en:acidity-regulator",
+    "en:milk-coating",
+    "en:preparation",
+    "en:hydrolyzed-vegetable-protein-soya",
+    "en:anti-caking-agent",
+    "en:flavour-enhancer",
+    "en:flavouring",
+    "en:e160c",
+    "en:stabiliser",
+    "en:emulsifier",
+    "en:palm-olein",
+    "en:palm-oil-and-fat",
+    "en:palm-oil",
+    "en:chili-pepper",
+    "en:fruit-vegetable",
+    "en:pepper",
+    "en:seed",
+    "en:onion",
+    "en:onion-family-vegetable",
+    "en:garlic",
+    "en:tomato",
+    "en:e330",
+    "en:e296",
+    "en:e334",
+    "en:e551",
+    "en:e627",
+    "en:e631",
+    "en:e340",
+    "en:e470",
+    "en:natural-flavouring",
+    "en:nature-identical-flavouring"
+  ],
+  "ingredients_lc": "en",
+  "ingredients_n": 40,
+  "ingredients_n_tags": [
+    "40",
+    "31-40"
+  ],
+  "ingredients_non_nutritive_sweeteners_n": 0,
+  "ingredients_original_tags": [
+    "en:potato",
+    "en:vegetable-oil",
+    "en:coating",
+    "en:contains-one-and-more-of-the-followings",
+    "en:groundnut",
+    "en:sugar-coating",
+    "en:maltodextrin",
+    "en:salt",
+    "en:spice",
+    "en:condiment",
+    "en:vegetable",
+    "en:black-salt",
+    "en:acidity-regulator",
+    "en:milk-coating",
+    "en:hydrolyzed-vegetable-protein-soya",
+    "en:anti-caking-agent",
+    "en:flavour-enhancer",
+    "en:flavouring",
+    "en:e160c",
+    "en:stabiliser",
+    "en:emulsifier",
+    "en:palm-olein",
+    "en:chili-pepper",
+    "en:pepper",
+    "en:onion",
+    "en:garlic",
+    "en:tomato",
+    "en:e330",
+    "en:e296",
+    "en:e334",
+    "en:e551",
+    "en:e627",
+    "en:e631",
+    "en:flavouring",
+    "en:flavouring",
+    "en:e160c",
+    "en:e340",
+    "en:e470",
+    "en:natural-flavouring",
+    "en:nature-identical-flavouring"
+  ],
+  "ingredients_percent_analysis": -1,
+  "ingredients_sweeteners_n": 0,
+  "ingredients_tags": [
+    "en:potato",
+    "en:vegetable",
+    "en:root-vegetable",
+    "en:tuber",
+    "en:vegetable-oil",
+    "en:oil-and-fat",
+    "en:vegetable-oil-and-fat",
+    "en:coating",
+    "en:contains-one-and-more-of-the-followings",
+    "en:groundnut",
+    "en:sugar-coating",
+    "en:added-sugar",
+    "en:disaccharide",
+    "en:sugar",
+    "en:maltodextrin",
+    "en:salt",
+    "en:spice",
+    "en:condiment",
+    "en:black-salt",
+    "en:acidity-regulator",
+    "en:milk-coating",
+    "en:preparation",
+    "en:hydrolyzed-vegetable-protein-soya",
+    "en:anti-caking-agent",
+    "en:flavour-enhancer",
+    "en:flavouring",
+    "en:e160c",
+    "en:stabiliser",
+    "en:emulsifier",
+    "en:palm-olein",
+    "en:palm-oil-and-fat",
+    "en:palm-oil",
+    "en:chili-pepper",
+    "en:fruit-vegetable",
+    "en:pepper",
+    "en:seed",
+    "en:onion",
+    "en:onion-family-vegetable",
+    "en:garlic",
+    "en:tomato",
+    "en:e330",
+    "en:e296",
+    "en:e334",
+    "en:e551",
+    "en:e627",
+    "en:e631",
+    "en:e340",
+    "en:e470",
+    "en:natural-flavouring",
+    "en:nature-identical-flavouring"
+  ],
+  "ingredients_text": "POTATO (84%), EDIBLE VEGETABLE OIL (CONTAINS ONE OR MORE OF THE FOLLOWINGS: PALMOLEIN, GROUNDNUT), **SEASONING [SUGAR, MALTODEXTRIN, SALT, SPICES & CONDIMENTS (CHILLI (0.5%), PEPPER), DEHYDRATED VEGETABLE POWDER (ONION, GARLIC, TOMATO), BLACK SALT, ACIDITY REGULATOR (INS 330, INS 296, INS 334), MILK SOLIDS (0.1%), HYDROLYZED VEGETABLE PROTEIN SOYA), ANTICAKING AGENT (INS 551), FLAVOUR ENHANCER (INS 627, INS 631) FLAVOUR (NATURAL & NATURE IDENTICAL FLAVOURING SUBSTANCES), PAPRIKA EXTRACT (INS 160C), STABILIZER (INS 340), EMULSIFIER (INS 470)]",
+  "ingredients_text_en": "POTATO (84%), EDIBLE VEGETABLE OIL (CONTAINS ONE OR MORE OF THE FOLLOWINGS: PALMOLEIN, GROUNDNUT), **SEASONING [SUGAR, MALTODEXTRIN, SALT, SPICES & CONDIMENTS (CHILLI (0.5%), PEPPER), DEHYDRATED VEGETABLE POWDER (ONION, GARLIC, TOMATO), BLACK SALT, ACIDITY REGULATOR (INS 330, INS 296, INS 334), MILK SOLIDS (0.1%), HYDROLYZED VEGETABLE PROTEIN SOYA), ANTICAKING AGENT (INS 551), FLAVOUR ENHANCER (INS 627, INS 631) FLAVOUR (NATURAL & NATURE IDENTICAL FLAVOURING SUBSTANCES), PAPRIKA EXTRACT (INS 160C), STABILIZER (INS 340), EMULSIFIER (INS 470)]",
+  "ingredients_text_with_allergens": "POTATO (84%), EDIBLE VEGETABLE OIL (CONTAINS ONE OR MORE OF THE FOLLOWINGS: PALMOLEIN, GROUNDNUT), **SEASONING [SUGAR, MALTODEXTRIN, SALT, SPICES & CONDIMENTS (CHILLI (0.5%), PEPPER), DEHYDRATED VEGETABLE POWDER (ONION, GARLIC, TOMATO), BLACK SALT, ACIDITY REGULATOR (INS 330, INS 296, INS 334), MILK SOLIDS (0.1%), HYDROLYZED VEGETABLE PROTEIN SOYA), ANTICAKING AGENT (INS 551), FLAVOUR ENHANCER (INS 627, INS 631) FLAVOUR (NATURAL & NATURE IDENTICAL FLAVOURING SUBSTANCES), PAPRIKA EXTRACT (INS 160C), STABILIZER (INS 340), EMULSIFIER (INS 470)]",
+  "ingredients_text_with_allergens_en": "POTATO (84%), EDIBLE VEGETABLE OIL (CONTAINS ONE OR MORE OF THE FOLLOWINGS: PALMOLEIN, GROUNDNUT), **SEASONING [SUGAR, MALTODEXTRIN, SALT, SPICES & CONDIMENTS (CHILLI (0.5%), PEPPER), DEHYDRATED VEGETABLE POWDER (ONION, GARLIC, TOMATO), BLACK SALT, ACIDITY REGULATOR (INS 330, INS 296, INS 334), MILK SOLIDS (0.1%), HYDROLYZED VEGETABLE PROTEIN SOYA), ANTICAKING AGENT (INS 551), FLAVOUR ENHANCER (INS 627, INS 631) FLAVOUR (NATURAL & NATURE IDENTICAL FLAVOURING SUBSTANCES), PAPRIKA EXTRACT (INS 160C), STABILIZER (INS 340), EMULSIFIER (INS 470)]",
+  "ingredients_that_may_be_from_palm_oil_n": 0,
+  "ingredients_that_may_be_from_palm_oil_tags": [],
+  "ingredients_with_specified_percent_n": 2,
+  "ingredients_with_specified_percent_sum": 84.1,
+  "ingredients_with_unspecified_percent_n": 25,
+  "ingredients_with_unspecified_percent_sum": 15.96875,
+  "ingredients_without_ciqual_codes": [
+    "en:acidity-regulator",
+    "en:anti-caking-agent",
+    "en:coating",
+    "en:condiment",
+    "en:contains-one-and-more-of-the-followings",
+    "en:e160c",
+    "en:e296",
+    "en:e330",
+    "en:e334",
+    "en:e340",
+    "en:e470",
+    "en:e551",
+    "en:e627",
+    "en:e631",
+    "en:emulsifier",
+    "en:flavour-enhancer",
+    "en:flavouring",
+    "en:groundnut",
+    "en:hydrolyzed-vegetable-protein-soya",
+    "en:maltodextrin",
+    "en:milk-coating",
+    "en:natural-flavouring",
+    "en:nature-identical-flavouring",
+    "en:spice",
+    "en:stabiliser",
+    "en:vegetable",
+    "en:vegetable-oil"
+  ],
+  "ingredients_without_ciqual_codes_n": 27,
+  "ingredients_without_ecobalyse_ids": [
+    "en:acidity-regulator",
+    "en:anti-caking-agent",
+    "en:black-salt",
+    "en:chili-pepper",
+    "en:coating",
+    "en:condiment",
+    "en:contains-one-and-more-of-the-followings",
+    "en:e160c",
+    "en:e296",
+    "en:e330",
+    "en:e334",
+    "en:e340",
+    "en:e470",
+    "en:e551",
+    "en:e627",
+    "en:e631",
+    "en:emulsifier",
+    "en:flavour-enhancer",
+    "en:flavouring",
+    "en:garlic",
+    "en:groundnut",
+    "en:hydrolyzed-vegetable-protein-soya",
+    "en:maltodextrin",
+    "en:milk-coating",
+    "en:natural-flavouring",
+    "en:nature-identical-flavouring",
+    "en:pepper",
+    "en:salt",
+    "en:spice",
+    "en:stabiliser",
+    "en:vegetable",
+    "en:vegetable-oil"
+  ],
+  "ingredients_without_ecobalyse_ids_n": 32,
+  "interface_version_created": "20150316.jqm2",
+  "interface_version_modified": "20150316.jqm2",
+  "known_ingredients_n": 37,
+  "labels": "Green Dot India",
+  "labels_hierarchy": [
+    "en:vegetarian",
+    "en:green-dot-india"
+  ],
+  "labels_lc": "en",
+  "labels_old": "",
+  "labels_tags": [
+    "en:vegetarian",
+    "en:green-dot-india"
+  ],
+  "lang": "en",
+  "languages": {
+    "en:english": 4
+  },
+  "languages_codes": {
+    "en": 4
+  },
+  "languages_hierarchy": [
+    "en:english"
+  ],
+  "languages_tags": [
+    "en:english",
+    "en:1"
+  ],
+  "last_edit_dates_tags": [
+    "2025-11-29",
+    "2025-11",
+    "2025"
+  ],
+  "last_editor": "nizilshah",
+  "last_image_dates_tags": [
+    "2025-11-29",
+    "2025-11",
+    "2025"
+  ],
+  "last_image_t": 1764429844,
+  "last_modified_by": "nizilshah",
+  "last_modified_t": 1764429943,
+  "last_updated_t": 1764429943,
+  "lc": "en",
+  "link": "",
+  "main_countries_tags": [],
+  "manufacturing_places": "",
+  "manufacturing_places_tags": [],
+  "max_imgid": 4,
+  "minerals_tags": [],
+  "misc_tags": [
+    "en:environmental-score-changed",
+    "en:environmental-score-computed",
+    "en:environmental-score-grade-changed",
+    "en:environmental-score-missing-data-labels",
+    "en:environmental-score-missing-data-packagings",
+    "en:environmental-score-missing-data-warning",
+    "en:nutriscore-2021-d-2023-d",
+    "en:nutriscore-2021-same-as-2023",
+    "en:nutriscore-computed",
+    "en:nutrition-fruits-vegetables-legumes-from-category",
+    "en:nutrition-fruits-vegetables-legumes-from-category-en-salty-snacks-made-from-potato",
+    "en:nutrition-fruits-vegetables-nuts-from-category",
+    "en:nutrition-fruits-vegetables-nuts-from-category-en-salty-snacks-made-from-potato",
+    "en:packagings-not-complete",
+    "en:packagings-not-empty",
+    "en:packagings-not-empty-but-not-complete",
+    "en:packagings-number-of-components-1",
+    "en:some-ingredients-with-specified-percent",
+    "en:main-countries-old-product-without-scans-in-2020"
+  ],
+  "nova_group": 4,
+  "nova_group_debug": "",
+  "nova_groups": "4",
+  "nova_groups_markers": {
+    "3": [
+      [
+        "categories",
+        "en:salty-snacks"
+      ],
+      [
+        "ingredients",
+        "en:anti-caking-agent"
+      ],
+      [
+        "ingredients",
+        "en:salt"
+      ],
+      [
+        "ingredients",
+        "en:sugar"
+      ],
+      [
+        "ingredients",
+        "en:vegetable-oil"
+      ]
+    ],
+    "4": [
+      [
+        "additives",
+        "en:e160c"
+      ],
+      [
+        "additives",
+        "en:e470"
+      ],
+      [
+        "additives",
+        "en:e551"
+      ],
+      [
+        "additives",
+        "en:e627"
+      ],
+      [
+        "additives",
+        "en:e631"
+      ],
+      [
+        "ingredients",
+        "en:emulsifier"
+      ],
+      [
+        "ingredients",
+        "en:flavour-enhancer"
+      ],
+      [
+        "ingredients",
+        "en:flavouring"
+      ],
+      [
+        "ingredients",
+        "en:maltodextrin"
+      ]
+    ]
+  },
+  "nova_groups_tags": [
+    "en:4-ultra-processed-food-and-drink-products"
+  ],
+  "nucleotides_tags": [],
+  "nutrient_levels": {
+    "fat": "high",
+    "salt": "low",
+    "saturated-fat": "high",
+    "sugars": "low"
+  },
+  "nutrient_levels_tags": [
+    "en:fat-in-high-quantity",
+    "en:saturated-fat-in-high-quantity",
+    "en:sugars-in-low-quantity",
+    "en:salt-in-low-quantity"
+  ],
+  "nutriments": {
+    "carbohydrates": 55,
+    "carbohydrates_100g": 55,
+    "carbohydrates_unit": "g",
+    "carbohydrates_value": 55,
+    "energy": 2280,
+    "energy-kcal": 545,
+    "energy-kcal_100g": 545,
+    "energy-kcal_unit": "kcal",
+    "energy-kcal_value": 545,
+    "energy_100g": 2280,
+    "energy_unit": "kJ",
+    "energy_value": 2280,
+    "fat": 30.7,
+    "fat_100g": 30.7,
+    "fat_unit": "g",
+    "fat_value": 30.7,
+    "fiber": 9.3,
+    "fiber_100g": 9.3,
+    "fiber_unit": "g",
+    "fiber_value": 9.3,
+    "nova-group": 4,
+    "nova-group_100g": 4,
+    "nova-group_serving": 4,
+    "nova-group_unit": "g",
+    "nova-group_value": 4,
+    "proteins": 7.5,
+    "proteins_100g": 7.5,
+    "proteins_unit": "g",
+    "proteins_value": 7.5,
+    "salt": 0.0024175,
+    "salt_100g": 0.0024175,
+    "salt_unit": "g",
+    "salt_value": 0.0024175,
+    "saturated-fat": 14.4,
+    "saturated-fat_100g": 14.4,
+    "saturated-fat_unit": "g",
+    "saturated-fat_value": 14.4,
+    "sodium": 0.000967,
+    "sodium_100g": 0.000967,
+    "sodium_unit": "g",
+    "sodium_value": 0.000967,
+    "sugars": 3.8,
+    "sugars_100g": 3.8,
+    "sugars_unit": "g",
+    "sugars_value": 3.8
+  },
+  "nutriscore": {
+    "2021": {
+      "category_available": 1,
+      "data": {
+        "energy": 2280,
+        "energy_points": 6,
+        "energy_value": 2280,
+        "fiber": 9.3,
+        "fiber_points": 5,
+        "fiber_value": 9.3,
+        "fruits_vegetables_nuts_colza_walnut_olive_oils": 0,
+        "fruits_vegetables_nuts_colza_walnut_olive_oils_points": 0,
+        "fruits_vegetables_nuts_colza_walnut_olive_oils_value": 0,
+        "is_beverage": 0,
+        "is_cheese": 0,
+        "is_fat": 0,
+        "is_water": 0,
+        "negative_points": 16,
+        "positive_points": 5,
+        "proteins": 7.5,
+        "proteins_points": 4,
+        "proteins_value": 7.5,
+        "saturated_fat": 14.4,
+        "saturated_fat_points": 10,
+        "saturated_fat_value": 14.4,
+        "sodium": 0.967,
+        "sodium_points": 0,
+        "sodium_value": 1,
+        "sugars": 3.8,
+        "sugars_points": 0,
+        "sugars_value": 3.8
+      },
+      "grade": "d",
+      "nutrients_available": 1,
+      "nutriscore_applicable": 1,
+      "nutriscore_computed": 1,
+      "score": 11
+    },
+    "2023": {
+      "category_available": 1,
+      "data": {
+        "components": {
+          "negative": [
+            {
+              "id": "energy",
+              "points": 6,
+              "points_max": 10,
+              "unit": "kJ",
+              "value": 2280
+            },
+            {
+              "id": "sugars",
+              "points": 1,
+              "points_max": 15,
+              "unit": "g",
+              "value": 3.8
+            },
+            {
+              "id": "saturated_fat",
+              "points": 10,
+              "points_max": 10,
+              "unit": "g",
+              "value": 14.4
+            },
+            {
+              "id": "salt",
+              "points": 0,
+              "points_max": 20,
+              "unit": "g",
+              "value": 0
+            }
+          ],
+          "positive": [
+            {
+              "id": "fiber",
+              "points": 5,
+              "points_max": 5,
+              "unit": "g",
+              "value": 9.3
+            },
+            {
+              "id": "fruits_vegetables_legumes",
+              "points": 0,
+              "points_max": 5,
+              "unit": "%",
+              "value": 0
+            }
+          ]
+        },
+        "count_proteins": 0,
+        "count_proteins_reason": "negative_points_greater_than_or_equal_to_11",
+        "is_beverage": 0,
+        "is_cheese": 0,
+        "is_fat_oil_nuts_seeds": 0,
+        "is_red_meat_product": 0,
+        "is_water": 0,
+        "negative_points": 17,
+        "negative_points_max": 55,
+        "positive_nutrients": [
+          "fiber",
+          "fruits_vegetables_legumes"
+        ],
+        "positive_points": 5,
+        "positive_points_max": 10
+      },
+      "grade": "d",
+      "nutrients_available": 1,
+      "nutriscore_applicable": 1,
+      "nutriscore_computed": 1,
+      "score": 12
+    }
+  },
+  "nutriscore_2021_tags": [
+    "d"
+  ],
+  "nutriscore_2023_tags": [
+    "d"
+  ],
+  "nutriscore_data": {
+    "components": {
+      "negative": [
+        {
+          "id": "energy",
+          "points": 6,
+          "points_max": 10,
+          "unit": "kJ",
+          "value": 2280
+        },
+        {
+          "id": "sugars",
+          "points": 1,
+          "points_max": 15,
+          "unit": "g",
+          "value": 3.8
+        },
+        {
+          "id": "saturated_fat",
+          "points": 10,
+          "points_max": 10,
+          "unit": "g",
+          "value": 14.4
+        },
+        {
+          "id": "salt",
+          "points": 0,
+          "points_max": 20,
+          "unit": "g",
+          "value": 0
+        }
+      ],
+      "positive": [
+        {
+          "id": "fiber",
+          "points": 5,
+          "points_max": 5,
+          "unit": "g",
+          "value": 9.3
+        },
+        {
+          "id": "fruits_vegetables_legumes",
+          "points": 0,
+          "points_max": 5,
+          "unit": "%",
+          "value": 0
+        }
+      ]
+    },
+    "count_proteins": 0,
+    "count_proteins_reason": "negative_points_greater_than_or_equal_to_11",
+    "grade": "d",
+    "is_beverage": 0,
+    "is_cheese": 0,
+    "is_fat_oil_nuts_seeds": 0,
+    "is_red_meat_product": 0,
+    "is_water": 0,
+    "negative_points": 17,
+    "negative_points_max": 55,
+    "positive_nutrients": [
+      "fiber",
+      "fruits_vegetables_legumes"
+    ],
+    "positive_points": 5,
+    "positive_points_max": 10,
+    "score": 12
+  },
+  "nutriscore_grade": "d",
+  "nutriscore_score": 12,
+  "nutriscore_score_opposite": -12,
+  "nutriscore_tags": [
+    "d"
+  ],
+  "nutriscore_version": "2023",
+  "nutrition_data": "on",
+  "nutrition_data_per": "100g",
+  "nutrition_data_prepared_per": "100g",
+  "nutrition_grade_fr": "d",
+  "nutrition_grades": "d",
+  "nutrition_grades_tags": [
+    "d"
+  ],
+  "nutrition_score_beverage": 0,
+  "nutrition_score_debug": "",
+  "obsolete": "",
+  "obsolete_since_date": "",
+  "origins": "India",
+  "origins_hierarchy": [
+    "en:india"
+  ],
+  "origins_lc": "en",
+  "origins_old": "",
+  "origins_tags": [
+    "en:india"
+  ],
+  "other_nutritional_substances_tags": [],
+  "packaging": "",
+  "packaging_hierarchy": [],
+  "packaging_lc": "en",
+  "packaging_materials_tags": [
+    "en:plastic"
+  ],
+  "packaging_old": "",
+  "packaging_recycling_tags": [],
+  "packaging_shapes_tags": [],
+  "packaging_tags": [],
+  "packagings": [
+    {
+      "food_contact": 1,
+      "material": "en:plastic",
+      "number_of_units": 1
+    }
+  ],
+  "packagings_materials": {
+    "all": {},
+    "en:plastic": {}
+  },
+  "packagings_n": 1,
+  "photographers_tags": [
+    "openfoodfacts-contributors",
+    "shrikrushna",
+    "nizilshah"
+  ],
+  "pnns_groups_1": "Salty snacks",
+  "pnns_groups_1_tags": [
+    "salty-snacks",
+    "known"
+  ],
+  "pnns_groups_2": "Appetizers",
+  "pnns_groups_2_tags": [
+    "appetizers",
+    "known"
+  ],
+  "popularity_key": 18,
+  "popularity_tags": [
+    "top-75-percent-scans-2023",
+    "top-80-percent-scans-2023",
+    "top-85-percent-scans-2023",
+    "top-90-percent-scans-2023",
+    "top-1000-in-scans-2023",
+    "top-5000-in-scans-2023",
+    "top-10000-in-scans-2023",
+    "top-50000-in-scans-2023",
+    "top-100000-in-scans-2023",
+    "top-country-in-scans-2023",
+    "at-least-5-scans-2024",
+    "top-75-percent-scans-2024",
+    "top-80-percent-scans-2024",
+    "top-85-percent-scans-2024",
+    "top-90-percent-scans-2024",
+    "top-1000-in-scans-2024",
+    "top-5000-in-scans-2024",
+    "top-10000-in-scans-2024",
+    "top-50000-in-scans-2024",
+    "top-100000-in-scans-2024",
+    "top-country-in-scans-2024",
+    "at-least-5-in-scans-2024"
+  ],
+  "product_name": "Balaji Wafers Crunchex",
+  "product_name_en": "Balaji Wafers Crunchex",
+  "product_quantity": 32,
+  "product_quantity_unit": "g",
+  "product_type": "food",
+  "purchase_places": "",
+  "purchase_places_tags": [],
+  "quantity": "32g",
+  "removed_countries_tags": [],
+  "rev": 22,
+  "scans_n": 9,
+  "schema_version": 998,
+  "selected_images": {
+    "front": {
+      "display": {
+        "en": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.400.jpg"
+      },
+      "small": {
+        "en": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.200.jpg"
+      },
+      "thumb": {
+        "en": "https://images.openfoodfacts.net/images/products/890/601/050/1570/front_en.13.100.jpg"
+      }
+    },
+    "ingredients": {
+      "display": {
+        "en": "https://images.openfoodfacts.net/images/products/890/601/050/1570/ingredients_en.21.400.jpg"
+      },
+      "small": {
+        "en": "https://images.openfoodfacts.net/images/products/890/601/050/1570/ingredients_en.21.200.jpg"
+      },
+      "thumb": {
+        "en": "https://images.openfoodfacts.net/images/products/890/601/050/1570/ingredients_en.21.100.jpg"
+      }
+    }
+  },
+  "sortkey": 1600657084,
+  "states": "en:to-be-completed, en:nutrition-facts-completed, en:ingredients-completed, en:expiration-date-to-be-completed, en:packaging-code-to-be-completed, en:characteristics-to-be-completed, en:origins-completed, en:categories-completed, en:brands-completed, en:packaging-to-be-completed, en:quantity-completed, en:product-name-completed, en:photos-to-be-validated, en:packaging-photo-to-be-selected, en:nutrition-photo-to-be-selected, en:ingredients-photo-selected, en:front-photo-selected, en:photos-uploaded",
+  "states_hierarchy": [
+    "en:to-be-completed",
+    "en:nutrition-facts-completed",
+    "en:ingredients-completed",
+    "en:expiration-date-to-be-completed",
+    "en:packaging-code-to-be-completed",
+    "en:characteristics-to-be-completed",
+    "en:origins-completed",
+    "en:categories-completed",
+    "en:brands-completed",
+    "en:packaging-to-be-completed",
+    "en:quantity-completed",
+    "en:product-name-completed",
+    "en:photos-to-be-validated",
+    "en:packaging-photo-to-be-selected",
+    "en:nutrition-photo-to-be-selected",
+    "en:ingredients-photo-selected",
+    "en:front-photo-selected",
+    "en:photos-uploaded"
+  ],
+  "states_tags": [
+    "en:to-be-completed",
+    "en:nutrition-facts-completed",
+    "en:ingredients-completed",
+    "en:expiration-date-to-be-completed",
+    "en:packaging-code-to-be-completed",
+    "en:characteristics-to-be-completed",
+    "en:origins-completed",
+    "en:categories-completed",
+    "en:brands-completed",
+    "en:packaging-to-be-completed",
+    "en:quantity-completed",
+    "en:product-name-completed",
+    "en:photos-to-be-validated",
+    "en:packaging-photo-to-be-selected",
+    "en:nutrition-photo-to-be-selected",
+    "en:ingredients-photo-selected",
+    "en:front-photo-selected",
+    "en:photos-uploaded"
+  ],
+  "stores": "",
+  "stores_tags": [],
+  "traces": "en:milk,en:peanuts",
+  "traces_from_ingredients": "",
+  "traces_from_user": "(en) en:milk,en:peanuts",
+  "traces_hierarchy": [
+    "en:milk",
+    "en:peanuts"
+  ],
+  "traces_lc": "en",
+  "traces_tags": [
+    "en:milk",
+    "en:peanuts"
+  ],
+  "unique_scans_n": 6,
+  "unknown_ingredients_n": 3,
+  "unknown_nutrients_tags": [],
+  "update_key": "sort",
+  "vitamins_tags": [],
+  "weighers_tags": []
+}

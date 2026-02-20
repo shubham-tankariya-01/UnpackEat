@@ -1,0 +1,82 @@
+{
+  "barcode": "8906010505509",
+  "product": {
+    "code": "8906010505509",
+    "name": "Unknown",
+    "brand": "Unknown",
+    "image": "https://images.openfoodfacts.net/images/products/890/601/050/5509/front_en.3.400.jpg",
+    "quantity": "250 g",
+    "categories": [
+      "en:snacks"
+    ]
+  },
+  "highlights": {
+    "health_score": 82,
+    "verdict": "Healthy choice",
+    "likes": [],
+    "concerns": [
+      "Salt content not reported",
+      "Saturated fat not reported",
+      "Sugar content not reported",
+      "Very limited nutrition data available"
+    ],
+    "nova_group": null
+  },
+  "nutrients": [],
+  "nutrient_radar": {
+    "salt": 0.0,
+    "saturated_fat": 0.0,
+    "sugars": 0.0,
+    "energy": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0
+  },
+  "ingredients": {
+    "text": "",
+    "ingredients": [],
+    "additives": [],
+    "dominant": [],
+    "contains_palm_oil": false,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": null,
+      "fat": null,
+      "saturated_fat": null,
+      "carbohydrates": null,
+      "sugars": null,
+      "fiber": null,
+      "protein": null,
+      "salt": null,
+      "cholesterol": null
+    },
+    "per_serving": null,
+    "serving_size_g": null
+  },
+  "metadata": {
+    "nova_group": null,
+    "nova_group_error": "missing_ingredients",
+    "nutriscore_grade": null,
+    "nutrient_levels": {},
+    "labels": [],
+    "food_groups": [],
+    "countries": [
+      "en:united-kingdom"
+    ],
+    "off_completeness": 0.3,
+    "data_quality_warnings": [
+      "en:environmental-score-origins-of-ingredients-origins-are-100-percent-unknown",
+      "en:environmental-score-packaging-packaging-data-missing",
+      "en:environmental-score-production-system-no-label",
+      "en:environmental-score-threatened-species-ingredients-missing"
+    ],
+    "nutrition_data_per": "100g"
+  },
+  "environment": {
+    "ecoscore": "unknown",
+    "packaging": []
+  }
+}

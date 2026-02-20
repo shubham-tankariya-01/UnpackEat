@@ -1,0 +1,1545 @@
+{
+  "_id": "8904004400779",
+  "_keywords": [
+    "aloo",
+    "bhujia",
+    "haldiram",
+    "sev",
+    "snake"
+  ],
+  "added_countries_tags": [],
+  "additives_n": 2,
+  "additives_original_tags": [
+    "en:e406",
+    "en:e330"
+  ],
+  "additives_tags": [
+    "en:e330",
+    "en:e406"
+  ],
+  "allergens": "",
+  "allergens_from_ingredients": "",
+  "allergens_from_user": "(fr) ",
+  "allergens_hierarchy": [],
+  "allergens_tags": [],
+  "amino_acids_prev_tags": [],
+  "amino_acids_tags": [],
+  "brands": "Haldiram's",
+  "brands_old": "Haldiram's",
+  "brands_tags": [
+    "haldiram-s"
+  ],
+  "categories": "Snakes,Sev",
+  "categories_hierarchy": [
+    "en:Sev",
+    "en:Snakes"
+  ],
+  "categories_lc": "en",
+  "categories_properties": {},
+  "categories_properties_tags": [
+    "all-products",
+    "categories-known",
+    "agribalyse-food-code-unknown",
+    "agribalyse-proxy-food-code-unknown",
+    "ciqual-food-code-unknown",
+    "agribalyse-unknown"
+  ],
+  "categories_tags": [
+    "en:sev",
+    "en:snakes"
+  ],
+  "category_properties": {},
+  "checkers_tags": [],
+  "ciqual_food_name_tags": [
+    "unknown"
+  ],
+  "code": "8904004400779",
+  "codes_tags": [
+    "code-13",
+    "8904004400xxx",
+    "890400440xxxx",
+    "89040044xxxxx",
+    "8904004xxxxxx",
+    "890400xxxxxxx",
+    "89040xxxxxxxx",
+    "8904xxxxxxxxx",
+    "890xxxxxxxxxx",
+    "89xxxxxxxxxxx",
+    "8xxxxxxxxxxxx"
+  ],
+  "complete": 0,
+  "completeness": 0.575,
+  "correctors_tags": [
+    "openfoodfacts-contributors",
+    "scanbot",
+    "babalagin"
+  ],
+  "countries": "France, en:india",
+  "countries_beforescanbot": "France",
+  "countries_hierarchy": [
+    "en:france",
+    "en:india"
+  ],
+  "countries_lc": "en",
+  "countries_tags": [
+    "en:france",
+    "en:india"
+  ],
+  "created_t": 1541956587,
+  "creator": "kiliweb",
+  "data_quality_bugs_tags": [],
+  "data_quality_errors_tags": [],
+  "data_quality_info_tags": [
+    "en:no-packaging-data",
+    "en:ingredients-percent-analysis-ok",
+    "en:food-groups-1-unknown",
+    "en:food-groups-2-unknown",
+    "en:food-groups-3-unknown"
+  ],
+  "data_quality_tags": [
+    "en:no-packaging-data",
+    "en:ingredients-percent-analysis-ok",
+    "en:food-groups-1-unknown",
+    "en:food-groups-2-unknown",
+    "en:food-groups-3-unknown",
+    "en:ingredients-language-mismatch-fr-contains-en",
+    "en:ingredients-unknown-score-above-20",
+    "en:ingredients-90-percent-unknown",
+    "en:ingredients-ingredient-tag-length-greater-than-50",
+    "en:environmental-score-origins-of-ingredients-origins-are-100-percent-unknown",
+    "en:environmental-score-packaging-packaging-data-missing",
+    "en:environmental-score-production-system-no-label"
+  ],
+  "data_quality_warnings_tags": [
+    "en:ingredients-language-mismatch-fr-contains-en",
+    "en:ingredients-unknown-score-above-20",
+    "en:ingredients-90-percent-unknown",
+    "en:ingredients-ingredient-tag-length-greater-than-50",
+    "en:environmental-score-origins-of-ingredients-origins-are-100-percent-unknown",
+    "en:environmental-score-packaging-packaging-data-missing",
+    "en:environmental-score-production-system-no-label"
+  ],
+  "data_sources": "App - yuka, Apps, App - smoothie-openfoodfacts",
+  "data_sources_tags": [
+    "app-yuka",
+    "apps",
+    "app-smoothie-openfoodfacts"
+  ],
+  "ecoscore_data": {
+    "adjustments": {
+      "origins_of_ingredients": {
+        "aggregated_origins": [
+          {
+            "epi_score": 0,
+            "origin": "en:unknown",
+            "percent": 100,
+            "transportation_score": 0
+          }
+        ],
+        "epi_score": 0,
+        "epi_value": -5,
+        "origins_from_categories": [
+          "en:unknown"
+        ],
+        "origins_from_origins_field": [
+          "en:unknown"
+        ],
+        "transportation_score": 0,
+        "transportation_scores": {
+          "ad": 0,
+          "al": 0,
+          "at": 0,
+          "ax": 0,
+          "ba": 0,
+          "be": 0,
+          "bg": 0,
+          "ch": 0,
+          "cy": 0,
+          "cz": 0,
+          "de": 0,
+          "dk": 0,
+          "dz": 0,
+          "ee": 0,
+          "eg": 0,
+          "es": 0,
+          "fi": 0,
+          "fo": 0,
+          "fr": 0,
+          "gg": 0,
+          "gi": 0,
+          "gr": 0,
+          "hr": 0,
+          "hu": 0,
+          "ie": 0,
+          "il": 0,
+          "im": 0,
+          "is": 0,
+          "it": 0,
+          "je": 0,
+          "lb": 0,
+          "li": 0,
+          "lt": 0,
+          "lu": 0,
+          "lv": 0,
+          "ly": 0,
+          "ma": 0,
+          "mc": 0,
+          "md": 0,
+          "me": 0,
+          "mk": 0,
+          "mt": 0,
+          "nl": 0,
+          "no": 0,
+          "pl": 0,
+          "ps": 0,
+          "pt": 0,
+          "ro": 0,
+          "rs": 0,
+          "se": 0,
+          "si": 0,
+          "sj": 0,
+          "sk": 0,
+          "sm": 0,
+          "sy": 0,
+          "tn": 0,
+          "tr": 0,
+          "ua": 0,
+          "uk": 0,
+          "us": 0,
+          "va": 0,
+          "world": 0,
+          "xk": 0
+        },
+        "transportation_value": 0,
+        "transportation_values": {
+          "ad": 0,
+          "al": 0,
+          "at": 0,
+          "ax": 0,
+          "ba": 0,
+          "be": 0,
+          "bg": 0,
+          "ch": 0,
+          "cy": 0,
+          "cz": 0,
+          "de": 0,
+          "dk": 0,
+          "dz": 0,
+          "ee": 0,
+          "eg": 0,
+          "es": 0,
+          "fi": 0,
+          "fo": 0,
+          "fr": 0,
+          "gg": 0,
+          "gi": 0,
+          "gr": 0,
+          "hr": 0,
+          "hu": 0,
+          "ie": 0,
+          "il": 0,
+          "im": 0,
+          "is": 0,
+          "it": 0,
+          "je": 0,
+          "lb": 0,
+          "li": 0,
+          "lt": 0,
+          "lu": 0,
+          "lv": 0,
+          "ly": 0,
+          "ma": 0,
+          "mc": 0,
+          "md": 0,
+          "me": 0,
+          "mk": 0,
+          "mt": 0,
+          "nl": 0,
+          "no": 0,
+          "pl": 0,
+          "ps": 0,
+          "pt": 0,
+          "ro": 0,
+          "rs": 0,
+          "se": 0,
+          "si": 0,
+          "sj": 0,
+          "sk": 0,
+          "sm": 0,
+          "sy": 0,
+          "tn": 0,
+          "tr": 0,
+          "ua": 0,
+          "uk": 0,
+          "us": 0,
+          "va": 0,
+          "world": 0,
+          "xk": 0
+        },
+        "value": -5,
+        "values": {
+          "ad": -5,
+          "al": -5,
+          "at": -5,
+          "ax": -5,
+          "ba": -5,
+          "be": -5,
+          "bg": -5,
+          "ch": -5,
+          "cy": -5,
+          "cz": -5,
+          "de": -5,
+          "dk": -5,
+          "dz": -5,
+          "ee": -5,
+          "eg": -5,
+          "es": -5,
+          "fi": -5,
+          "fo": -5,
+          "fr": -5,
+          "gg": -5,
+          "gi": -5,
+          "gr": -5,
+          "hr": -5,
+          "hu": -5,
+          "ie": -5,
+          "il": -5,
+          "im": -5,
+          "is": -5,
+          "it": -5,
+          "je": -5,
+          "lb": -5,
+          "li": -5,
+          "lt": -5,
+          "lu": -5,
+          "lv": -5,
+          "ly": -5,
+          "ma": -5,
+          "mc": -5,
+          "md": -5,
+          "me": -5,
+          "mk": -5,
+          "mt": -5,
+          "nl": -5,
+          "no": -5,
+          "pl": -5,
+          "ps": -5,
+          "pt": -5,
+          "ro": -5,
+          "rs": -5,
+          "se": -5,
+          "si": -5,
+          "sj": -5,
+          "sk": -5,
+          "sm": -5,
+          "sy": -5,
+          "tn": -5,
+          "tr": -5,
+          "ua": -5,
+          "uk": -5,
+          "us": -5,
+          "va": -5,
+          "world": -5,
+          "xk": -5
+        },
+        "warning": "origins_are_100_percent_unknown"
+      },
+      "packaging": {
+        "value": -15,
+        "warning": "packaging_data_missing"
+      },
+      "production_system": {
+        "labels": [],
+        "value": 0,
+        "warning": "no_label"
+      },
+      "threatened_species": {}
+    },
+    "agribalyse": {
+      "warning": "missing_agribalyse_match"
+    },
+    "grade": "unknown",
+    "missing": {
+      "agb_category": 1,
+      "labels": 1,
+      "origins": 1,
+      "packagings": 1
+    },
+    "missing_agribalyse_match_warning": 1,
+    "missing_key_data": 1,
+    "scores": {},
+    "status": "unknown"
+  },
+  "ecoscore_grade": "unknown",
+  "ecoscore_tags": [
+    "unknown"
+  ],
+  "editors_tags": [
+    "babalagin",
+    "charlesnepote",
+    "foodless",
+    "kiliweb",
+    "openfoodfacts-contributors",
+    "scanbot",
+    "yuka.Ui9FUEtQd3hsOFFYdWZRdzBSSG41OEJwNnErVGVFWHNkdk1jSVE9PQ"
+  ],
+  "entry_dates_tags": [
+    "2018-11-11",
+    "2018-11",
+    "2018"
+  ],
+  "food_groups_tags": [],
+  "id": "8904004400779",
+  "image_front_small_url": "https://images.openfoodfacts.net/images/products/890/400/440/0779/front_fr.9.200.jpg",
+  "image_front_thumb_url": "https://images.openfoodfacts.net/images/products/890/400/440/0779/front_fr.9.100.jpg",
+  "image_front_url": "https://images.openfoodfacts.net/images/products/890/400/440/0779/front_fr.9.400.jpg",
+  "image_ingredients_small_url": "https://images.openfoodfacts.net/images/products/890/400/440/0779/ingredients_fr.4.200.jpg",
+  "image_ingredients_thumb_url": "https://images.openfoodfacts.net/images/products/890/400/440/0779/ingredients_fr.4.100.jpg",
+  "image_ingredients_url": "https://images.openfoodfacts.net/images/products/890/400/440/0779/ingredients_fr.4.400.jpg",
+  "image_nutrition_small_url": "https://images.openfoodfacts.net/images/products/890/400/440/0779/nutrition_en.7.200.jpg",
+  "image_nutrition_thumb_url": "https://images.openfoodfacts.net/images/products/890/400/440/0779/nutrition_en.7.100.jpg",
+  "image_nutrition_url": "https://images.openfoodfacts.net/images/products/890/400/440/0779/nutrition_en.7.400.jpg",
+  "image_small_url": "https://images.openfoodfacts.net/images/products/890/400/440/0779/front_fr.9.200.jpg",
+  "image_thumb_url": "https://images.openfoodfacts.net/images/products/890/400/440/0779/front_fr.9.100.jpg",
+  "image_url": "https://images.openfoodfacts.net/images/products/890/400/440/0779/front_fr.9.400.jpg",
+  "images": {
+    "1": {
+      "sizes": {
+        "100": {
+          "h": 47,
+          "w": 100
+        },
+        "400": {
+          "h": 190,
+          "w": 400
+        },
+        "full": {
+          "h": 1200,
+          "w": 2527
+        }
+      },
+      "uploaded_t": 1541956588,
+      "uploader": "kiliweb"
+    },
+    "2": {
+      "sizes": {
+        "100": {
+          "h": 100,
+          "w": 75
+        },
+        "400": {
+          "h": 400,
+          "w": 300
+        },
+        "full": {
+          "h": 4640,
+          "w": 3480
+        }
+      },
+      "uploaded_t": 1667967170,
+      "uploader": "openfoodfacts-contributors"
+    },
+    "3": {
+      "sizes": {
+        "100": {
+          "h": 100,
+          "w": 52
+        },
+        "400": {
+          "h": 400,
+          "w": 208
+        },
+        "full": {
+          "h": 5174,
+          "w": 2692
+        }
+      },
+      "uploaded_t": 1702897132,
+      "uploader": "foodless"
+    },
+    "front_fr": {
+      "imgid": "3",
+      "rev": "9",
+      "sizes": {
+        "100": {
+          "h": 100,
+          "w": 52
+        },
+        "200": {
+          "h": 200,
+          "w": 104
+        },
+        "400": {
+          "h": 400,
+          "w": 208
+        },
+        "full": {
+          "h": 5174,
+          "w": 2692
+        }
+      }
+    },
+    "ingredients_fr": {
+      "imgid": "1",
+      "rev": "4",
+      "sizes": {
+        "100": {
+          "h": 47,
+          "w": 100
+        },
+        "200": {
+          "h": 95,
+          "w": 200
+        },
+        "400": {
+          "h": 190,
+          "w": 400
+        },
+        "full": {
+          "h": 1200,
+          "w": 2527
+        }
+      }
+    },
+    "nutrition_en": {
+      "imgid": "2",
+      "rev": "7",
+      "sizes": {
+        "100": {
+          "h": 100,
+          "w": 75
+        },
+        "200": {
+          "h": 200,
+          "w": 150
+        },
+        "400": {
+          "h": 400,
+          "w": 300
+        },
+        "full": {
+          "h": 4640,
+          "w": 3480
+        }
+      }
+    }
+  },
+  "informers_tags": [
+    "yuka.Ui9FUEtQd3hsOFFYdWZRdzBSSG41OEJwNnErVGVFWHNkdk1jSVE9PQ",
+    "kiliweb",
+    "openfoodfacts-contributors",
+    "charlesnepote",
+    "foodless",
+    "babalagin"
+  ],
+  "ingredients": [
+    {
+      "id": "fr:potato",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 52.0833333333333,
+      "percent_max": 100,
+      "percent_min": 4.16666666666667,
+      "text": "Potato"
+    },
+    {
+      "id": "fr:refined-palmolein-oil",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 23.9583333333333,
+      "percent_max": 50,
+      "percent_min": 0,
+      "text": "Refined Palmolein Oil"
+    },
+    {
+      "id": "fr:bengal-gram-flour",
+      "ingredients": [
+        {
+          "id": "fr:besan",
+          "is_in_taxonomy": 0,
+          "percent_estimate": 11.9791666666667,
+          "percent_max": 33.3333333333333,
+          "percent_min": 0,
+          "text": "Besan"
+        }
+      ],
+      "is_in_taxonomy": 0,
+      "percent_estimate": 11.9791666666667,
+      "percent_max": 33.3333333333333,
+      "percent_min": 0,
+      "text": "Bengal Gram Flour"
+    },
+    {
+      "id": "fr:potato-flakes",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 5.98958333333333,
+      "percent_max": 25,
+      "percent_min": 0,
+      "text": "Potato Flakes"
+    },
+    {
+      "id": "fr:potato-starch",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 2.99479166666666,
+      "percent_max": 20,
+      "percent_min": 0,
+      "text": "Potato Starch"
+    },
+    {
+      "id": "fr:tapioca-starch",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 1.49739583333333,
+      "percent_max": 16.6666666666667,
+      "percent_min": 0,
+      "text": "Tapioca Starch"
+    },
+    {
+      "id": "fr:tapary-beans",
+      "ingredients": [
+        {
+          "id": "fr:moth-dal",
+          "is_in_taxonomy": 0,
+          "percent_estimate": 0.748697916666664,
+          "percent_max": 14.2857142857143,
+          "percent_min": 0,
+          "text": "Moth dal"
+        }
+      ],
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0.748697916666664,
+      "percent_max": 14.2857142857143,
+      "percent_min": 0,
+      "text": "Tapary Beans"
+    },
+    {
+      "id": "fr:flour",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0.374348958333329,
+      "percent_max": 12.5,
+      "percent_min": 0,
+      "text": "Flour"
+    },
+    {
+      "id": "fr:lodised-salt",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0.187174479166664,
+      "percent_max": 11.1111111111111,
+      "percent_min": 0,
+      "text": "lodised Salt"
+    },
+    {
+      "id": "fr:red-chilli-powder",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0.0935872395833286,
+      "percent_max": 10,
+      "percent_min": 0,
+      "text": "Red Chilli Powder"
+    },
+    {
+      "id": "fr:black-salt",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0.0467936197916643,
+      "percent_max": 9.09090909090909,
+      "percent_min": 0,
+      "text": "Black Salt"
+    },
+    {
+      "id": "fr:acidity-regulator",
+      "ingredients": [
+        {
+          "id": "en:e330",
+          "is_in_taxonomy": 1,
+          "percent_estimate": 0.0233968098958286,
+          "percent_max": 8.33333333333333,
+          "percent_min": 0,
+          "text": "e330",
+          "vegan": "yes",
+          "vegetarian": "yes"
+        }
+      ],
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0.0233968098958286,
+      "percent_max": 8.33333333333333,
+      "percent_min": 0,
+      "text": "Acidity Regulator"
+    },
+    {
+      "id": "fr:black-pepper",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0.0116984049479143,
+      "percent_max": 7.69230769230769,
+      "percent_min": 0,
+      "text": "Black Pepper"
+    },
+    {
+      "id": "fr:clove",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0.0058492024739536,
+      "percent_max": 7.14285714285714,
+      "percent_min": 0,
+      "text": "Clove"
+    },
+    {
+      "id": "fr:cardamom",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0.0029246012369768,
+      "percent_max": 6.66666666666667,
+      "percent_min": 0,
+      "text": "Cardamom"
+    },
+    {
+      "id": "fr:dried-ginger-powder",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0.00146230061848485,
+      "percent_max": 6.25,
+      "percent_min": 0,
+      "text": "Dried Ginger Powder"
+    },
+    {
+      "id": "fr:dried-garlic-powder",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0.000731150309242423,
+      "percent_max": 5.88235294117647,
+      "percent_min": 0,
+      "text": "Dried Garlic Powder"
+    },
+    {
+      "id": "fr:refined-sugar",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0.000365575154617659,
+      "percent_max": 5.55555555555556,
+      "percent_min": 0,
+      "text": "Refined Sugar"
+    },
+    {
+      "id": "fr:cumin-powder",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 0.000182787577308829,
+      "percent_max": 5.26315789473684,
+      "percent_min": 0,
+      "text": "Cumin Powder"
+    },
+    {
+      "id": "fr:bay-leaves",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 9.1393788650862e-05,
+      "percent_max": 5,
+      "percent_min": 0,
+      "text": "Bay Leaves"
+    },
+    {
+      "id": "fr:nutmeg",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 4.5696894325431e-05,
+      "percent_max": 4.76190476190476,
+      "percent_min": 0,
+      "text": "Nutmeg"
+    },
+    {
+      "id": "fr:cinnamon-et-mint-leaves",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 2.28484471591628e-05,
+      "percent_max": 4.54545454545455,
+      "percent_min": 0,
+      "text": "Cinnamon et Mint Leaves"
+    },
+    {
+      "id": "fr:contains-added-natural",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 1.14242235795814e-05,
+      "percent_max": 4.34782608695652,
+      "percent_min": 0,
+      "text": "CONTAINS ADDED NATURAL"
+    },
+    {
+      "id": "fr:nature-identical-et-artificial-flavouring-substances-allergy-advice",
+      "is_in_taxonomy": 0,
+      "percent_estimate": 1.1424223572476e-05,
+      "percent_max": 4.16666666666667,
+      "percent_min": 0,
+      "text": "NATURE IDENTICAL et ARTIFICIAL FLAVOURING SUBSTANCES Allergy Advice"
+    }
+  ],
+  "ingredients_analysis": {
+    "en:palm-oil-content-unknown": [
+      "fr:potato",
+      "fr:refined-palmolein-oil",
+      "fr:bengal-gram-flour",
+      "fr:besan",
+      "fr:potato-flakes",
+      "fr:potato-starch",
+      "fr:tapioca-starch",
+      "fr:tapary-beans",
+      "fr:moth-dal",
+      "fr:flour",
+      "fr:lodised-salt",
+      "fr:red-chilli-powder",
+      "fr:black-salt",
+      "fr:acidity-regulator",
+      "fr:black-pepper",
+      "fr:clove",
+      "fr:cardamom",
+      "fr:dried-ginger-powder",
+      "fr:dried-garlic-powder",
+      "fr:refined-sugar",
+      "fr:cumin-powder",
+      "fr:bay-leaves",
+      "fr:nutmeg",
+      "fr:cinnamon-et-mint-leaves",
+      "fr:contains-added-natural",
+      "fr:nature-identical-et-artificial-flavouring-substances-allergy-advice"
+    ],
+    "en:vegan-status-unknown": [
+      "fr:potato",
+      "fr:refined-palmolein-oil",
+      "fr:bengal-gram-flour",
+      "fr:besan",
+      "fr:potato-flakes",
+      "fr:potato-starch",
+      "fr:tapioca-starch",
+      "fr:tapary-beans",
+      "fr:moth-dal",
+      "fr:flour",
+      "fr:lodised-salt",
+      "fr:red-chilli-powder",
+      "fr:black-salt",
+      "fr:acidity-regulator",
+      "fr:black-pepper",
+      "fr:clove",
+      "fr:cardamom",
+      "fr:dried-ginger-powder",
+      "fr:dried-garlic-powder",
+      "fr:refined-sugar",
+      "fr:cumin-powder",
+      "fr:bay-leaves",
+      "fr:nutmeg",
+      "fr:cinnamon-et-mint-leaves",
+      "fr:contains-added-natural",
+      "fr:nature-identical-et-artificial-flavouring-substances-allergy-advice"
+    ],
+    "en:vegetarian-status-unknown": [
+      "fr:potato",
+      "fr:refined-palmolein-oil",
+      "fr:bengal-gram-flour",
+      "fr:besan",
+      "fr:potato-flakes",
+      "fr:potato-starch",
+      "fr:tapioca-starch",
+      "fr:tapary-beans",
+      "fr:moth-dal",
+      "fr:flour",
+      "fr:lodised-salt",
+      "fr:red-chilli-powder",
+      "fr:black-salt",
+      "fr:acidity-regulator",
+      "fr:black-pepper",
+      "fr:clove",
+      "fr:cardamom",
+      "fr:dried-ginger-powder",
+      "fr:dried-garlic-powder",
+      "fr:refined-sugar",
+      "fr:cumin-powder",
+      "fr:bay-leaves",
+      "fr:nutmeg",
+      "fr:cinnamon-et-mint-leaves",
+      "fr:contains-added-natural",
+      "fr:nature-identical-et-artificial-flavouring-substances-allergy-advice"
+    ]
+  },
+  "ingredients_analysis_tags": [
+    "en:palm-oil-content-unknown",
+    "en:vegan-status-unknown",
+    "en:vegetarian-status-unknown"
+  ],
+  "ingredients_debug": [],
+  "ingredients_from_palm_oil_tags": [],
+  "ingredients_hierarchy": [
+    "fr:potato",
+    "fr:refined-palmolein-oil",
+    "fr:bengal-gram-flour",
+    "fr:potato-flakes",
+    "fr:potato-starch",
+    "fr:tapioca-starch",
+    "fr:tapary-beans",
+    "fr:flour",
+    "fr:lodised-salt",
+    "fr:red-chilli-powder",
+    "fr:black-salt",
+    "fr:acidity-regulator",
+    "fr:black-pepper",
+    "fr:clove",
+    "fr:cardamom",
+    "fr:dried-ginger-powder",
+    "fr:dried-garlic-powder",
+    "fr:refined-sugar",
+    "fr:cumin-powder",
+    "fr:bay-leaves",
+    "fr:nutmeg",
+    "fr:cinnamon-et-mint-leaves",
+    "fr:contains-added-natural",
+    "fr:nature-identical-et-artificial-flavouring-substances-allergy-advice",
+    "fr:besan",
+    "fr:moth-dal",
+    "en:e330"
+  ],
+  "ingredients_ids_debug": [],
+  "ingredients_lc": "fr",
+  "ingredients_n": 27,
+  "ingredients_n_tags": [
+    "27",
+    "21-30"
+  ],
+  "ingredients_non_nutritive_sweeteners_n": 0,
+  "ingredients_original_tags": [
+    "fr:potato",
+    "fr:refined-palmolein-oil",
+    "fr:bengal-gram-flour",
+    "fr:potato-flakes",
+    "fr:potato-starch",
+    "fr:tapioca-starch",
+    "fr:tapary-beans",
+    "fr:flour",
+    "fr:lodised-salt",
+    "fr:red-chilli-powder",
+    "fr:black-salt",
+    "fr:acidity-regulator",
+    "fr:black-pepper",
+    "fr:clove",
+    "fr:cardamom",
+    "fr:dried-ginger-powder",
+    "fr:dried-garlic-powder",
+    "fr:refined-sugar",
+    "fr:cumin-powder",
+    "fr:bay-leaves",
+    "fr:nutmeg",
+    "fr:cinnamon-et-mint-leaves",
+    "fr:contains-added-natural",
+    "fr:nature-identical-et-artificial-flavouring-substances-allergy-advice",
+    "fr:besan",
+    "fr:moth-dal",
+    "en:e330"
+  ],
+  "ingredients_percent_analysis": 1,
+  "ingredients_sweeteners_n": 0,
+  "ingredients_tags": [
+    "fr:potato",
+    "fr:refined-palmolein-oil",
+    "fr:bengal-gram-flour",
+    "fr:potato-flakes",
+    "fr:potato-starch",
+    "fr:tapioca-starch",
+    "fr:tapary-beans",
+    "fr:flour",
+    "fr:lodised-salt",
+    "fr:red-chilli-powder",
+    "fr:black-salt",
+    "fr:acidity-regulator",
+    "fr:black-pepper",
+    "fr:clove",
+    "fr:cardamom",
+    "fr:dried-ginger-powder",
+    "fr:dried-garlic-powder",
+    "fr:refined-sugar",
+    "fr:cumin-powder",
+    "fr:bay-leaves",
+    "fr:nutmeg",
+    "fr:cinnamon-et-mint-leaves",
+    "fr:contains-added-natural",
+    "fr:nature-identical-et-artificial-flavouring-substances-allergy-advice",
+    "fr:besan",
+    "fr:moth-dal",
+    "en:e330"
+  ],
+  "ingredients_text": "Potato, Refined Palmolein Oil, Bengal Gram Flour (Besan), Potato Flakes, Potato Starch, Tapioca Starch, Tapary Beans (Moth dal) Flour, lodised Salt, Red Chilli Powder, Black Salt, Acidity Regulator (INS 330), Black Pepper, Clove, Cardamom, Dried Ginger Powder, Dried Garlic Powder, Refined Sugar, Cumin Powder, Bay Leaves, Nutmeg, Cinnamon & Mint Leaves. CONTAINS ADDED NATURAL, NATURE IDENTICAL & ARTIFICIAL FLAVOURING SUBSTANCES Allergy Advice.",
+  "ingredients_text_fr": "Potato, Refined Palmolein Oil, Bengal Gram Flour (Besan), Potato Flakes, Potato Starch, Tapioca Starch, Tapary Beans (Moth dal) Flour, lodised Salt, Red Chilli Powder, Black Salt, Acidity Regulator (INS 330), Black Pepper, Clove, Cardamom, Dried Ginger Powder, Dried Garlic Powder, Refined Sugar, Cumin Powder, Bay Leaves, Nutmeg, Cinnamon & Mint Leaves. CONTAINS ADDED NATURAL, NATURE IDENTICAL & ARTIFICIAL FLAVOURING SUBSTANCES Allergy Advice.",
+  "ingredients_text_with_allergens": "Potato, Refined Palmolein Oil, Bengal Gram Flour (Besan), Potato Flakes, Potato Starch, Tapioca Starch, Tapary Beans (Moth dal) Flour, lodised Salt, Red Chilli Powder, Black Salt, Acidity Regulator (INS 330), Black Pepper, Clove, Cardamom, Dried Ginger Powder, Dried Garlic Powder, Refined Sugar, Cumin Powder, Bay Leaves, Nutmeg, Cinnamon & Mint Leaves. CONTAINS ADDED NATURAL, NATURE IDENTICAL & ARTIFICIAL FLAVOURING SUBSTANCES Allergy Advice.",
+  "ingredients_text_with_allergens_fr": "Potato, Refined Palmolein Oil, Bengal Gram Flour (Besan), Potato Flakes, Potato Starch, Tapioca Starch, Tapary Beans (Moth dal) Flour, lodised Salt, Red Chilli Powder, Black Salt, Acidity Regulator (INS 330), Black Pepper, Clove, Cardamom, Dried Ginger Powder, Dried Garlic Powder, Refined Sugar, Cumin Powder, Bay Leaves, Nutmeg, Cinnamon & Mint Leaves. CONTAINS ADDED NATURAL, NATURE IDENTICAL & ARTIFICIAL FLAVOURING SUBSTANCES Allergy Advice.",
+  "ingredients_that_may_be_from_palm_oil_tags": [],
+  "ingredients_with_specified_percent_n": 0,
+  "ingredients_with_specified_percent_sum": 0,
+  "ingredients_with_unspecified_percent_n": 24,
+  "ingredients_with_unspecified_percent_sum": 99.9999999999999,
+  "ingredients_without_ciqual_codes": [
+    "en:e330",
+    "fr:acidity-regulator",
+    "fr:bay-leaves",
+    "fr:bengal-gram-flour",
+    "fr:besan",
+    "fr:black-pepper",
+    "fr:black-salt",
+    "fr:cardamom",
+    "fr:cinnamon-et-mint-leaves",
+    "fr:clove",
+    "fr:contains-added-natural",
+    "fr:cumin-powder",
+    "fr:dried-garlic-powder",
+    "fr:dried-ginger-powder",
+    "fr:flour",
+    "fr:lodised-salt",
+    "fr:moth-dal",
+    "fr:nature-identical-et-artificial-flavouring-substances-allergy-advice",
+    "fr:nutmeg",
+    "fr:potato",
+    "fr:potato-flakes",
+    "fr:potato-starch",
+    "fr:red-chilli-powder",
+    "fr:refined-palmolein-oil",
+    "fr:refined-sugar",
+    "fr:tapary-beans",
+    "fr:tapioca-starch"
+  ],
+  "ingredients_without_ciqual_codes_n": 27,
+  "ingredients_without_ecobalyse_ids": [
+    "en:e330",
+    "fr:acidity-regulator",
+    "fr:bay-leaves",
+    "fr:bengal-gram-flour",
+    "fr:besan",
+    "fr:black-pepper",
+    "fr:black-salt",
+    "fr:cardamom",
+    "fr:cinnamon-et-mint-leaves",
+    "fr:clove",
+    "fr:contains-added-natural",
+    "fr:cumin-powder",
+    "fr:dried-garlic-powder",
+    "fr:dried-ginger-powder",
+    "fr:flour",
+    "fr:lodised-salt",
+    "fr:moth-dal",
+    "fr:nature-identical-et-artificial-flavouring-substances-allergy-advice",
+    "fr:nutmeg",
+    "fr:potato",
+    "fr:potato-flakes",
+    "fr:potato-starch",
+    "fr:red-chilli-powder",
+    "fr:refined-palmolein-oil",
+    "fr:refined-sugar",
+    "fr:tapary-beans",
+    "fr:tapioca-starch"
+  ],
+  "ingredients_without_ecobalyse_ids_n": 27,
+  "interface_version_created": "20150316.jqm2",
+  "interface_version_modified": "20150316.jqm2",
+  "known_ingredients_n": 1,
+  "lang": "fr",
+  "languages": {
+    "en:english": 1,
+    "en:french": 4
+  },
+  "languages_codes": {
+    "en": 1,
+    "fr": 4
+  },
+  "languages_hierarchy": [
+    "en:english",
+    "en:french"
+  ],
+  "languages_tags": [
+    "en:english",
+    "en:french",
+    "en:2",
+    "en:multilingual"
+  ],
+  "last_edit_dates_tags": [
+    "2025-06-13",
+    "2025-06",
+    "2025"
+  ],
+  "last_editor": "babalagin",
+  "last_image_dates_tags": [
+    "2023-12-18",
+    "2023-12",
+    "2023"
+  ],
+  "last_image_t": 1702897134,
+  "last_modified_by": "babalagin",
+  "last_modified_t": 1749783773,
+  "last_updated_t": 1749783773,
+  "lc": "fr",
+  "main_countries_tags": [],
+  "max_imgid": "3",
+  "minerals_prev_tags": [],
+  "minerals_tags": [],
+  "misc_tags": [
+    "en:environmental-score-not-computed",
+    "en:nutriscore-2021-better-than-2023",
+    "en:nutriscore-2021-d-2023-e",
+    "en:nutriscore-2021-different-from-2023",
+    "en:nutriscore-computed",
+    "en:nutrition-all-nutriscore-values-known",
+    "en:nutrition-fruits-vegetables-legumes-estimate-from-ingredients",
+    "en:nutrition-fruits-vegetables-nuts-estimate-from-ingredients",
+    "en:packagings-empty",
+    "en:packagings-not-complete",
+    "en:packagings-number-of-components-0",
+    "en:main-countries-fr-unexpectedly-low-scans",
+    "en:main-countries-fr-unexpectedly-low-scans-0-10-percent-of-expected",
+    "en:main-countries-in-product-name-not-in-country-language",
+    "en:main-countries-in-ingredients-not-in-country-language",
+    "en:main-countries-in-no-data-in-country-language"
+  ],
+  "nova_group": 4,
+  "nova_group_debug": "",
+  "nova_groups": "4",
+  "nova_groups_markers": {
+    "4": [
+      [
+        "additives",
+        "en:e406"
+      ]
+    ]
+  },
+  "nova_groups_tags": [
+    "en:4-ultra-processed-food-and-drink-products"
+  ],
+  "nucleotides_prev_tags": [],
+  "nucleotides_tags": [],
+  "nutrient_levels": {
+    "fat": "high",
+    "salt": "moderate",
+    "saturated-fat": "high",
+    "sugars": "low"
+  },
+  "nutrient_levels_tags": [
+    "en:fat-in-high-quantity",
+    "en:saturated-fat-in-high-quantity",
+    "en:sugars-in-low-quantity",
+    "en:salt-in-moderate-quantity"
+  ],
+  "nutriments": {
+    "carbohydrates": 47.71,
+    "carbohydrates_100g": 47.71,
+    "carbohydrates_unit": "g",
+    "carbohydrates_value": 47.71,
+    "energy": 2353,
+    "energy-kcal": 564,
+    "energy-kcal_100g": 564,
+    "energy-kcal_unit": "kcal",
+    "energy-kcal_value": 564,
+    "energy-kj": 2353,
+    "energy-kj_100g": 2353,
+    "energy-kj_unit": "kJ",
+    "energy-kj_value": 2353,
+    "energy_100g": 2353,
+    "energy_unit": "kJ",
+    "energy_value": 2353,
+    "fat": 37.48,
+    "fat_100g": 37.48,
+    "fat_unit": "g",
+    "fat_value": 37.48,
+    "fiber": 4.04,
+    "fiber_100g": 4.04,
+    "fiber_unit": "g",
+    "fiber_value": 4.04,
+    "nova-group": 4,
+    "nova-group_100g": 4,
+    "nova-group_serving": 4,
+    "nova-group_unit": "g",
+    "nova-group_value": 4,
+    "proteins": 8.97,
+    "proteins_100g": 8.97,
+    "proteins_unit": "g",
+    "proteins_value": 8.97,
+    "salt": 0.615,
+    "salt_100g": 0.615,
+    "salt_unit": "g",
+    "salt_value": 0.615,
+    "saturated-fat": 16.42,
+    "saturated-fat_100g": 16.42,
+    "saturated-fat_unit": "g",
+    "saturated-fat_value": 16.42,
+    "sodium": 0.246,
+    "sodium_100g": 0.246,
+    "sodium_unit": "g",
+    "sodium_value": 0.246,
+    "sugars": 0,
+    "sugars_100g": 0,
+    "sugars_unit": "g",
+    "sugars_value": 0
+  },
+  "nutriscore": {
+    "2021": {
+      "category_available": 1,
+      "data": {
+        "energy": 2353,
+        "energy_points": 7,
+        "energy_value": 2353,
+        "fiber": 4.04,
+        "fiber_points": 4,
+        "fiber_value": 4.04,
+        "fruits_vegetables_nuts_colza_walnut_olive_oils": 0,
+        "fruits_vegetables_nuts_colza_walnut_olive_oils_points": 0,
+        "fruits_vegetables_nuts_colza_walnut_olive_oils_value": 0,
+        "is_beverage": 0,
+        "is_cheese": 0,
+        "is_fat": 0,
+        "is_water": 0,
+        "negative_points": 19,
+        "positive_points": 4,
+        "proteins": 8.97,
+        "proteins_points": 5,
+        "proteins_value": 8.97,
+        "saturated_fat": 16.42,
+        "saturated_fat_points": 10,
+        "saturated_fat_value": 16.4,
+        "sodium": 246,
+        "sodium_points": 2,
+        "sodium_value": 246,
+        "sugars": 0,
+        "sugars_points": 0,
+        "sugars_value": 0
+      },
+      "grade": "d",
+      "nutrients_available": 1,
+      "nutriscore_applicable": 1,
+      "nutriscore_computed": 1,
+      "score": 15
+    },
+    "2023": {
+      "category_available": 1,
+      "data": {
+        "components": {
+          "negative": [
+            {
+              "id": "energy",
+              "points": 7,
+              "points_max": 10,
+              "unit": "kJ",
+              "value": 2353
+            },
+            {
+              "id": "sugars",
+              "points": 0,
+              "points_max": 15,
+              "unit": "g",
+              "value": 0
+            },
+            {
+              "id": "saturated_fat",
+              "points": 10,
+              "points_max": 10,
+              "unit": "g",
+              "value": 16.42
+            },
+            {
+              "id": "salt",
+              "points": 3,
+              "points_max": 20,
+              "unit": "g",
+              "value": 0.61
+            }
+          ],
+          "positive": [
+            {
+              "id": "fiber",
+              "points": 1,
+              "points_max": 5,
+              "unit": "g",
+              "value": 4.04
+            },
+            {
+              "id": "fruits_vegetables_legumes",
+              "points": 0,
+              "points_max": 5,
+              "unit": "%",
+              "value": 0
+            }
+          ]
+        },
+        "count_proteins": 0,
+        "count_proteins_reason": "negative_points_greater_than_or_equal_to_11",
+        "is_beverage": 0,
+        "is_cheese": 0,
+        "is_fat_oil_nuts_seeds": 0,
+        "is_red_meat_product": 0,
+        "is_water": 0,
+        "negative_points": 20,
+        "negative_points_max": 55,
+        "positive_nutrients": [
+          "fiber",
+          "fruits_vegetables_legumes"
+        ],
+        "positive_points": 1,
+        "positive_points_max": 10
+      },
+      "grade": "e",
+      "nutrients_available": 1,
+      "nutriscore_applicable": 1,
+      "nutriscore_computed": 1,
+      "score": 19
+    }
+  },
+  "nutriscore_2021_tags": [
+    "d"
+  ],
+  "nutriscore_2023_tags": [
+    "e"
+  ],
+  "nutriscore_data": {
+    "components": {
+      "negative": [
+        {
+          "id": "energy",
+          "points": 7,
+          "points_max": 10,
+          "unit": "kJ",
+          "value": 2353
+        },
+        {
+          "id": "sugars",
+          "points": 0,
+          "points_max": 15,
+          "unit": "g",
+          "value": 0
+        },
+        {
+          "id": "saturated_fat",
+          "points": 10,
+          "points_max": 10,
+          "unit": "g",
+          "value": 16.42
+        },
+        {
+          "id": "salt",
+          "points": 3,
+          "points_max": 20,
+          "unit": "g",
+          "value": 0.61
+        }
+      ],
+      "positive": [
+        {
+          "id": "fiber",
+          "points": 1,
+          "points_max": 5,
+          "unit": "g",
+          "value": 4.04
+        },
+        {
+          "id": "fruits_vegetables_legumes",
+          "points": 0,
+          "points_max": 5,
+          "unit": "%",
+          "value": 0
+        }
+      ]
+    },
+    "count_proteins": 0,
+    "count_proteins_reason": "negative_points_greater_than_or_equal_to_11",
+    "grade": "e",
+    "is_beverage": 0,
+    "is_cheese": 0,
+    "is_fat_oil_nuts_seeds": 0,
+    "is_red_meat_product": 0,
+    "is_water": 0,
+    "negative_points": 20,
+    "negative_points_max": 55,
+    "positive_nutrients": [
+      "fiber",
+      "fruits_vegetables_legumes"
+    ],
+    "positive_points": 1,
+    "positive_points_max": 10,
+    "score": 19
+  },
+  "nutriscore_grade": "e",
+  "nutriscore_score": 19,
+  "nutriscore_score_opposite": -19,
+  "nutriscore_tags": [
+    "e"
+  ],
+  "nutriscore_version": "2023",
+  "nutrition_data": "on",
+  "nutrition_data_per": "100g",
+  "nutrition_data_per_debug_tags": [],
+  "nutrition_data_prepared_per": "100g",
+  "nutrition_grade_fr": "e",
+  "nutrition_grades": "e",
+  "nutrition_grades_tags": [
+    "e"
+  ],
+  "nutrition_score_beverage": 0,
+  "nutrition_score_debug": "",
+  "nutrition_score_warning_fruits_vegetables_legumes_estimate_from_ingredients": 1,
+  "nutrition_score_warning_fruits_vegetables_legumes_estimate_from_ingredients_value": 0,
+  "nutrition_score_warning_fruits_vegetables_nuts_estimate_from_ingredients": 1,
+  "nutrition_score_warning_fruits_vegetables_nuts_estimate_from_ingredients_value": 0,
+  "other_nutritional_substances_tags": [],
+  "packaging_materials_tags": [],
+  "packaging_recycling_tags": [],
+  "packaging_shapes_tags": [],
+  "packagings": [],
+  "packagings_materials": {},
+  "photographers_tags": [
+    "kiliweb",
+    "openfoodfacts-contributors",
+    "foodless"
+  ],
+  "pnns_groups_1": "unknown",
+  "pnns_groups_1_tags": [
+    "unknown",
+    "missing-association"
+  ],
+  "pnns_groups_2": "unknown",
+  "pnns_groups_2_tags": [
+    "unknown",
+    "missing-association"
+  ],
+  "popularity_key": 23900000011,
+  "popularity_tags": [
+    "bottom-25-percent-scans-2020",
+    "bottom-20-percent-scans-2020",
+    "top-85-percent-scans-2020",
+    "top-90-percent-scans-2020",
+    "top-500-in-scans-2020",
+    "top-1000-in-scans-2020",
+    "top-5000-in-scans-2020",
+    "top-10000-in-scans-2020",
+    "top-50000-in-scans-2020",
+    "top-100000-in-scans-2020",
+    "top-country-in-scans-2020",
+    "top-75-percent-scans-2022",
+    "top-80-percent-scans-2022",
+    "top-85-percent-scans-2022",
+    "top-90-percent-scans-2022",
+    "top-500-in-scans-2022",
+    "top-1000-in-scans-2022",
+    "top-5000-in-scans-2022",
+    "top-10000-in-scans-2022",
+    "top-50000-in-scans-2022",
+    "top-100000-in-scans-2022",
+    "top-country-in-scans-2022",
+    "top-75-percent-scans-2023",
+    "top-80-percent-scans-2023",
+    "top-85-percent-scans-2023",
+    "top-90-percent-scans-2023",
+    "top-5000-si-scans-2023",
+    "top-10000-si-scans-2023",
+    "top-50000-si-scans-2023",
+    "top-100000-si-scans-2023",
+    "top-country-si-scans-2023",
+    "top-5000-in-scans-2023",
+    "top-10000-in-scans-2023",
+    "top-50000-in-scans-2023",
+    "top-100000-in-scans-2023",
+    "top-50000-us-scans-2023",
+    "top-100000-us-scans-2023",
+    "top-100000-scans-2024",
+    "at-least-5-scans-2024",
+    "at-least-10-scans-2024",
+    "top-75-percent-scans-2024",
+    "top-80-percent-scans-2024",
+    "top-85-percent-scans-2024",
+    "top-90-percent-scans-2024",
+    "top-500-in-scans-2024",
+    "top-1000-in-scans-2024",
+    "top-5000-in-scans-2024",
+    "top-10000-in-scans-2024",
+    "top-50000-in-scans-2024",
+    "top-100000-in-scans-2024",
+    "top-country-in-scans-2024",
+    "at-least-5-in-scans-2024",
+    "at-least-10-in-scans-2024"
+  ],
+  "product_name": "Haldiram's Aloo Bhujia",
+  "product_name_debug_tags": [],
+  "product_name_fr": "Haldiram's Aloo Bhujia",
+  "product_type": "food",
+  "removed_countries_tags": [],
+  "rev": 14,
+  "scans_n": 18,
+  "schema_version": 998,
+  "selected_images": {
+    "front": {
+      "display": {
+        "fr": "https://images.openfoodfacts.net/images/products/890/400/440/0779/front_fr.9.400.jpg"
+      },
+      "small": {
+        "fr": "https://images.openfoodfacts.net/images/products/890/400/440/0779/front_fr.9.200.jpg"
+      },
+      "thumb": {
+        "fr": "https://images.openfoodfacts.net/images/products/890/400/440/0779/front_fr.9.100.jpg"
+      }
+    },
+    "ingredients": {
+      "display": {
+        "fr": "https://images.openfoodfacts.net/images/products/890/400/440/0779/ingredients_fr.4.400.jpg"
+      },
+      "small": {
+        "fr": "https://images.openfoodfacts.net/images/products/890/400/440/0779/ingredients_fr.4.200.jpg"
+      },
+      "thumb": {
+        "fr": "https://images.openfoodfacts.net/images/products/890/400/440/0779/ingredients_fr.4.100.jpg"
+      }
+    },
+    "nutrition": {
+      "display": {
+        "en": "https://images.openfoodfacts.net/images/products/890/400/440/0779/nutrition_en.7.400.jpg"
+      },
+      "small": {
+        "en": "https://images.openfoodfacts.net/images/products/890/400/440/0779/nutrition_en.7.200.jpg"
+      },
+      "thumb": {
+        "en": "https://images.openfoodfacts.net/images/products/890/400/440/0779/nutrition_en.7.100.jpg"
+      }
+    }
+  },
+  "sortkey": 1602526119,
+  "states": "en:to-be-completed, en:nutrition-facts-completed, en:ingredients-completed, en:expiration-date-to-be-completed, en:packaging-code-to-be-completed, en:characteristics-to-be-completed, en:origins-to-be-completed, en:categories-completed, en:brands-completed, en:packaging-to-be-completed, en:quantity-to-be-completed, en:product-name-completed, en:photos-to-be-validated, en:packaging-photo-to-be-selected, en:nutrition-photo-to-be-selected, en:ingredients-photo-selected, en:front-photo-selected, en:photos-uploaded",
+  "states_hierarchy": [
+    "en:to-be-completed",
+    "en:nutrition-facts-completed",
+    "en:ingredients-completed",
+    "en:expiration-date-to-be-completed",
+    "en:packaging-code-to-be-completed",
+    "en:characteristics-to-be-completed",
+    "en:origins-to-be-completed",
+    "en:categories-completed",
+    "en:brands-completed",
+    "en:packaging-to-be-completed",
+    "en:quantity-to-be-completed",
+    "en:product-name-completed",
+    "en:photos-to-be-validated",
+    "en:packaging-photo-to-be-selected",
+    "en:nutrition-photo-to-be-selected",
+    "en:ingredients-photo-selected",
+    "en:front-photo-selected",
+    "en:photos-uploaded"
+  ],
+  "states_tags": [
+    "en:to-be-completed",
+    "en:nutrition-facts-completed",
+    "en:ingredients-completed",
+    "en:expiration-date-to-be-completed",
+    "en:packaging-code-to-be-completed",
+    "en:characteristics-to-be-completed",
+    "en:origins-to-be-completed",
+    "en:categories-completed",
+    "en:brands-completed",
+    "en:packaging-to-be-completed",
+    "en:quantity-to-be-completed",
+    "en:product-name-completed",
+    "en:photos-to-be-validated",
+    "en:packaging-photo-to-be-selected",
+    "en:nutrition-photo-to-be-selected",
+    "en:ingredients-photo-selected",
+    "en:front-photo-selected",
+    "en:photos-uploaded"
+  ],
+  "teams": "stakano,chocolatine",
+  "teams_tags": [
+    "stakano",
+    "chocolatine"
+  ],
+  "traces": "",
+  "traces_from_ingredients": "",
+  "traces_from_user": "(fr) ",
+  "traces_hierarchy": [],
+  "traces_tags": [],
+  "unique_scans_n": 11,
+  "unknown_ingredients_n": 26,
+  "unknown_nutrients_tags": [],
+  "update_key": "brands",
+  "vitamins_prev_tags": [],
+  "vitamins_tags": [],
+  "weighers_tags": []
+}

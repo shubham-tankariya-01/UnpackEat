@@ -1,0 +1,628 @@
+{
+  "barcode": "8901595971220",
+  "product": {
+    "code": "8901595971220",
+    "name": "Manchow instant soup",
+    "brand": "Ching's",
+    "image": "https://images.openfoodfacts.net/images/products/890/159/597/1220/front_en.8.400.jpg",
+    "quantity": "12",
+    "categories": [
+      "en:meals",
+      "en:dried-products",
+      "en:soups",
+      "en:dried-products-to-be-rehydrated",
+      "en:dried-meals",
+      "en:dehydrated-soups"
+    ]
+  },
+  "highlights": {
+    "health_score": 40,
+    "verdict": "Best enjoyed occasionally",
+    "likes": [
+      "Certified: Vegetarian"
+    ],
+    "concerns": [
+      "Very high salt",
+      "Saturated fat not reported",
+      "Sugar content not reported",
+      "Ultra-processed food (NOVA 4)",
+      "1 high-risk additive(s) detected"
+    ],
+    "nova_group": 4
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 47.7,
+      "unit": "kcal",
+      "rda_percent": 2.4,
+      "rating": "green"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 10.8,
+      "unit": "g",
+      "rda_percent": 4.2,
+      "rating": "neutral"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 0.6,
+      "unit": "g",
+      "rda_percent": 1.2,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 2.97688,
+      "unit": "g",
+      "rda_percent": 59.5,
+      "rating": "red"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.9922933333333334,
+    "saturated_fat": 0.0,
+    "sugars": 0.0,
+    "energy": 0.0795,
+    "fiber": 0.0,
+    "protein": 0.024
+  },
+  "ingredients": {
+    "text": "Potato starch, dried glucose syrup,iodised salt, dehydrated vegetables(13.5%)[carrot,french beans,parsley, cabbage], sugar, dehydrated onion,soy sauce powder (soyabean,wheat,salt) , dehydrated garlic, flavour inhancer (INS 635) ,mixed spices(chilli powder,pepper powder), natural colour (INS 150d), acidity regulator (INS 296), Anticaking agent(INS 551), sunflower oil, thickener (INS 415), natural flavouring substances",
+    "ingredients": [
+      {
+        "id": "en:potato-starch",
+        "text": "Potato starch",
+        "percent_estimate": 50,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "9510",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "f87309f5-bfbf-49a5-ae57-1a0319a7b7d3",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:dehydrated-glucose-syrup",
+        "text": "dried glucose syrup",
+        "percent_estimate": 25,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:iodised-salt",
+        "text": "iodised salt",
+        "percent_estimate": 12.5,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11058",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:vegetable",
+        "text": "vegetables",
+        "percent_estimate": 12.5,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:carrot",
+        "text": "carrot",
+        "percent_estimate": 6.25,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "20009",
+        "ecobalyse_code": "carrot-non-eu",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:green-bean",
+        "text": "french beans",
+        "percent_estimate": 3.125,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "20061",
+        "ecobalyse_code": "french-bean-non-eu",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:parsley",
+        "text": "parsley",
+        "percent_estimate": 1.5625,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "11014",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:cabbage",
+        "text": "cabbage",
+        "percent_estimate": 1.5625,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:sugar",
+        "text": "sugar",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "8f075c25-9ebf-430c-b41d-51d165c6e0d8",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:dehydrated-onion",
+        "text": "dehydrated onion",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "20180",
+        "ecobalyse_code": "onion-non-eu",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:soy-sauce",
+        "text": "soy sauce",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11104",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:soyabean",
+        "text": "soyabean",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:wheat",
+        "text": "wheat",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "9410",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:salt",
+        "text": "salt",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11058",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:garlic",
+        "text": "garlic",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11000",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:flavour-inhancer",
+        "text": "flavour inhancer",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:mixed-spices",
+        "text": "mixed spices",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:chili-pepper",
+        "text": "chilli",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "20151",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:pepper",
+        "text": "pepper",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "11015",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:natural-colours",
+        "text": "natural colour",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:acidity-regulator",
+        "text": "acidity regulator",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:anti-caking-agent",
+        "text": "Anticaking agent",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:sunflower-oil",
+        "text": "sunflower oil",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "17440",
+        "ecobalyse_code": "3cfab110-363e-442a-9170-1af337fe9ea3",
+        "from_palm_oil": "no",
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:thickener",
+        "text": "thickener",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:natural-flavouring",
+        "text": "natural flavouring substances",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "additives": [
+      {
+        "id": "en:e150d",
+        "text": "e150d",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e296",
+        "text": "e296",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e415",
+        "text": "e415",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e551",
+        "text": "e551",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e635",
+        "text": "e635",
+        "percent_estimate": 0,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "dominant": [
+      {
+        "ingredient": "Potato starch",
+        "percent": 50
+      },
+      {
+        "ingredient": "dried glucose syrup",
+        "percent": 25
+      },
+      {
+        "ingredient": "iodised salt",
+        "percent": 12.5
+      },
+      {
+        "ingredient": "vegetables",
+        "percent": 12.5
+      }
+    ],
+    "contains_palm_oil": false,
+    "complexity": "Highly complex"
+  },
+  "additives_full": [
+    {
+      "code": "E150D",
+      "name": "Sulphite Ammonia Caramel",
+      "category": "Colour",
+      "risk": "high",
+      "explanation": "Contains 4-methylimidazole (4-MEI), a potential carcinogen. Found in colas and dark sauces."
+    },
+    {
+      "code": "E296",
+      "name": "Malic Acid",
+      "category": "Acidity Regulator",
+      "risk": "low",
+      "explanation": "Naturally occurring in fruits. Used as an acidulant; safe at food levels."
+    },
+    {
+      "code": "E415",
+      "name": "Xanthan Gum",
+      "category": "Thickener",
+      "risk": "low",
+      "explanation": "Fermentation-derived thickener. Safe for most people; may cause digestive discomfort in large quantities."
+    },
+    {
+      "code": "E551",
+      "name": "Silicon Dioxide",
+      "category": "Anti-Caking Agent",
+      "risk": "low",
+      "explanation": "Naturally occurring mineral used to prevent caking in powders. Safe at food levels."
+    },
+    {
+      "code": "E635",
+      "name": "Disodium Ribonucleotides",
+      "category": "Flavour Enhancer",
+      "risk": "moderate",
+      "explanation": "Blend of E627 and E631. Potent flavour enhancer; same concerns as its components (gout, asthma)."
+    }
+  ],
+  "allergens": [
+    "gluten",
+    "milk",
+    "mustard",
+    "soy",
+    "soya",
+    "soybeans",
+    "wheat"
+  ],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 47.7,
+      "fat": 0.0,
+      "saturated_fat": null,
+      "carbohydrates": 10.8,
+      "sugars": null,
+      "fiber": null,
+      "protein": 0.6,
+      "salt": 2.97688,
+      "cholesterol": null
+    },
+    "per_serving": {
+      "energy_kcal": 5.72,
+      "fat": 0.0,
+      "carbohydrates": 1.3,
+      "protein": 0.07,
+      "salt": 0.36
+    },
+    "serving_size_g": 12.0
+  },
+  "metadata": {
+    "nova_group": 4,
+    "nova_group_error": null,
+    "nutriscore_grade": null,
+    "nutrient_levels": {},
+    "labels": [
+      "en:vegetarian",
+      "en:green-dot-india",
+      "en:ching-s-secret"
+    ],
+    "food_groups": [
+      "en:composite-foods",
+      "en:one-dish-meals"
+    ],
+    "countries": [
+      "en:india"
+    ],
+    "off_completeness": 0.7625,
+    "data_quality_warnings": [
+      "en:ingredients-percent-analysis-not-ok",
+      "en:missing-nutrition-data-prepared-with-category-dried-products-to-be-rehydrated",
+      "en:product-quantity-under-1g",
+      "en:serving-quantity-over-product-quantity",
+      "en:vegetarian-label-but-could-not-confirm-for-all-ingredients",
+      "en:environmental-score-origins-of-ingredients-origins-are-100-percent-unknown",
+      "en:environmental-score-packaging-unspecified-shape",
+      "en:environmental-score-production-system-no-label"
+    ],
+    "nutrition_data_per": "100g"
+  },
+  "environment": {
+    "ecoscore": "unknown",
+    "packaging": [
+      "en:plastic"
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "barcode": "8906010505219",
+  "product": {
+    "code": "8906010505219",
+    "name": "Tomato Twist",
+    "brand": "Unknown",
+    "image": "https://images.openfoodfacts.net/images/products/890/601/050/5219/front_en.3.400.jpg",
+    "quantity": null,
+    "categories": []
+  },
+  "highlights": {
+    "health_score": 51,
+    "verdict": "Moderate consumption recommended",
+    "likes": [
+      "Low sugar",
+      "Excellent fiber content"
+    ],
+    "concerns": [
+      "Moderate salt",
+      "High saturated fat",
+      "High total fat",
+      "Very high calorie density",
+      "Very limited nutrition data available"
+    ],
+    "nova_group": null
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 564.37389770723,
+      "unit": "kcal",
+      "rda_percent": 28.2,
+      "rating": "red"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 31.746031746032,
+      "unit": "g",
+      "rda_percent": 45.4,
+      "rating": "red"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 17.636684303351,
+      "unit": "g",
+      "rda_percent": 88.2,
+      "rating": "red"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 52.910052910053,
+      "unit": "g",
+      "rda_percent": 20.4,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 3.5273368606702,
+      "unit": "g",
+      "rda_percent": 7.1,
+      "rating": "green"
+    },
+    {
+      "name": "fiber",
+      "amount_100g": 7.0546737213404,
+      "unit": "g",
+      "rda_percent": 28.2,
+      "rating": "green"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 7.0546737213404,
+      "unit": "g",
+      "rda_percent": 14.1,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.9700176366843,
+      "unit": "g",
+      "rda_percent": 19.4,
+      "rating": "orange"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.32333921222809997,
+    "saturated_fat": 1.0,
+    "sugars": 0.141093474426808,
+    "energy": 0.9406231628453833,
+    "fiber": 0.70546737213404,
+    "protein": 0.282186948853616
+  },
+  "ingredients": {
+    "text": "",
+    "ingredients": [],
+    "additives": [],
+    "dominant": [],
+    "contains_palm_oil": false,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 564.37389770723,
+      "fat": 31.746031746032,
+      "saturated_fat": 17.636684303351,
+      "carbohydrates": 52.910052910053,
+      "sugars": 3.5273368606702,
+      "fiber": 7.0546737213404,
+      "protein": 7.0546737213404,
+      "salt": 0.9700176366843,
+      "cholesterol": null
+    },
+    "per_serving": null,
+    "serving_size_g": null
+  },
+  "metadata": {
+    "nova_group": null,
+    "nova_group_error": "missing_ingredients",
+    "nutriscore_grade": null,
+    "nutrient_levels": {},
+    "labels": [],
+    "food_groups": [],
+    "countries": [
+      "en:united-states"
+    ],
+    "off_completeness": 0.275,
+    "data_quality_warnings": [
+      "en:environmental-score-origins-of-ingredients-origins-are-100-percent-unknown",
+      "en:environmental-score-packaging-packaging-data-missing",
+      "en:environmental-score-production-system-no-label",
+      "en:environmental-score-threatened-species-ingredients-missing"
+    ],
+    "nutrition_data_per": "100g"
+  },
+  "environment": {
+    "ecoscore": "unknown",
+    "packaging": []
+  }
+}
