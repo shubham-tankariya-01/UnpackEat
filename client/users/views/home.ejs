@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Fooder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2ECC71;
+            --secondary: #27AE60;
+            --dark: #2C3E50;
+            --light: #ECF0F1;
+            --glass: rgba(255, 255, 255, 0.9);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            background: var(--glass);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .nav-link {
+            font-weight: 500;
+            color: var(--dark) !important;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--primary) !important;
+        }
+
+        .search-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .search-card {
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+            transition: transform 0.3s ease;
+        }
+
+        .search-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .search-title {
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .search-subtitle {
+            color: #7f8c8d;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .input-group {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .input-group:focus-within {
+            border-color: var(--primary);
+            box-shadow: 0 0 15px rgba(46, 204, 113, 0.2);
+        }
+
+        .form-control {
+            border: none;
+            padding: 1rem 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .form-control:focus {
+            box-shadow: none;
+        }
+
+        .search-btn {
+            background: var(--primary);
+            border: none;
+            color: white;
+            padding: 0 1.5rem;
+            transition: background 0.3s ease;
+        }
+
+        .search-btn:hover {
+            background: var(--secondary);
+        }
+
+        .result-section {
+            margin-top: 2rem;
+            border-top: 1px solid #eee;
+            padding-top: 2rem;
+        }
+
+        .product-badge {
+            background: var(--primary);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        .score-indicator {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary);
+        }
+
+        .ingredient-tag {
+            display: inline-block;
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 0.2rem 0.8rem;
+            border-radius: 5px;
+            margin: 0.2rem;
+            font-size: 0.85rem;
+        }
+
+        .alert-flash {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            border-radius: 10px;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Flash Messages -->
+    <% if(success && success.length> 0) { %>
+        <div class="alert alert-success alert-flash">
+            <%= success %>
+        </div>
+        <% } %>
+            <% if(error && error.length> 0) { %>
+                <div class="alert alert-danger alert-flash">
+                    <%= error %>
+                </div>
+                <% } %>
+
+                    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                        <div class="container">
+                            <a class="navbar-brand" href="/home">FOODER</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a class="nav-link active" href="/home">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/awareness">Awareness</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/history">History</a></li>
+                                    <% if(currentUser) { %>
+                                        <li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>
+                                        <% } else { %>
+                                            <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+                                            <% } %>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <div class="search-container">
+                        <div class="search-card">
+                            <h2 class="search-title">Analyze Your Food</h2>
+                            <p class="search-subtitle">Enter the barcode to reveal insights about your product.</p>
+
+                            <form action="/home/search" method="POST">
+                                <div class="input-group">
+                                    <input type="text" name="barcode" class="form-control"
+                                        placeholder="Enter barcode (e.g., 8901786060504)" required>
+                                    <button class="search-btn" type="submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+
+                            <% if (searchProductdata) { %>
+                                <div class="result-section">
+                                    <div class="product-badge">Product Found</div>
+                                    <h3 class="mb-3">
+                                        <%= searchProductdata.details.product_name || 'Unnamed Product' %>
+                                    </h3>
+
+                                    <div class="row align-items-center mb-4">
+                                        <div class="col-md-4 text-center">
+                                            <div class="score-indicator">
+                                                <%= searchProductdata.summary.health_score || 'N/A' %>
+                                            </div>
+                                            <small class="text-muted">Health Score</small>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <h5>Summary</h5>
+                                            <p class="text-secondary">
+                                                <%= searchProductdata.summary.final_verdict %>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <h5>Key Ingredients</h5>
+                                    <div class="mb-4">
+                                        <% if (searchProductdata.details.ingredients &&
+                                            searchProductdata.details.ingredients.decoded_additives) { %>
+                                            <% Object.keys(searchProductdata.details.ingredients.decoded_additives).slice(0,
+                                                5).forEach(code=> { %>
+                                                <span class="ingredient-tag">
+                                                    <%= searchProductdata.details.ingredients.decoded_additives[code] %>
+                                                </span>
+                                                <% }) %>
+                                                    <% } else { %>
+                                                        <p class="text-muted">No specific ingredients highlight
+                                                            available.</p>
+                                                        <% } %>
+                                    </div>
+
+                                    <div class="accordion" id="detailsAccordion">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseInfo">
+                                                    More Information
+                                                </button>
+                                            </h2>
+                                            <div id="collapseInfo" class="accordion-collapse collapse"
+                                                data-bs-parent="#detailsAccordion">
+                                                <div class="accordion-body">
+                                                    <p><strong>Brand:</strong>
+                                                        <%= searchProductdata.details.brand %>
+                                                    </p>
+                                                    <p><strong>Calories:</strong>
+                                                        <%= searchProductdata.details.nutriments.energy_kcal_100g %>
+                                                            kcal/100g
+                                                    </p>
+                                                    <p><strong>Sugar:</strong>
+                                                        <%= searchProductdata.details.nutriments.sugars_100g %>g/100g
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <% } %>
+                        </div>
+                    </div>
+
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+                    <script>
+                        // Auto-hide flash messages
+                        setTimeout(() => {
+                            const alerts = document.querySelectorAll('.alert-flash');
+                            alerts.forEach(alert => {
+                                alert.style.opacity = '0';
+                                setTimeout(() => alert.remove(), 500);
+                            });
+                        }, 5000);
+                    </script>
+</body>
+
+</html>
