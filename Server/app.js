@@ -5,6 +5,7 @@ import userRoutes from "./routes/userRoutes.js"
 import homeRoute from "./routes/homeRoute.js"
 import awarenessRoute from "./routes/awarnessRoute.js"
 import historyRoute from "./routes/historyRoute.js"
+import analysisRoute from "./routes/analysis.js"
 import session from "express-session";
 import flash from "connect-flash";
 import passport from "passport";
@@ -77,6 +78,7 @@ app.use("/", userRoutes);
 app.use("/home", homeRoute);
 app.use("/awareness", awarenessRoute);
 app.use("/history", historyRoute);
+app.use("/analysis", analysisRoute);
 
 // 404 handler
 app.use((req, res, next) => {
