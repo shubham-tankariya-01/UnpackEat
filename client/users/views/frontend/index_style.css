@@ -74,6 +74,12 @@
     box-shadow: 0 0 10px rgba(255, 193, 7, 0.6);
 }
 
+a:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+  transition: all 0.3s ease;
+}
+
 /* Animation keyframes */
 @keyframes fadeSlide {
     from {
