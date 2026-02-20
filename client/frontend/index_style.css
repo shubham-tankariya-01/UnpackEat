@@ -66,7 +66,8 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.45); /* improves text readability */
+    background: rgba(0, 0, 0, 0.45);
+    /* improves text readability */
 }
 
 
@@ -83,9 +84,9 @@
 }
 
 a:hover {
-  opacity: 0.85;
-  transform: translateY(-1px);
-  transition: all 0.3s ease;
+    opacity: 0.85;
+    transform: translateY(-1px);
+    transition: all 0.3s ease;
 }
 
 /* Animation keyframes */
@@ -94,6 +95,7 @@ a:hover {
         opacity: 0;
         transform: translateY(10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -303,107 +305,132 @@ a:hover {
 /* Steps Of the field */
 /* time-line SECTION */
 .steps-section {
-  position: relative;
-  width: 100%;
-  padding: 100px 0;
+    position: relative;
+    width: 100%;
+    padding: 100px 0;
 }
 
 /* SVG LINE */
 .progress-line {
-  position: absolute;
-  top: 500px;
-  left: 0;
-  width: 100%;
-  height: calc(120% - 700px);
-  pointer-events: none;
-  z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+#timelinePath {
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 /* STEPS */
 .hero-step {
-  position: relative;
-  width: 40%;
-  margin: 200px 0;
-  z-index: 1;
+    position: relative;
+    width: 40%;
+    margin: 200px 0;
+    z-index: 1;
 
-  background: none;
-  padding: 0;
-  border-radius: 0;
-  box-shadow: none;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
 
-  opacity: 0;
-  transform: translateY(80px);
-  transition: all 0.8s ease;
+    opacity: 0;
+    transform: translateY(80px);
+    transition: all 0.8s ease;
 }
 
 
 .hero-step.active {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .hero-step.left {
-  margin-left: 5%;
+    margin-left: 5%;
 }
 
 .hero-step.right {
-  margin-left: 55%;
+    margin-left: 55%;
 }
 
 /* IMAGE EFFECT */
 .hero-step img {
-  width: 55%;
-  display: block;
-  margin: 0 auto 20px auto;
-  filter: drop-shadow(0 20px 25px rgba(0,0,0,0.15));
+    width: 55%;
+    display: block;
+    margin: 0 auto 20px auto;
+    filter: drop-shadow(0 20px 25px rgba(0, 0, 0, 0.15));
 }
 
 
 
 .hero-step.active img {
-  transform: rotate(2deg) scale(1.05);
+    transform: rotate(2deg) scale(1.05);
 }
 
 /* TEXT */
 .hero-step h2 {
-  margin: 15px 0 10px;
-  color: #626F47;
+    margin: 15px 0 10px;
+    color: #626F47;
 }
 
 .hero-step p {
-  color: #555;
+    color: #555;
 }
 
 /* NUMBER BLOCK */
 .step-number {
-  position: absolute;
-  top: -40px;
-  width: 70px;
-  height: 70px;
-  background: linear-gradient(135deg, #A4B465, #626F47);
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-  transition: 0.4s ease;
-  z-index: 2;
+    position: absolute;
+    top: -40px;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, #A4B465, #626F47);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.4s ease;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-/* Position left side numbers */
+/* Position left side numbers to hit 50% section width */
 .hero-step.left .step-number {
-  right: -100px;
+    left: 112.5%;
 }
 
-/* Position right side numbers */
+/* Position right side numbers to hit 50% section width */
 .hero-step.right .step-number {
-  left: -100px;
+    left: -12.5%;
 }
 
 /* Animation when active */
 .hero-step.active .step-number {
-  transform: scale(1.1);
+    transform: translateX(-50%) scale(1.1);
 }
+
+.hero-content {
+    width: 80%;
+    line-height: 1.6;
+}
+
+/* Push text to outer edges to avoid timeline sway */
+.hero-step.left .hero-content {
+    margin-right: auto;
+}
+
+.hero-step.right .hero-content {
+    margin-left: auto;
+}
+
+/* Deleting the previous empty block */
+.placeholder-to-delete {}
