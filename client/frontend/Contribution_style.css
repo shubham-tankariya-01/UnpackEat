@@ -204,13 +204,149 @@ a:hover {
     background-color: inherit;
 }
 
-/* ============================================================
-   RESPONSIVE STYLES — TABLET & MOBILE
-   Breakpoints:
-     ≤ 1024px  Large tablets
-     ≤  768px  Small tablets / large phones (landscape)
-     ≤  480px  Mobile phones (portrait)
-   ============================================================ */
+/* ── SECTION: Contribution Responsive ───────────────────── */
+
+@media (max-width: 1200px) {
+    .custom-box {
+        padding: 2rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        padding-top: 90px;
+    }
+
+    .custom-box {
+        padding: 1.5rem !important;
+    }
+
+    .custom-box h4 {
+        font-size: 1.05rem;
+    }
+
+    .footer-color .row {
+        row-gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 80px;
+    }
+
+    .navbar .w-100 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .section2-color {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    .custom-box {
+        padding: 1.25rem !important;
+        border-radius: 12px;
+    }
+
+    .custom-box h4 {
+        font-size: 1rem;
+    }
+
+    /* Stack 2-col form row to single column */
+    .custom-box .row>[class*="col-md"] {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .custom-box .form-control,
+    .custom-box textarea {
+        font-size: 0.95rem;
+        padding: 0.6rem 0.85rem;
+    }
+
+    .custom-box .btn[type="submit"] {
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 1rem;
+    }
+
+    /* Footer stacks */
+    .footer-color .row {
+        flex-direction: column;
+    }
+
+    .footer-color .col {
+        text-align: center !important;
+        margin-bottom: 1rem;
+    }
+
+    .footer-color .nav.flex-column {
+        align-items: center;
+    }
+
+    .footer-color .d-flex.flex-column {
+        align-items: center !important;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding-top: 75px;
+    }
+
+    .navbar-brand {
+        font-size: 1.05rem;
+    }
+
+    .navbar a strong {
+        display: none;
+    }
+
+    .section2-color {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .custom-box {
+        padding: 1rem !important;
+        box-shadow: none !important;
+    }
+
+    .custom-box .form-control,
+    .custom-box textarea {
+        font-size: 0.9rem;
+        border-radius: 8px;
+    }
+
+    .custom-box input[type="file"] {
+        font-size: 0.85rem;
+    }
+
+    .custom-box textarea {
+        min-height: 90px;
+    }
+
+    .custom-box .btn[type="submit"] {
+        font-size: 0.95rem;
+        border-radius: 8px;
+    }
+
+    .footer-color {
+        padding-top: 1.75rem !important;
+        padding-bottom: 1.75rem !important;
+    }
+
+    .footer-color h5 {
+        font-size: 0.9rem;
+    }
+
+    .footer-link {
+        font-size: 0.85rem;
+    }
+}
+
 
 /* ── Base: prevent horizontal overflow on any screen ─────── */
 *,
