@@ -74,11 +74,6 @@
     box-shadow: 0 0 10px rgba(255, 193, 7, 0.6);
 }
 
-/* Dropdown animation */
-.user-dropdown {
-    animation: fadeSlide 0.25s ease;
-}
-
 /* Animation keyframes */
 @keyframes fadeSlide {
     from {

@@ -1,15 +1,15 @@
 <!doctype html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Food Analyser</title>
-    
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="index_style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
 
@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top mt-3"> 
+        <nav class="navbar navbar-expand-lg fixed-top mt-3">
             <div class="container">
                 <!-- PILL SHELL (FIXED SHAPE) -->
                 <div class="w-100 px-4 py-2 border rounded-pill shadow-sm" style="background-color: #626f47">
@@ -54,42 +54,11 @@
                             <button class="btn btn-outline-warning rounded-pill d-none d-lg-block">
                                 Search
                             </button>
-                            <div class="dropdown">
-                                <a href="#"
-                                    class="d-flex align-items-center gap-2 text-white text-decoration-none dropdown-toggle user-toggle"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-
-                                    <img src="https://github.com/mdo.png" alt="User" width="34" height="34"
-                                        class="rounded-circle user-avatar">
-
-                                    <span class="fw-semibold d-none d-md-inline">User</span>
-                                </a>
-
-                                <ul
-                                    class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-4 mt-2 user-dropdown">
-                                    <li>
-                                        <a class="dropdown-item d-flex align-items-center gap-2" href="#">
-                                            <i class="fa-solid fa-circle-user"></i>
-                                            Profile
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item d-flex align-items-center gap-2" href="#">
-                                            <i class="fa-solid fa-gear"></i>
-                                            Settings
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item text-danger d-flex align-items-center gap-2" href="#">
-                                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
-                                            Logout
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                            <a href="#"
+                                class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false"> <img src="https://github.com/mdo.png"
+                                    alt="" width="32" height="32" class="rounded-circle me-2" /> <strong>User</strong>
+                            </a>
 
                             <!-- Hamburger -->
                             <button class="navbar-toggler d-lg-none border-0" type="button" data-bs-toggle="collapse"
