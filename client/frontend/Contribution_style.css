@@ -63,9 +63,9 @@
 }
 
 a:hover {
-  opacity: 0.85;
-  transform: translateY(-1px);
-  transition: all 0.3s ease;
+    opacity: 0.85;
+    transform: translateY(-1px);
+    transition: all 0.3s ease;
 }
 
 /* Animation keyframes */
@@ -74,6 +74,7 @@ a:hover {
         opacity: 0;
         transform: translateY(10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -201,4 +202,325 @@ a:hover {
 .footer-color .container,
 .footer-color .row {
     background-color: inherit;
+}
+
+/* ── SECTION: Contribution Responsive ───────────────────── */
+
+@media (max-width: 1200px) {
+    .custom-box {
+        padding: 2rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        padding-top: 90px;
+    }
+
+    .custom-box {
+        padding: 1.5rem !important;
+    }
+
+    .custom-box h4 {
+        font-size: 1.05rem;
+    }
+
+    .footer-color .row {
+        row-gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 80px;
+    }
+
+    .navbar .w-100 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .section2-color {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    .custom-box {
+        padding: 1.25rem !important;
+        border-radius: 12px;
+    }
+
+    .custom-box h4 {
+        font-size: 1rem;
+    }
+
+    /* Stack 2-col form row to single column */
+    .custom-box .row>[class*="col-md"] {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .custom-box .form-control,
+    .custom-box textarea {
+        font-size: 0.95rem;
+        padding: 0.6rem 0.85rem;
+    }
+
+    .custom-box .btn[type="submit"] {
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 1rem;
+    }
+
+    /* Footer stacks */
+    .footer-color .row {
+        flex-direction: column;
+    }
+
+    .footer-color .col {
+        text-align: center !important;
+        margin-bottom: 1rem;
+    }
+
+    .footer-color .nav.flex-column {
+        align-items: center;
+    }
+
+    .footer-color .d-flex.flex-column {
+        align-items: center !important;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding-top: 75px;
+    }
+
+    .navbar-brand {
+        font-size: 1.05rem;
+    }
+
+    .navbar a strong {
+        display: none;
+    }
+
+    .section2-color {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .custom-box {
+        padding: 1rem !important;
+        box-shadow: none !important;
+    }
+
+    .custom-box .form-control,
+    .custom-box textarea {
+        font-size: 0.9rem;
+        border-radius: 8px;
+    }
+
+    .custom-box input[type="file"] {
+        font-size: 0.85rem;
+    }
+
+    .custom-box textarea {
+        min-height: 90px;
+    }
+
+    .custom-box .btn[type="submit"] {
+        font-size: 0.95rem;
+        border-radius: 8px;
+    }
+
+    .footer-color {
+        padding-top: 1.75rem !important;
+        padding-bottom: 1.75rem !important;
+    }
+
+    .footer-color h5 {
+        font-size: 0.9rem;
+    }
+
+    .footer-link {
+        font-size: 0.85rem;
+    }
+}
+
+
+/* ── Base: prevent horizontal overflow on any screen ─────── */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+/* ── Large Tablets (≤ 1024px) ────────────────────────────── */
+@media (max-width: 1024px) {
+
+    /* Give body enough top padding for the fixed navbar */
+    body {
+        padding-top: 90px;
+    }
+
+    /* Form container: reduce side padding */
+    .custom-box {
+        padding: 1.5rem !important;
+    }
+
+    /* Section padding */
+    .section2-color {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    /* Footer: stack columns in 2-col grid */
+    .footer-color .row {
+        row-gap: 1.5rem;
+    }
+}
+
+/* ── Small Tablets & Landscape Phones (≤ 768px) ──────────── */
+@media (max-width: 768px) {
+
+    body {
+        padding-top: 80px;
+    }
+
+    /* Navbar pill: tighter horizontal padding */
+    .navbar .w-100.px-4 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    /* Contribution form box */
+    .custom-box {
+        padding: 1.25rem !important;
+        border-radius: 12px;
+    }
+
+    /* Form headings */
+    .custom-box h4 {
+        font-size: 1rem;
+    }
+
+    /* Make the two-column row stack on mobile */
+    .custom-box .row>[class*="col-md"] {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* Full-width inputs on small screens */
+    .custom-box .form-control,
+    .custom-box textarea {
+        font-size: 0.95rem;
+        padding: 0.6rem 0.85rem;
+    }
+
+    /* Submit button: full width, easier to tap */
+    .custom-box .btn[type="submit"] {
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 1rem;
+    }
+
+    /* Section outer padding */
+    .section2-color .container {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+
+    /* Footer: stack all columns */
+    .footer-color .row {
+        flex-direction: column;
+    }
+
+    .footer-color .col {
+        text-align: center !important;
+        margin-bottom: 1rem;
+    }
+
+    /* Footer nav links: centre them */
+    .footer-color .nav.flex-column {
+        align-items: center;
+    }
+
+    /* Footer brand + copyright */
+    .footer-color .d-flex.flex-column {
+        align-items: center !important;
+    }
+}
+
+/* ── Mobile Phones (≤ 480px) ─────────────────────────────── */
+@media (max-width: 480px) {
+
+    body {
+        padding-top: 75px;
+    }
+
+    /* Navbar brand text size */
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+
+    /* Avatar label */
+    .navbar strong {
+        display: none;
+        /* hide "User" label, keep avatar */
+    }
+
+    /* Section padding minimal */
+    .section2-color {
+        padding-top: 1.25rem !important;
+        padding-bottom: 1.25rem !important;
+    }
+
+    /* Form box: minimal padding */
+    .custom-box {
+        padding: 1rem !important;
+        box-shadow: none !important;
+    }
+
+    /* Inputs: comfortable on tiny screens */
+    .custom-box .form-control,
+    .custom-box textarea {
+        font-size: 0.9rem;
+        border-radius: 8px;
+    }
+
+    /* File upload: full width */
+    .custom-box input[type="file"] {
+        font-size: 0.85rem;
+    }
+
+    /* Textarea: compact on phones */
+    .custom-box textarea {
+        min-height: 90px;
+    }
+
+    /* Submit button */
+    .custom-box .btn[type="submit"] {
+        font-size: 0.95rem;
+        border-radius: 8px;
+    }
+
+    /* Footer: tighter spacing */
+    .footer-color {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .footer-color h5 {
+        font-size: 0.95rem;
+    }
+
+    .footer-link {
+        font-size: 0.88rem;
+    }
 }

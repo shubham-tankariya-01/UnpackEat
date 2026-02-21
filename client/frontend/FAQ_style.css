@@ -62,9 +62,9 @@
 }
 
 a:hover {
-  opacity: 0.85;
-  transform: translateY(-1px);
-  transition: all 0.3s ease;
+    opacity: 0.85;
+    transform: translateY(-1px);
+    transition: all 0.3s ease;
 }
 
 /* Animation keyframes */
@@ -73,6 +73,7 @@ a:hover {
         opacity: 0;
         transform: translateY(10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -196,4 +197,169 @@ a:hover {
 .footer-color .container,
 .footer-color .row {
     background-color: inherit;
+}
+
+.top-row-flex {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    /* IMPORTANT */
+}
+
+.block-hero,
+.block-ai-insights {
+    flex: 1 1 600px;
+    /* Allows shrinking on smaller screens */
+}
+
+/* ── SECTION: FAQ Responsive ─────────────────────────────── */
+
+@media (max-width: 1200px) {
+    .section2-color .container.py-5 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .section_title h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        padding-top: 90px;
+    }
+
+    .section_title h2 {
+        font-size: 1.3rem;
+    }
+
+    .accordion-button {
+        font-size: 0.95rem;
+        padding: 0.85rem 1rem;
+        line-height: 1.5;
+    }
+
+    .accordion-body {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .footer-color .row {
+        row-gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 80px;
+    }
+
+    .navbar .w-100 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .section2-color {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    .section2-color .container.py-5 {
+        padding-top: 1.75rem !important;
+        padding-bottom: 1.75rem !important;
+    }
+
+    .section_title h2 {
+        font-size: 1.15rem;
+        line-height: 1.4;
+    }
+
+    .accordion-button {
+        font-size: 0.9rem;
+        padding: 0.8rem 0.9rem;
+    }
+
+    .accordion-body {
+        font-size: 0.88rem;
+        padding: 0.7rem 0.9rem;
+    }
+
+    .accordion-item {
+        border-radius: 10px !important;
+        overflow: hidden;
+    }
+
+    /* Footer: stack all columns, center text */
+    .footer-color .row {
+        flex-direction: column;
+    }
+
+    .footer-color .col {
+        text-align: center !important;
+        margin-bottom: 1rem;
+    }
+
+    .footer-color .nav.flex-column {
+        align-items: center;
+    }
+
+    .footer-color .d-flex.flex-column {
+        align-items: center !important;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding-top: 75px;
+    }
+
+    .navbar-brand {
+        font-size: 1.05rem;
+    }
+
+    /* Hide "User" label text on tiny screens, keep avatar */
+    .navbar a strong {
+        display: none;
+    }
+
+    .section2-color {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .section2-color .container.py-5 {
+        padding-top: 1.25rem !important;
+        padding-bottom: 1.25rem !important;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+    .section_title h2 {
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .accordion-button {
+        font-size: 0.85rem;
+        padding: 0.7rem 0.8rem;
+    }
+
+    .accordion-body {
+        font-size: 0.82rem;
+        padding: 0.6rem 0.8rem;
+    }
+
+    .footer-color {
+        padding-top: 1.75rem !important;
+        padding-bottom: 1.75rem !important;
+    }
+
+    .footer-color h5 {
+        font-size: 0.9rem;
+    }
+
+    .footer-link {
+        font-size: 0.85rem;
+    }
 }

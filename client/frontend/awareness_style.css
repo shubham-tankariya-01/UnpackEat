@@ -60,10 +60,11 @@
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(255, 193, 7, 0.6);
 }
+
 a:hover {
-  opacity: 0.85;
-  transform: translateY(-1px);
-  transition: all 0.3s ease;
+    opacity: 0.85;
+    transform: translateY(-1px);
+    transition: all 0.3s ease;
 }
 
 /* Animation keyframes */
@@ -72,6 +73,7 @@ a:hover {
         opacity: 0;
         transform: translateY(10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -211,4 +213,130 @@ a:hover {
 .footer-color .container,
 .footer-color .row {
     background-color: inherit;
+}
+
+/* ── SECTION: Awareness Responsive ──────────────────────── */
+
+@media (max-width: 1200px) {
+
+    .section2-color h2,
+    .section3-color h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        padding-top: 90px;
+        overflow-x: hidden;
+    }
+
+    .section2-color h2,
+    .section3-color h2 {
+        font-size: 1.3rem;
+    }
+
+    .section2-color p,
+    .section3-color p {
+        font-size: 0.95rem;
+    }
+
+    .footer-color .row {
+        row-gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 80px;
+    }
+
+    .navbar .w-100 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .section2-color,
+    .section3-color {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .section2-color h2,
+    .section3-color h2 {
+        font-size: 1.15rem;
+        line-height: 1.4;
+    }
+
+    .section2-color p,
+    .section3-color p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    /* Cards stack full width */
+    .cards-color .card {
+        margin-bottom: 1rem;
+    }
+
+    /* Footer stacks */
+    .footer-color .row {
+        flex-direction: column;
+    }
+
+    .footer-color .col {
+        text-align: center !important;
+        margin-bottom: 1rem;
+    }
+
+    .footer-color .nav.flex-column {
+        align-items: center;
+    }
+
+    .footer-color .d-flex.flex-column {
+        align-items: center !important;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding-top: 75px;
+    }
+
+    .navbar-brand {
+        font-size: 1.05rem;
+    }
+
+    .navbar a strong {
+        display: none;
+    }
+
+    .section2-color,
+    .section3-color {
+        padding-top: 1.25rem !important;
+        padding-bottom: 1.25rem !important;
+    }
+
+    .section2-color h2,
+    .section3-color h2 {
+        font-size: 1rem;
+    }
+
+    .section2-color p,
+    .section3-color p {
+        font-size: 0.85rem;
+    }
+
+    .footer-color {
+        padding-top: 1.75rem !important;
+        padding-bottom: 1.75rem !important;
+    }
+
+    .footer-color h5 {
+        font-size: 0.9rem;
+    }
+
+    .footer-link {
+        font-size: 0.85rem;
+    }
 }
