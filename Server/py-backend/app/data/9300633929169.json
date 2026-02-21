@@ -1,0 +1,97 @@
+{
+  "barcode": "9300633929169",
+  "product": {
+    "code": "9300633929169",
+    "name": "Chunk Light Tuna",
+    "brand": "Woolworths",
+    "image": "https://images.openfoodfacts.net/images/products/930/063/392/9169/front_en.27.400.jpg",
+    "quantity": "",
+    "categories": [
+      "en:seafood",
+      "en:fishes-and-their-products",
+      "en:canned-foods",
+      "en:fishes",
+      "en:fatty-fishes",
+      "en:canned-fishes",
+      "en:tunas",
+      "en:canned-tunas",
+      "en:tuna-chunks"
+    ]
+  },
+  "highlights": {
+    "health_score": 87,
+    "verdict": "Healthy choice",
+    "likes": [],
+    "concerns": [
+      "Salt content not reported",
+      "Saturated fat not reported",
+      "Sugar content not reported"
+    ],
+    "nova_group": null
+  },
+  "nutrients": [],
+  "nutrient_radar": {
+    "salt": 0.0,
+    "saturated_fat": 0.0,
+    "sugars": 0.0,
+    "energy": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0
+  },
+  "ingredients": {
+    "text": "",
+    "ingredients": [],
+    "additives": [],
+    "dominant": [],
+    "contains_palm_oil": false,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": null,
+      "fat": null,
+      "saturated_fat": null,
+      "carbohydrates": null,
+      "sugars": null,
+      "fiber": null,
+      "protein": null,
+      "salt": null,
+      "cholesterol": null
+    },
+    "per_serving": null,
+    "serving_size_g": null
+  },
+  "metadata": {
+    "nova_group": null,
+    "nova_group_error": "missing_ingredients",
+    "nutriscore_grade": null,
+    "nutrient_levels": {},
+    "labels": [
+      "en:australian-made"
+    ],
+    "food_groups": [
+      "en:fish-meat-eggs",
+      "en:fish-and-seafood",
+      "en:fatty-fish"
+    ],
+    "countries": [
+      "en:canada",
+      "en:india"
+    ],
+    "off_completeness": 0.5,
+    "data_quality_warnings": [
+      "en:environmental-score-packaging-unscored-material",
+      "en:environmental-score-production-system-no-label",
+      "en:environmental-score-threatened-species-ingredients-missing"
+    ],
+    "nutrition_data_per": "100g"
+  },
+  "environment": {
+    "ecoscore": "e",
+    "packaging": [
+      "en:metal"
+    ]
+  }
+}

@@ -15,101 +15,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top mt-2">
-            <div class="container">
-                <!-- PILL SHELL (FIXED SHAPE) -->
-                <div class="w-100 px-4 py-2 border rounded-pill shadow-sm" style="background-color: #626f47">
-                    <div class="d-flex align-items-center justify-content-between">
-                        <!-- Brand -->
-                        <a class="navbar-brand fw-bold text-warning text-nowrap m-0" href="/home">
-                            UnPackEat
-                        </a>
-
-                        <!-- Desktop menu -->
-                        <ul class="navbar-nav d-none d-lg-flex gap-3 mb-0">
-                            <li class="nav-item">
-                                <a class="nav-link active text-white" href="/home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="/awareness">Awareness</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="/history">History</a>
-                            </li>
-                        </ul>
-
-                        <!-- Right side -->
-                        <div class="d-flex align-items-center gap-2">
-                            <form action="/analysis" method="get" class="d-flex align-items-center">
-                                <div class="input-group">
-                                    <input class="form-control border-end-0 rounded-start-pill d-none d-lg-block"
-                                        type="search" name="barcode" placeholder="Search" required />
-                                    <button class="btn btn-warning rounded-end-pill d-none d-lg-block" type="submit">
-                                        <i class="fa-solid fa-magnifying-glass"></i>
-                                    </button>
-                                </div>
-                            </form>
-
-                            <% if(currentUser) { %>
-                                <div class="dropdown">
-                                    <a href="#"
-                                        class="d-flex align-items-center text-white text-decoration-none dropdown-toggle user-toggle"
-                                        data-bs-toggle="dropdown">
-                                        <img src="https://github.com/mdo.png" alt="" width="32" height="32"
-                                            class="rounded-circle me-2 user-avatar" />
-                                        <strong>
-                                            <%= currentUser.username || 'User' %>
-                                        </strong>
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-menu-dark">
-                                        <li><a class="dropdown-item" href="/logout">Logout</a></li>
-                                    </ul>
-                                </div>
-                                <% } else { %>
-                                    <div class="d-flex gap-2">
-                                        <a href="/login" class="btn btn-warning rounded-pill px-4">Login</a>
-                                        <a href="/signup" class="btn btn-outline-warning rounded-pill px-4">Sign Up</a>
-                                    </div>
-                                    <% } %>
-
-                                        <!-- Hamburger -->
-                                        <button class="navbar-toggler d-lg-none border-0" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#mobileMenu">
-                                            <span class="navbar-toggler-icon"></span>
-                                        </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- MOBILE MENU -->
-                <div class="collapse d-lg-none mt-3 mx-auto" id="mobileMenu" style="max-width: 100%">
-                    <div class="card card-body shadow-sm rounded-4 text-center mx-auto"
-                        style="max-width: 95%; background-color: #626f47">
-                        <ul class="navbar-nav gap-2">
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="/home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="/awareness">Awareness</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="/history">History</a>
-                            </li>
-                        </ul>
-
-                        <hr class="border-light" />
-
-                        <form action="/analysis" method="get">
-                            <input class="form-control rounded-pill mb-2" type="search" name="barcode"
-                                placeholder="Search" required />
-                            <button class="btn btn-outline-light rounded-pill w-100" type="submit">
-                                Search
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <%- include('layouts/navbar') %>
     </header>
 
     <main>
@@ -153,12 +59,19 @@
                                                             Analyser.
                                                         </p>
 
-                                                        <a href="#how_it_work"
-                                                            class="btn btn-success btn-lg rounded-pill px-4 py-2"
+                                                        <div class="d-flex flex-column flex-sm-row justify-content-center gap-3"
                                                             data-aos="fade-up" data-aos-duration="1500"
                                                             data-aos-delay="400">
-                                                            Get Started
-                                                        </a>
+                                                            <a href="#how_it_work"
+                                                                class="btn btn-success btn-lg rounded-pill px-4 py-2 w-100 w-sm-auto">
+                                                                Get Started
+                                                            </a>
+                                                            <button
+                                                                class="btn btn-warning btn-lg rounded-pill px-4 py-2 w-100 w-sm-auto"
+                                                                data-bs-toggle="modal" data-bs-target="#scannerModal">
+                                                                <i class="fa-solid fa-barcode me-2"></i>Scan Barcode
+                                                            </button>
+                                                        </div>
 
                                                     </div>
                                                 </div>
@@ -187,14 +100,13 @@
                             <!-- STEPS -->
                             <section class="steps-section">
                                 <!-- SVG CURVED PATH -->
-                                <svg class="progress-line" viewBox="0 0 1000 3000" preserveAspectRatio="none">
+                                <svg class="progress-line" viewBox="0 0 1000 2700" preserveAspectRatio="none">
                                     <path id="timelinePath" d="
         M 500 0
         C 850 300, 150 600, 500 900
         C 850 1200, 150 1500, 500 1800
         C 850 2100, 150 2400, 500 2700
-        C 850 3000, 150 3300, 500 3600
-      " fill="none" stroke="#A4B465" stroke-width="15" stroke-linecap="round" />
+      " fill="none" stroke="#A4B465" stroke-width="6" />
                                 </svg>
 
                                 <div class="hero-step left">
@@ -236,8 +148,7 @@
                                 <div class="hero-step right">
                                     <div class="step-number">04</div>
                                     <img src="/images/product.png" alt="">
-                                    <p class="hero-content">Receive personalized tips, healthier alternatives,
-                                        and
+                                    <p class="hero-content">Receive personalized tips, healthier alternatives, and
                                         smart recommendations based on your food analysis
                                         results. Easily track your previous scans and analyses
                                         to monitor patterns, improve your eating habits, and
@@ -339,80 +250,45 @@
 
     </main>
 
-    <footer class="footer-color py-5">
-        <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-4">
-                <!-- Brand + Copyright -->
-                <!-- Brand + Copyright in one column -->
-                <div class="col mb-3 text-center text-md-start">
-                    <div class="d-flex flex-column align-items-center align-items-md-start">
-                        <span class="fw-bold text-white mb-1">Food Analyser</span>
-                        <span class="text-white">© 2025</span>
+    <%- include('layouts/footer') %>
+
+        <!-- Barcode Scanner Modal -->
+        <div class="modal fade" id="scannerModal" tabindex="-1" aria-labelledby="scannerModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content rounded-5 overflow-hidden">
+                    <div class="modal-header bg-success text-white border-0">
+                        <h5 class="modal-title fw-bold" id="scannerModalLabel">Scan Product Barcode</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
                     </div>
-                </div>
-
-                <div class="col mb-3"></div>
-                <!-- Empty column for spacing -->
-
-                <!-- Section 1 -->
-                <div class="col mb-3">
-                    <h5 class="text-white">Quick Links</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2">
-                            <a href="/home" class="footer-link">Home</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="/awareness" class="footer-link">Awareness</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="/history" class="footer-link">History</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Section 2 -->
-                <div class="col mb-3">
-                    <h5 class="text-white">Legal</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2">
-                            <a href="#" class="footer-link">Privacy Policy</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="#" class="footer-link">Terms of Service</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="/FAQ" class="footer-link">FAQs</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Section 3 -->
-                <div class="col mb-3">
-                    <h5 class="text-white">Contact</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2">
-                            <a href="/contribution" class="footer-link">Contribution</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="#" class="footer-link">Support</a>
-                        </li>
-                    </ul>
+                    <div class="modal-body p-0 position-relative" style="background: #000; min-height: 400px;">
+                        <div id="interactive" class="viewport"></div>
+                        <div class="scanner-overlay">
+                            <div class="scanner-laser"></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0 justify-content-center bg-light">
+                        <p class="small text-muted mb-0">Align the barcode within the frame to scan automatically.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            once: true, // Animates only once when scrolling
-            duration: 1500, // Default animation duration
-        });
-    </script>
-    <script src="/js/home_landing.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                once: true, // Animates only once when scrolling
+                duration: 1500, // Default animation duration
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/@ericblade/quagga2@1.8.4/dist/quagga.min.js"></script>
+        <script src="/js/navbar_common.js"></script>
+        <script src="/js/home_landing.js"></script>
+        <script src="/js/scanner.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+:root {
+    --primary-green: #16C47F;
+    --accent-yellow: #FFD65A;
+    --accent-orange: #FF9D23;
+    --danger-red: #F93827;
+    --bg-light: #f4fff9;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Remove black focus border on hamburger menu */
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+}
 
 * {
     font-family: "SN Pro", sans-serif;
@@ -14,7 +38,7 @@
 }
 
 .navbar {
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 }
 
 .navbar-hidden {
@@ -29,7 +53,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #ffc107;
+    background-color: var(--accent-yellow);
     /* yellow underline */
     transition: width 0.4s ease-in-out;
 }
@@ -40,13 +64,13 @@
 }
 
 .navbar .nav-link:hover {
-    color: #ffc107;
+    color: var(--accent-yellow);
     /* text turns yellow */
 }
 
 /* Active link */
 .navbar .nav-link.active {
-    color: #ffc107;
+    color: var(--accent-yellow);
 }
 
 /*Desktop and mobile unified hover background pill */
@@ -73,14 +97,14 @@
 
 /* Avatar style */
 .user-avatar {
-    border: 2px solid #ffc107;
+    border: 2px solid var(--accent-yellow);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 /* Hover effect */
 .user-toggle:hover .user-avatar {
     transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(255, 193, 7, 0.6);
+    box-shadow: 0 0 10px rgba(255, 214, 90, 0.6);
 }
 
 a:hover {
@@ -120,15 +144,15 @@ a:hover {
 }
 
 #mobileMenu .nav-link:hover {
-    color: #ffc107;
+    color: var(--accent-yellow);
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50px;
 }
 
 /* Search input focus effect */
 .navbar .form-control:focus {
-    border-color: #ffc107;
-    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+    border-color: var(--accent-yellow);
+    box-shadow: 0 0 0 0.2rem rgba(255, 214, 90, 0.25);
 }
 
 /* Hamburger icon hover */
@@ -215,18 +239,15 @@ a:hover {
 
 
 .section2-color {
-
-
-    background-color: #FEFAE0;
-
+    background-color: var(--bg-light);
 }
 
 .section3-color {
-    background-color: #FEFAE0;
+    background-color: var(--bg-light);
 }
 
 .cards-color {
-    background-color: #A4B465;
+    background-color: var(--primary-green);
 }
 
 /*.card:hover {
@@ -242,32 +263,37 @@ a:hover {
 
 .navbar .form-control {
     background-color: #ffffff;
-    border: 2px solid #626F47;
-    padding: 0.4rem 1.2rem;
+    border: 2px solid var(--primary-green);
+    padding: 0.5rem 1.5rem;
     transition: all 0.3s ease;
 }
 
-.navbar .btn-warning {
-    border: 2px solid #626f47;
-    border-left: none;
-    padding: 0.4rem 1.2rem;
-}
-
-.navbar .input-group:hover .form-control,
-.navbar .input-group:hover .btn-warning {
-    border-color: #ffc107;
-}
-
+.navbar .form-control:hover,
 .navbar .form-control:focus {
-    background-color: #fffacd;
-    border-color: #ffc107;
-    box-shadow: none;
+    background-color: #fafffc;
+    border-color: var(--accent-yellow);
+    box-shadow: 0 0 5px var(--accent-yellow);
     outline: none;
 }
 
+/* Fix Search Icon Size */
+.navbar .btn-warning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border: 2px solid var(--primary-green);
+    border-left: none;
+}
+
+.navbar .btn-warning i {
+    font-size: 0.9rem;
+    /* Smaller icon */
+}
+
 
 .footer-color {
-    background: #626F47;
+    background: var(--primary-green);
 }
 
 
@@ -279,7 +305,7 @@ a:hover {
 
 
 .footer-color {
-    background-color: #626F47;
+    background-color: var(--primary-green);
     /* Full background */
     color: #ffffff;
 }
@@ -323,12 +349,18 @@ a:hover {
 /* SVG LINE */
 .progress-line {
     position: absolute;
-    top: 500px;
+    top: 0;
     left: 0;
     width: 100%;
-    height: calc(120% - 700px);
+    height: 100%;
     pointer-events: none;
     z-index: 0;
+}
+
+#timelinePath {
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 /* STEPS */
@@ -351,7 +383,7 @@ a:hover {
 
 .hero-step.active {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
 }
 
 .hero-step.left {
@@ -371,15 +403,14 @@ a:hover {
 }
 
 
-
 .hero-step.active img {
-    transform: rotate(2deg) scale(1.05);
+    transform: rotate(7deg) scale(1.1);
 }
 
 /* TEXT */
 .hero-step h2 {
     margin: 15px 0 10px;
-    color: #626F47;
+    color: var(--primary-green);
 }
 
 .hero-step p {
@@ -392,7 +423,7 @@ a:hover {
     top: -40px;
     width: 70px;
     height: 70px;
-    background: linear-gradient(135deg, #A4B465, #626F47);
+    background: linear-gradient(135deg, var(--accent-orange), var(--danger-red));
     color: white;
     font-size: 22px;
     font-weight: bold;
@@ -401,22 +432,145 @@ a:hover {
     justify-content: center;
     border-radius: 50%;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    transition: 0.4s ease;
+
     z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-/* Position left side numbers */
+/* Position left side numbers to hit 50% section width */
 .hero-step.left .step-number {
-    right: -100px;
+    left: 112.5%;
 }
 
-/* Position right side numbers */
+/* Position right side numbers to hit 50% section width */
 .hero-step.right .step-number {
-    left: -100px;
+    left: -12.5%;
 }
 
 /* Animation when active */
 .hero-step.active .step-number {
-    transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(164, 180, 101, 0.4);
+    transform: translateX(-50%) scale(1.1);
+}
+
+.hero-content {
+    width: 80%;
+    line-height: 1.6;
+}
+
+/* Push text to outer edges to avoid timeline sway */
+.hero-step.left .hero-content {
+    margin-right: auto;
+}
+
+.hero-step.right .hero-content {
+    margin-left: auto;
+}
+
+/* Deleting the previous empty block */
+/* Barcode Scanner Styles */
+#interactive.viewport {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+#interactive.viewport>canvas,
+#interactive.viewport>video {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    object-fit: cover;
+}
+
+.scanner-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 40%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    z-index: 10;
+}
+
+.scanner-laser {
+    width: 100%;
+    height: 2px;
+    background-color: #ffc107;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 8px #ffc107;
+    animation: laser-scan 2s infinite linear;
+}
+
+@keyframes laser-scan {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 100%;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+canvas.drawing,
+canvas.drawingBuffer {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Mobile Responsiveness for Steps Timeline */
+@media (max-width: 768px) {
+    .progress-line {
+        display: none;
+        /* Hide SVG wavy line on mobile */
+    }
+
+    .hero-step {
+        width: 90%;
+        margin: 60px auto 40px auto !important;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .hero-step.left,
+    .hero-step.right {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .hero-step img {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .hero-content {
+        width: 100%;
+        margin: 15px auto 0 auto !important;
+    }
+
+    /* Center the step number on mobile */
+    .step-number {
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        top: -35px !important;
+    }
+
+    .hero-step.active .step-number {
+        transform: translateX(-50%) scale(1.1) !important;
+    }
+
+    .steps-section {
+        padding: 50px 0;
+    }
 }

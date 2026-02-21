@@ -1,59 +1,45 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // Dynamic Score Meter Animation
-    const meterFill = document.querySelector('.meter-fill');
-    if (meterFill) {
-        const score = meterFill.dataset.score;
+/* Analysis Page Interactivity - Simplified Modern */
+document.addEventListener("DOMContentLoaded", () => {
+    // 1. HEALTH GAUGE ANIMATION
+    const progressCircle = document.getElementById('gauge-progress');
+    if (progressCircle) {
+        const score = parseInt(progressCircle.dataset.score) || 0;
+        const circumference = 2 * Math.PI * 42;
+        const offset = circumference - (score / 100) * circumference;
+
+        // Target colors
+        const color = score > 50 ? '#16C47F' : (score > 30 ? '#FF9D23' : '#F93827');
+
         setTimeout(() => {
-            meterFill.style.width = score + '%';
-        }, 500);
+            progressCircle.style.strokeDashoffset = offset;
+            progressCircle.style.stroke = color;
+
+            // Background for center
+            const gaugeCenter = document.getElementById('gauge-center-bg');
+            if (gaugeCenter) gaugeCenter.style.backgroundColor = color;
+
+            // Verdict tag color
+            const verdictBadge = document.getElementById('verdict-badge');
+            if (verdictBadge) verdictBadge.style.backgroundColor = color;
+        }, 300);
     }
 
-    // Modal Logic for Additives
-    const modal = document.getElementById('additiveModal');
-    const closeBtn = document.querySelector('.close-modal');
-    const infoButtons = document.querySelectorAll('.info-btn');
+    // 2. NUTRIENT BARS ANIMATION
+    const nutrientBars = document.querySelectorAll('.progress-bar-custom');
+    nutrientBars.forEach(bar => {
+        const targetWidth = bar.style.getPropertyValue('--target-width');
+        const delay = parseInt(bar.dataset.delay) || 0;
 
-    infoButtons.forEach(btn => {
-        btn.addEventListener('click', () => {
-            const name = btn.dataset.name;
-            const category = btn.dataset.category;
-            const risk = btn.dataset.risk;
-            const explanation = btn.dataset.explanation;
+        setTimeout(() => {
+            bar.style.width = targetWidth;
+        }, 500 + delay);
+    });
 
-            document.getElementById('modalTitle').textContent = name;
-            document.getElementById('modalCategory').textContent = category;
-            document.getElementById('modalRisk').textContent = risk;
-            document.getElementById('modalExplanation').textContent = explanation;
-
-            modal.style.display = 'block';
+    // 3. ACCORDION AUTO-SCROLL
+    const accordionItems = document.querySelectorAll('.accordion-collapse');
+    accordionItems.forEach(item => {
+        item.addEventListener('shown.bs.collapse', () => {
+            item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         });
-    });
-
-    closeBtn.addEventListener('click', () => {
-        modal.style.display = 'none';
-    });
-
-    window.addEventListener('click', (event) => {
-        if (event.target == modal) {
-            modal.style.display = 'none';
-        }
-    });
-
-    // Simple scroll reveal
-    const cards = document.querySelectorAll('.sc-card');
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.style.opacity = 1;
-                entry.target.style.transform = 'translateY(0)';
-            }
-        });
-    }, { threshold: 0.1 });
-
-    cards.forEach(card => {
-        card.style.opacity = 0;
-        card.style.transform = 'translateY(20px)';
-        card.style.transition = 'all 0.6s ease-out';
-        observer.observe(card);
     });
 });

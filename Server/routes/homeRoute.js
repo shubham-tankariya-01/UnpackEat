@@ -6,7 +6,7 @@ const router = express.Router();
 // Home page - renders the barcode search field
 router.get("/", IsLoggedIn, (req, res) => {
     const searchProductdata = req.session.searchProductdata || null;
-    res.render("home.ejs", { searchProductdata });
+    res.render("home.ejs", { searchProductdata, page: 'home' });
 });
 
 export default router;
