@@ -14,11 +14,13 @@ import passport from "passport";
 import { Strategy as LocalStrategy } from "passport-local";
 import path from "path"
 import { fileURLToPath } from "url";
+import ejsMate from "ejs-mate";
 
 const app = express();
 const port = 8080;
 const MONGO_URI = "mongodb://127.0.0.1:27017/food-analyser";
 
+app.engine("ejs", ejsMate);
 app.set("view engine", "ejs");
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

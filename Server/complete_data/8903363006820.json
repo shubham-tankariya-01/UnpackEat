@@ -1,0 +1,213 @@
+{
+  "barcode": "8903363006820",
+  "product": {
+    "code": "8903363006820",
+    "name": "Almond Kernels",
+    "brand": "DMart Swaad",
+    "image": "https://images.openfoodfacts.net/images/products/890/336/300/6820/front_en.9.400.jpg",
+    "quantity": "500 g",
+    "categories": [
+      "en:plant-based-foods-and-beverages",
+      "en:plant-based-foods",
+      "en:nuts-and-their-products",
+      "en:nuts",
+      "en:almonds"
+    ]
+  },
+  "highlights": {
+    "health_score": 82,
+    "verdict": "Healthy choice",
+    "likes": [
+      "Low salt",
+      "Healthy fat profile",
+      "Excellent protein content",
+      "Minimally processed",
+      "Certified: Vegetarian",
+      "Good source of protein",
+      "Good source of protein"
+    ],
+    "concerns": [
+      "Moderate saturated fat",
+      "High total fat",
+      "Moderate sugar",
+      "Very high calorie density"
+    ],
+    "nova_group": 1
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 642.21,
+      "unit": "kcal",
+      "rda_percent": 32.1,
+      "rating": "red"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 55.05,
+      "unit": "g",
+      "rda_percent": 78.6,
+      "rating": "red"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 4.66,
+      "unit": "g",
+      "rda_percent": 23.3,
+      "rating": "orange"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 11.59,
+      "unit": "g",
+      "rda_percent": 4.5,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 5.51,
+      "unit": "g",
+      "rda_percent": 11.0,
+      "rating": "green"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 25.1,
+      "unit": "g",
+      "rda_percent": 50.2,
+      "rating": "green"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.001925,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    },
+    {
+      "name": "cholesterol",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.0006416666666666667,
+    "saturated_fat": 0.466,
+    "sugars": 0.22039999999999998,
+    "energy": 1.0,
+    "fiber": 0.0,
+    "protein": 1.0
+  },
+  "ingredients": {
+    "text": "Almond Kernels",
+    "ingredients": [
+      {
+        "id": "en:almond",
+        "text": "Almond Kernels",
+        "percent_estimate": 100,
+        "percent_min": 100,
+        "percent_max": 100,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "15041",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "additives": [],
+    "dominant": [
+      {
+        "ingredient": "Almond Kernels",
+        "percent": 100
+      }
+    ],
+    "contains_palm_oil": false,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [],
+  "allergens": [
+    "almond",
+    "nuts"
+  ],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 642.21,
+      "fat": 55.05,
+      "saturated_fat": 4.66,
+      "carbohydrates": 11.59,
+      "sugars": 5.51,
+      "fiber": null,
+      "protein": 25.1,
+      "salt": 0.001925,
+      "cholesterol": 0.0
+    },
+    "per_serving": {
+      "energy_kcal": 160.55,
+      "fat": 13.76,
+      "saturated_fat": 1.17,
+      "carbohydrates": 2.9,
+      "sugars": 1.38,
+      "protein": 6.28,
+      "salt": 0.0,
+      "cholesterol": 0.0
+    },
+    "serving_size_g": 25.0
+  },
+  "metadata": {
+    "nova_group": 1,
+    "nova_group_error": null,
+    "nutriscore_grade": "b",
+    "nutrient_levels": {
+      "fat": "high",
+      "salt": "low",
+      "saturated-fat": "moderate",
+      "sugars": "moderate"
+    },
+    "labels": [
+      "en:vegetarian",
+      "en:green-dot-india"
+    ],
+    "food_groups": [
+      "en:salty-snacks",
+      "en:nuts"
+    ],
+    "countries": [
+      "en:india"
+    ],
+    "off_completeness": 0.8,
+    "data_quality_warnings": [
+      "en:nutrition-value-under-0-01-g-salt",
+      "en:ecoscore-origins-of-ingredients-origins-are-100-percent-unknown",
+      "en:ecoscore-production-system-no-label"
+    ],
+    "nutrition_data_per": "100g"
+  },
+  "environment": {
+    "ecoscore": "e",
+    "packaging": [
+      "en:o-7-other-plastics"
+    ]
+  },
+  "ai_insights": {
+    "summary": "Almond Kernels has a health score of 82/100. It is generally a nutritious choice, providing an excellent source of protein.",
+    "key_benefits": [
+      "Low salt",
+      "Healthy fat profile",
+      "Excellent protein content"
+    ],
+    "key_concerns": [
+      "Moderate saturated fat",
+      "High total fat",
+      "Moderate sugar"
+    ],
+    "consumption_advice": "Excellent for regular consumption. Can be included in your daily meals.",
+    "alternative_suggestions": [
+      "Whole food alternatives",
+      "Homemade versions with less sugar/salt"
+    ]
+  }
+}

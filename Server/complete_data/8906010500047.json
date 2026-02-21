@@ -1,0 +1,300 @@
+{
+  "barcode": "8906010500047",
+  "product": {
+    "code": "8906010500047",
+    "name": "masala masti",
+    "brand": "Balaji",
+    "image": "https://images.openfoodfacts.net/images/products/890/601/050/0047/front_en.3.400.jpg",
+    "quantity": "15g",
+    "categories": [
+      "en:plant-based-foods-and-beverages",
+      "en:plant-based-foods",
+      "en:snacks",
+      "en:cereals-and-potatoes",
+      "en:salty-snacks",
+      "en:appetizers",
+      "en:chips-and-fries",
+      "en:crisps",
+      "en:potato-crisps"
+    ]
+  },
+  "highlights": {
+    "health_score": 29,
+    "verdict": "Best enjoyed occasionally",
+    "likes": [
+      "Excellent fiber content"
+    ],
+    "concerns": [
+      "Very high salt",
+      "High saturated fat",
+      "High total fat",
+      "Moderate sugar",
+      "Very high calorie density",
+      "Processed food (NOVA 3)",
+      "Contains palm oil"
+    ],
+    "nova_group": 3
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 539.0,
+      "unit": "kcal",
+      "rda_percent": 27.0,
+      "rating": "red"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 29.5,
+      "unit": "g",
+      "rda_percent": 42.1,
+      "rating": "red"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 14.0,
+      "unit": "g",
+      "rda_percent": 70.0,
+      "rating": "red"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 56.9,
+      "unit": "g",
+      "rda_percent": 21.9,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 5.5,
+      "unit": "g",
+      "rda_percent": 11.0,
+      "rating": "green"
+    },
+    {
+      "name": "fiber",
+      "amount_100g": 8.5,
+      "unit": "g",
+      "rda_percent": 34.0,
+      "rating": "green"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 7.4,
+      "unit": "g",
+      "rda_percent": 14.8,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 1.9,
+      "unit": "g",
+      "rda_percent": 38.0,
+      "rating": "red"
+    },
+    {
+      "name": "cholesterol",
+      "amount_100g": 0.001,
+      "unit": "g",
+      "rda_percent": 0.3,
+      "rating": "neutral"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.6333333333333333,
+    "saturated_fat": 1.0,
+    "sugars": 0.22,
+    "energy": 0.8983333333333333,
+    "fiber": 0.85,
+    "protein": 0.29600000000000004
+  },
+  "ingredients": {
+    "text": "potato 87%, edible vegetable oil, sugar, spices and condiments, edible common salt, black salt",
+    "ingredients": [
+      {
+        "id": "en:potato",
+        "text": "potato",
+        "percent_estimate": 87,
+        "percent_min": 87,
+        "percent_max": 87,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "4003",
+        "ecobalyse_code": "potato-industry-fr",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:vegetable-oil",
+        "text": "edible vegetable oil",
+        "percent_estimate": 7.58333333333333,
+        "percent_min": 2.16666666666667,
+        "percent_max": 13,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": "maybe",
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:sugar",
+        "text": "sugar",
+        "percent_estimate": 2.70833333333334,
+        "percent_min": 0,
+        "percent_max": 5.5,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "8f075c25-9ebf-430c-b41d-51d165c6e0d8",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:spice",
+        "text": "spices",
+        "percent_estimate": 1.35416666666667,
+        "percent_min": 0,
+        "percent_max": 5.5,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:condiment",
+        "text": "condiments",
+        "percent_estimate": 0.677083333333336,
+        "percent_min": 0,
+        "percent_max": 3.61111111111111,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:salt",
+        "text": "edible common salt",
+        "percent_estimate": 0.338541666666671,
+        "percent_min": 0,
+        "percent_max": 1.9,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11058",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:black-salt",
+        "text": "black salt",
+        "percent_estimate": 0.338541666666671,
+        "percent_min": 0,
+        "percent_max": 1.9,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11058",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "additives": [],
+    "dominant": [
+      {
+        "ingredient": "potato",
+        "percent": 87
+      },
+      {
+        "ingredient": "edible vegetable oil",
+        "percent": 7.6
+      },
+      {
+        "ingredient": "sugar",
+        "percent": 2.7
+      },
+      {
+        "ingredient": "spices",
+        "percent": 1.4
+      }
+    ],
+    "contains_palm_oil": true,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 539.0,
+      "fat": 29.5,
+      "saturated_fat": 14.0,
+      "carbohydrates": 56.9,
+      "sugars": 5.5,
+      "fiber": 8.5,
+      "protein": 7.4,
+      "salt": 1.9,
+      "cholesterol": 0.001
+    },
+    "per_serving": null,
+    "serving_size_g": null
+  },
+  "metadata": {
+    "nova_group": 3,
+    "nova_group_error": null,
+    "nutriscore_grade": "e",
+    "nutrient_levels": {
+      "fat": "high",
+      "salt": "high",
+      "saturated-fat": "high",
+      "sugars": "moderate"
+    },
+    "labels": [],
+    "food_groups": [
+      "en:salty-snacks",
+      "en:appetizers"
+    ],
+    "countries": [
+      "en:india"
+    ],
+    "off_completeness": 0.6875,
+    "data_quality_warnings": [
+      "en:nutrition-value-very-high-for-category-saturated-fat",
+      "en:nutrition-value-very-high-for-category-fiber",
+      "en:environmental-score-origins-of-ingredients-origins-are-100-percent-unknown",
+      "en:environmental-score-packaging-packaging-data-missing",
+      "en:environmental-score-production-system-no-label"
+    ],
+    "nutrition_data_per": "100g"
+  },
+  "environment": {
+    "ecoscore": "b",
+    "packaging": []
+  },
+  "ai_insights": {
+    "summary": "masala masti has a health score of 29/100. It is considered a highly processed or nutrient-poor option. Strict portion control is recommended due to Very high salt, High saturated fat.",
+    "key_benefits": [
+      "Excellent fiber content"
+    ],
+    "key_concerns": [
+      "Very high salt",
+      "High saturated fat",
+      "High total fat"
+    ],
+    "consumption_advice": "Suitable for occasional snacking. Avoid making it a dietary staple.",
+    "alternative_suggestions": [
+      "Whole food alternatives",
+      "Homemade versions with less sugar/salt"
+    ]
+  }
+}

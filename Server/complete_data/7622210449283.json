@@ -1,0 +1,554 @@
+{
+  "barcode": "7622210449283",
+  "product": {
+    "code": "7622210449283",
+    "name": "Prince Goût Chocolat",
+    "brand": "LU",
+    "image": "https://images.openfoodfacts.net/images/products/762/221/044/9283/front_en.605.400.jpg",
+    "quantity": "300 g",
+    "categories": [
+      "en:snacks",
+      "en:breakfasts",
+      "en:sweet-snacks",
+      "en:biscuits-and-cakes",
+      "en:biscuits-and-crackers",
+      "en:biscuits",
+      "en:filled-biscuits",
+      "en:sandwich-biscuits"
+    ]
+  },
+  "highlights": {
+    "health_score": 31,
+    "verdict": "Best enjoyed occasionally",
+    "likes": [
+      "Low salt",
+      "Good fiber content"
+    ],
+    "concerns": [
+      "High saturated fat",
+      "Very high sugar",
+      "Very high calorie density",
+      "Ultra-processed food (NOVA 4)",
+      "Contains palm oil"
+    ],
+    "nova_group": 4
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 465.0,
+      "unit": "kcal",
+      "rda_percent": 23.2,
+      "rating": "red"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 17.0,
+      "unit": "g",
+      "rda_percent": 24.3,
+      "rating": "orange"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 5.5,
+      "unit": "g",
+      "rda_percent": 27.5,
+      "rating": "red"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 70.0,
+      "unit": "g",
+      "rda_percent": 26.9,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 31.5,
+      "unit": "g",
+      "rda_percent": 63.0,
+      "rating": "red"
+    },
+    {
+      "name": "fiber",
+      "amount_100g": 4.0,
+      "unit": "g",
+      "rda_percent": 16.0,
+      "rating": "green"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 6.5,
+      "unit": "g",
+      "rda_percent": 13.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.49,
+      "unit": "g",
+      "rda_percent": 9.8,
+      "rating": "green"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.16333333333333333,
+    "saturated_fat": 0.55,
+    "sugars": 1.0,
+    "energy": 0.775,
+    "fiber": 0.4,
+    "protein": 0.26
+  },
+  "ingredients": {
+    "text": "Céréale 50 % (Farine de blé 34,8 %, farine de blé complet 15,2 %), sucre, huiles végétales (palme, colza), cacao maigre en poudre 4,5 %, sirop de glucose, amidon de blé, poudres à lever (carbonates d'ammonium, carbonates de sodium), émulsifiant (lécithines de soja), sel, lait écrémé en poudre, perméat de lactosérum (de lait), arômes. Peut contenir œuf.",
+    "ingredients": [
+      {
+        "id": "en:cereal",
+        "text": "Céréale",
+        "percent_estimate": 50,
+        "percent_min": 50,
+        "percent_max": 50,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:wheat-flour",
+        "text": "Farine de blé",
+        "percent_estimate": 34.8,
+        "percent_min": 34.8,
+        "percent_max": 34.8,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "9410",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "a2e25aca-1f42-4bc8-bc0e-4d7c751775aa",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:whole-wheat-flour",
+        "text": "farine de blé complet",
+        "percent_estimate": 15.2,
+        "percent_min": 15.2,
+        "percent_max": 15.2,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "9410",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "a2e25aca-1f42-4bc8-bc0e-4d7c751775aa",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:sugar",
+        "text": "sucre",
+        "percent_estimate": 22.7727272727273,
+        "percent_min": 4.54545454545455,
+        "percent_max": 41,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "8f075c25-9ebf-430c-b41d-51d165c6e0d8",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:vegetable-oil",
+        "text": "huiles végétales",
+        "percent_estimate": 15.8636363636364,
+        "percent_min": 4.5,
+        "percent_max": 31.8333333333333,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": "maybe",
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:palm-oil",
+        "text": "huile de palme",
+        "percent_estimate": 9.05681818181818,
+        "percent_min": 2.25,
+        "percent_max": 31.8333333333333,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "16129",
+        "ecobalyse_code": "45658c32-66d9-4305-a34b-21d6a4cef89c",
+        "from_palm_oil": "yes",
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:colza-oil",
+        "text": "huile de colza",
+        "percent_estimate": 6.80681818181818,
+        "percent_min": 0,
+        "percent_max": 15.9166666666667,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "17130",
+        "ecobalyse_code": "96b301d9-d21b-4cea-8903-bd7917e95a30",
+        "from_palm_oil": "no",
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:fat-reduced-cocoa-powder",
+        "text": "cacao maigre en poudre",
+        "percent_estimate": 4.5,
+        "percent_min": 4.5,
+        "percent_max": 4.5,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "18100",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:glucose-syrup",
+        "text": "sirop de glucose",
+        "percent_estimate": 2.25,
+        "percent_min": 0,
+        "percent_max": 4.5,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:wheat-starch",
+        "text": "amidon de blé",
+        "percent_estimate": 2.25,
+        "percent_min": 0,
+        "percent_max": 4.5,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "9510",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:raising-agent",
+        "text": "poudres à lever",
+        "percent_estimate": 1.18181818181818,
+        "percent_min": 0,
+        "percent_max": 4.5,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:emulsifier",
+        "text": "émulsifiant",
+        "percent_estimate": 0.590909090909093,
+        "percent_min": 0,
+        "percent_max": 4.5,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:soya-lecithin",
+        "text": "lécithines de soja",
+        "percent_estimate": 0.590909090909093,
+        "percent_min": 0,
+        "percent_max": 4.5,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "42200",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:salt",
+        "text": "sel",
+        "percent_estimate": 0.245,
+        "percent_min": 0,
+        "percent_max": 0.49,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11058",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:skimmed-milk-powder",
+        "text": "lait écrémé en poudre",
+        "percent_estimate": 0.172954545454544,
+        "percent_min": 0,
+        "percent_max": 0.49,
+        "vegan": "no",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "19054",
+        "ecobalyse_code": "b6776a28-ec84-4bf3-988c-07b3c29f6136",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:whey-permeate",
+        "text": "perméat de lactosérum",
+        "percent_estimate": 0.0864772727272722,
+        "percent_min": 0,
+        "percent_max": 0.49,
+        "vegan": "no",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:flavouring",
+        "text": "arômes",
+        "percent_estimate": 0.0864772727272793,
+        "percent_min": 0,
+        "percent_max": 0.49,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "additives": [
+      {
+        "id": "en:e322",
+        "text": "E322",
+        "percent_estimate": null,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": null
+      },
+      {
+        "id": "en:e322i",
+        "text": "E322I",
+        "percent_estimate": null,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": null
+      },
+      {
+        "id": "en:e500",
+        "text": "carbonates de sodium",
+        "percent_estimate": 0.59090909090909,
+        "percent_min": 0,
+        "percent_max": 2.25,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e503",
+        "text": "carbonates d'ammonium",
+        "percent_estimate": 0.59090909090909,
+        "percent_min": 0,
+        "percent_max": 4.5,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "dominant": [
+      {
+        "ingredient": "Céréale",
+        "percent": 50
+      },
+      {
+        "ingredient": "Farine de blé",
+        "percent": 34.8
+      },
+      {
+        "ingredient": "sucre",
+        "percent": 22.8
+      },
+      {
+        "ingredient": "huiles végétales",
+        "percent": 15.9
+      }
+    ],
+    "contains_palm_oil": true,
+    "complexity": "Moderately complex"
+  },
+  "additives_full": [
+    {
+      "code": "E322",
+      "name": "Lecithin",
+      "category": "Emulsifier",
+      "risk": "low",
+      "explanation": "Natural emulsifier from soy or sunflower. Safe and widely tolerated; soy-derived versions may concern allergy sufferers."
+    },
+    {
+      "code": "E322I",
+      "name": "E322I",
+      "category": "Unknown",
+      "risk": "unknown",
+      "explanation": "No safety data available."
+    },
+    {
+      "code": "E500",
+      "name": "Sodium Carbonates",
+      "category": "Raising Agent",
+      "risk": "low",
+      "explanation": "Baking soda family. Common raising agent; safe at food levels."
+    },
+    {
+      "code": "E503",
+      "name": "Ammonium Carbonates",
+      "category": "Raising Agent",
+      "risk": "low",
+      "explanation": "Used in baking; ammonia dissipates during cooking. Safe in finished baked goods."
+    }
+  ],
+  "allergens": [
+    "egg",
+    "eggs",
+    "gluten",
+    "milk",
+    "soybeans"
+  ],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 465.0,
+      "fat": 17.0,
+      "saturated_fat": 5.5,
+      "carbohydrates": 70.0,
+      "sugars": 31.5,
+      "fiber": 4.0,
+      "protein": 6.5,
+      "salt": 0.49,
+      "cholesterol": null
+    },
+    "per_serving": {
+      "energy_kcal": 93.0,
+      "fat": 3.4,
+      "saturated_fat": 1.1,
+      "carbohydrates": 14.0,
+      "sugars": 6.3,
+      "fiber": 0.8,
+      "protein": 1.3,
+      "salt": 0.1
+    },
+    "serving_size_g": 20.0
+  },
+  "metadata": {
+    "nova_group": 4,
+    "nova_group_error": null,
+    "nutriscore_grade": "e",
+    "nutrient_levels": {
+      "fat": "moderate",
+      "salt": "moderate",
+      "saturated-fat": "high",
+      "sugars": "high"
+    },
+    "labels": [
+      "en:distributor-labels",
+      "en:charte-lu-harmony",
+      "fr:triman"
+    ],
+    "food_groups": [
+      "en:sugary-snacks",
+      "en:biscuits-and-cakes"
+    ],
+    "countries": [
+      "en:algeria",
+      "en:belgium",
+      "en:france",
+      "en:french-polynesia",
+      "en:germany",
+      "en:guadeloupe",
+      "en:hungary",
+      "en:luxembourg",
+      "en:martinique",
+      "en:morocco",
+      "en:new-caledonia",
+      "en:reunion",
+      "en:spain",
+      "en:switzerland",
+      "en:united-states"
+    ],
+    "off_completeness": 0.9,
+    "data_quality_warnings": [
+      "en:nutrition-energy-value-in-kcal-does-not-match-value-computed-from-other-nutrients",
+      "en:nutrition-energy-value-in-kcal-may-not-match-value-computed-from-other-nutrients",
+      "en:environmental-score-origins-of-ingredients-origins-are-100-percent-unknown",
+      "en:environmental-score-packaging-unscored-material",
+      "en:environmental-score-production-system-no-label"
+    ],
+    "nutrition_data_per": "100g"
+  },
+  "environment": {
+    "ecoscore": "d",
+    "packaging": [
+      "en:plastic",
+      "fr:Papier ondulé"
+    ]
+  },
+  "ai_insights": {
+    "summary": "Prince Goût Chocolat has a health score of 31/100. It is considered a highly processed or nutrient-poor option. Strict portion control is recommended due to High saturated fat, Very high sugar.",
+    "key_benefits": [
+      "Low salt",
+      "Good fiber content"
+    ],
+    "key_concerns": [
+      "High saturated fat",
+      "Very high sugar",
+      "Very high calorie density"
+    ],
+    "consumption_advice": "Suitable for occasional snacking. Avoid making it a dietary staple.",
+    "alternative_suggestions": [
+      "Whole food alternatives",
+      "Homemade versions with less sugar/salt"
+    ]
+  }
+}

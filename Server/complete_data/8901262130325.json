@@ -1,0 +1,426 @@
+{
+  "barcode": "8901262130325",
+  "product": {
+    "code": "8901262130325",
+    "name": "Amul Pro Chocolate 500g pp",
+    "brand": "Amul",
+    "image": "https://images.openfoodfacts.net/images/products/890/126/213/0325/front_en.11.400.jpg",
+    "quantity": "5",
+    "categories": [
+      "en:beverages",
+      "en:sweetened-beverages"
+    ]
+  },
+  "highlights": {
+    "health_score": 48,
+    "verdict": "Moderate consumption recommended",
+    "likes": [
+      "Low salt",
+      "Low saturated fat",
+      "Certified: Vegetarian"
+    ],
+    "concerns": [
+      "Very high sugar",
+      "High calorie density",
+      "Very high carbohydrate content",
+      "Ultra-processed food (NOVA 4)",
+      "Contains palm oil"
+    ],
+    "nova_group": 4
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 365.0,
+      "unit": "kcal",
+      "rda_percent": 18.2,
+      "rating": "orange"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 3.3,
+      "unit": "g",
+      "rda_percent": 4.7,
+      "rating": "green"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 1.5,
+      "unit": "g",
+      "rda_percent": 7.5,
+      "rating": "green"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 75.8,
+      "unit": "g",
+      "rda_percent": 29.2,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 64.8,
+      "unit": "g",
+      "rda_percent": 129.6,
+      "rating": "red"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 8.0,
+      "unit": "g",
+      "rda_percent": 16.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.5,
+      "unit": "g",
+      "rda_percent": 10.0,
+      "rating": "green"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.16666666666666666,
+    "saturated_fat": 0.15,
+    "sugars": 1.0,
+    "energy": 0.6083333333333333,
+    "fiber": 0.0,
+    "protein": 0.32
+  },
+  "ingredients": {
+    "text": "Malt extract (42%), Sugar, Milk Solids (10%), Whey Solids (7%), Caramel (E150c), Cocoa Solids (2%), Permitted emulsifiers (E322, E471), Raising agent (E500 (ii)), DHA and Salt.",
+    "ingredients": [
+      {
+        "id": "en:malt-extract",
+        "text": "Malt extract",
+        "percent_estimate": 42,
+        "percent_min": 42,
+        "percent_max": 42,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:sugar",
+        "text": "Sugar",
+        "percent_estimate": 31.25,
+        "percent_min": 25.5,
+        "percent_max": 37,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "8f075c25-9ebf-430c-b41d-51d165c6e0d8",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:milk",
+        "text": "Milk",
+        "percent_estimate": 10,
+        "percent_min": 10,
+        "percent_max": 10,
+        "vegan": "no",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "19051",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "8f3863e7-f981-4367-90a2-e1aaa096a6e0",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:whey",
+        "text": "Whey",
+        "percent_estimate": 7,
+        "percent_min": 7,
+        "percent_max": 7,
+        "vegan": "no",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:cocoa-solids",
+        "text": "Cocoa Solids",
+        "percent_estimate": 2,
+        "percent_min": 2,
+        "percent_max": 2,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "18100",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:permitted-emulsifiers",
+        "text": "Permitted emulsifiers",
+        "percent_estimate": 1,
+        "percent_min": 0,
+        "percent_max": 2,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:raising-agent",
+        "text": "Raising agent",
+        "percent_estimate": 1,
+        "percent_min": 0,
+        "percent_max": 2,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:dha",
+        "text": "DHA",
+        "percent_estimate": 0.625,
+        "percent_min": 0,
+        "percent_max": 2,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:salt",
+        "text": "Salt",
+        "percent_estimate": 0.625,
+        "percent_min": 0,
+        "percent_max": 0.5,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11058",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "additives": [
+      {
+        "id": "en:e150c",
+        "text": "E150C",
+        "percent_estimate": null,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": null
+      },
+      {
+        "id": "en:e322",
+        "text": "e322",
+        "percent_estimate": 0.5,
+        "percent_min": 0,
+        "percent_max": 2,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e471",
+        "text": "e471",
+        "percent_estimate": 0.5,
+        "percent_min": 0,
+        "percent_max": 1,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": "maybe",
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e500",
+        "text": "E500",
+        "percent_estimate": null,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": null
+      },
+      {
+        "id": "en:e500ii",
+        "text": "e500ii",
+        "percent_estimate": 1,
+        "percent_min": 0,
+        "percent_max": 2,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "dominant": [
+      {
+        "ingredient": "Malt extract",
+        "percent": 42
+      },
+      {
+        "ingredient": "Sugar",
+        "percent": 31.2
+      },
+      {
+        "ingredient": "Milk",
+        "percent": 10
+      },
+      {
+        "ingredient": "Whey",
+        "percent": 7
+      }
+    ],
+    "contains_palm_oil": true,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [
+    {
+      "code": "E150C",
+      "name": "E150C",
+      "category": "Unknown",
+      "risk": "unknown",
+      "explanation": "No safety data available."
+    },
+    {
+      "code": "E322",
+      "name": "Lecithin",
+      "category": "Emulsifier",
+      "risk": "low",
+      "explanation": "Natural emulsifier from soy or sunflower. Safe and widely tolerated; soy-derived versions may concern allergy sufferers."
+    },
+    {
+      "code": "E471",
+      "name": "Mono- and Diglycerides of Fatty Acids",
+      "category": "Emulsifier",
+      "risk": "moderate",
+      "explanation": "Derived from fats (may include palm or animal fat). Can contain traces of trans fats; moderation advised."
+    },
+    {
+      "code": "E500",
+      "name": "Sodium Carbonates",
+      "category": "Raising Agent",
+      "risk": "low",
+      "explanation": "Baking soda family. Common raising agent; safe at food levels."
+    },
+    {
+      "code": "E500II",
+      "name": "Sodium Bicarbonate",
+      "category": "Raising Agent",
+      "risk": "low",
+      "explanation": "Baking soda. Safe; contributes to sodium intake if consumed in large quantities."
+    }
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 365.0,
+      "fat": 3.3,
+      "saturated_fat": 1.5,
+      "carbohydrates": 75.8,
+      "sugars": 64.8,
+      "fiber": null,
+      "protein": 8.0,
+      "salt": 0.5,
+      "cholesterol": null
+    },
+    "per_serving": null,
+    "serving_size_g": null
+  },
+  "metadata": {
+    "nova_group": 4,
+    "nova_group_error": null,
+    "nutriscore_grade": "e",
+    "nutrient_levels": {
+      "fat": "moderate",
+      "salt": "moderate",
+      "saturated-fat": "moderate",
+      "sugars": "high"
+    },
+    "labels": [
+      "en:vegetarian",
+      "en:green-dot-india"
+    ],
+    "food_groups": [
+      "en:beverages",
+      "en:sweetened-beverages"
+    ],
+    "countries": [
+      "en:india"
+    ],
+    "off_completeness": 0.6875,
+    "data_quality_warnings": [
+      "en:nutrition-value-very-high-for-category-energy",
+      "en:nutrition-value-very-high-for-category-fat",
+      "en:nutrition-value-very-high-for-category-saturated-fat",
+      "en:nutrition-value-very-high-for-category-proteins",
+      "en:nutrition-value-very-high-for-category-salt",
+      "en:product-quantity-under-1g",
+      "en:vegetarian-label-but-could-not-confirm-for-all-ingredients",
+      "en:environmental-score-origins-of-ingredients-origins-are-100-percent-unknown",
+      "en:environmental-score-packaging-packaging-data-missing",
+      "en:environmental-score-production-system-no-label"
+    ],
+    "nutrition_data_per": "100g"
+  },
+  "environment": {
+    "ecoscore": "unknown",
+    "packaging": []
+  },
+  "ai_insights": {
+    "summary": "Amul Pro Chocolate 500g pp has a health score of 48/100. It has an average nutritional profile. While it may provide some energy, be mindful of the high sugar content.",
+    "key_benefits": [
+      "Low salt",
+      "Low saturated fat",
+      "Certified: Vegetarian"
+    ],
+    "key_concerns": [
+      "Very high sugar",
+      "High calorie density",
+      "Very high carbohydrate content"
+    ],
+    "consumption_advice": "Limit consumption. Consider healthier alternatives for regular meals.",
+    "alternative_suggestions": [
+      "Whole food alternatives",
+      "Homemade versions with less sugar/salt"
+    ]
+  }
+}

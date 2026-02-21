@@ -1,0 +1,153 @@
+{
+  "barcode": "8901058023800",
+  "product": {
+    "code": "8901058023800",
+    "name": "Maggi",
+    "brand": "Maggi",
+    "image": "https://images.openfoodfacts.net/images/products/890/105/802/3800/front_en.3.400.jpg",
+    "quantity": "560",
+    "categories": [
+      "en:plant-based-foods-and-beverages",
+      "en:plant-based-foods",
+      "en:condiments",
+      "en:herbs-and-spices",
+      "en:pastas",
+      "en:spices",
+      "en:noodles"
+    ]
+  },
+  "highlights": {
+    "health_score": 78,
+    "verdict": "Healthy choice",
+    "likes": [],
+    "concerns": [
+      "Salt content not reported",
+      "Saturated fat not reported",
+      "Sugar content not reported",
+      "High calorie density"
+    ],
+    "nova_group": null
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 401.428571428571,
+      "unit": "kcal",
+      "rda_percent": 20.1,
+      "rating": "red"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 12.5714285714286,
+      "unit": "g",
+      "rda_percent": 18.0,
+      "rating": "orange"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 59.5714285714286,
+      "unit": "g",
+      "rda_percent": 22.9,
+      "rating": "neutral"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 8.14285714285714,
+      "unit": "g",
+      "rda_percent": 16.3,
+      "rating": "neutral"
+    },
+    {
+      "name": "cholesterol",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.0,
+    "saturated_fat": 0.0,
+    "sugars": 0.0,
+    "energy": 0.6690476190476183,
+    "fiber": 0.0,
+    "protein": 0.3257142857142856
+  },
+  "ingredients": {
+    "text": "",
+    "ingredients": [],
+    "additives": [],
+    "dominant": [],
+    "contains_palm_oil": false,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 401.428571428571,
+      "fat": 12.5714285714286,
+      "saturated_fat": null,
+      "carbohydrates": 59.5714285714286,
+      "sugars": null,
+      "fiber": null,
+      "protein": 8.14285714285714,
+      "salt": null,
+      "cholesterol": 0.0
+    },
+    "per_serving": {
+      "energy_kcal": 281.0,
+      "fat": 8.8,
+      "carbohydrates": 41.7,
+      "protein": 5.7,
+      "cholesterol": 0.0
+    },
+    "serving_size_g": 70.0
+  },
+  "metadata": {
+    "nova_group": null,
+    "nova_group_error": "missing_ingredients",
+    "nutriscore_grade": null,
+    "nutrient_levels": {
+      "fat": "moderate"
+    },
+    "labels": [],
+    "food_groups": [
+      "en:cereals-and-potatoes",
+      "en:cereals"
+    ],
+    "countries": [
+      "en:india"
+    ],
+    "off_completeness": 0.575,
+    "data_quality_warnings": [
+      "en:product-quantity-under-1g",
+      "en:serving-quantity-over-product-quantity",
+      "en:environmental-score-origins-of-ingredients-origins-are-100-percent-unknown",
+      "en:environmental-score-packaging-packaging-data-missing",
+      "en:environmental-score-production-system-no-label",
+      "en:environmental-score-threatened-species-ingredients-missing"
+    ],
+    "nutrition_data_per": "100g"
+  },
+  "environment": {
+    "ecoscore": "unknown",
+    "packaging": []
+  },
+  "ai_insights": {
+    "summary": "Maggi has a health score of 78/100. It is generally a nutritious choice, with a balanced nutritional profile.",
+    "key_benefits": [
+      "Provides quick energy"
+    ],
+    "key_concerns": [
+      "Salt content not reported",
+      "Saturated fat not reported",
+      "Sugar content not reported"
+    ],
+    "consumption_advice": "Excellent for regular consumption. Can be included in your daily meals.",
+    "alternative_suggestions": [
+      "Whole food alternatives",
+      "Homemade versions with less sugar/salt"
+    ]
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "barcode": "5449000000996",
+  "product": {
+    "code": "5449000000996",
+    "name": "Coke Original Taste",
+    "brand": "Coca-Cola",
+    "image": "https://images.openfoodfacts.net/images/products/544/900/000/0996/front_en.1002.400.jpg",
+    "quantity": "0.0 kg",
+    "categories": [
+      "en:beverages-and-beverages-preparations",
+      "en:beverages",
+      "en:carbonated-drinks",
+      "en:sodas",
+      "en:colas",
+      "pt:bebidas-cafeina"
+    ]
+  },
+  "highlights": {
+    "health_score": 67,
+    "verdict": "Decent choice",
+    "likes": [
+      "Low salt",
+      "Low saturated fat",
+      "Low calorie"
+    ],
+    "concerns": [
+      "High sugar",
+      "Ultra-processed food (NOVA 4)",
+      "1 high-risk additive(s) detected"
+    ],
+    "nova_group": 4
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 42.0,
+      "unit": "kcal",
+      "rda_percent": 2.1,
+      "rating": "green"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 10.6,
+      "unit": "g",
+      "rda_percent": 4.1,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 10.6,
+      "unit": "g",
+      "rda_percent": 21.2,
+      "rating": "orange"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.0,
+      "unit": "g",
+      "rda_percent": 0.0,
+      "rating": "green"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.0,
+    "saturated_fat": 0.0,
+    "sugars": 0.424,
+    "energy": 0.07,
+    "fiber": 0.0,
+    "protein": 0.0
+  },
+  "ingredients": {
+    "text": "Carbonated Water, Sugar, Colour (Caramel E150d). Acid (Phosphoric Acid), Natural Flavourings, Caffeine Flavouring.",
+    "ingredients": [
+      {
+        "id": "en:carbonated-water",
+        "text": "Carbonated Water",
+        "percent_estimate": 79.1,
+        "percent_min": 58.2,
+        "percent_max": 100,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "18066",
+        "ecobalyse_code": "36b3ffec-51e7-4e26-b1b5-7d52554e0aa6",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:sugar",
+        "text": "Sugar",
+        "percent_estimate": 5.3,
+        "percent_min": 0,
+        "percent_max": 10.6,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "8f075c25-9ebf-430c-b41d-51d165c6e0d8",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:colour",
+        "text": "Colour",
+        "percent_estimate": 5.3,
+        "percent_min": 0,
+        "percent_max": 10.6,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:acid",
+        "text": "Acid",
+        "percent_estimate": 5.15000000000001,
+        "percent_min": 0,
+        "percent_max": 10.6,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:natural-flavouring",
+        "text": "Natural Flavourings",
+        "percent_estimate": 2.5,
+        "percent_min": 0,
+        "percent_max": 5,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:caffeine-flavour",
+        "text": "Caffeine Flavouring",
+        "percent_estimate": 2.65000000000001,
+        "percent_min": 0,
+        "percent_max": 5,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "additives": [
+      {
+        "id": "en:e150d",
+        "text": "e150d",
+        "percent_estimate": 5.3,
+        "percent_min": 0,
+        "percent_max": 10.6,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:e338",
+        "text": "Phosphoric Acid",
+        "percent_estimate": 5.15000000000001,
+        "percent_min": 0,
+        "percent_max": 10.6,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "dominant": [
+      {
+        "ingredient": "Carbonated Water",
+        "percent": 79.1
+      },
+      {
+        "ingredient": "Sugar",
+        "percent": 5.3
+      },
+      {
+        "ingredient": "Colour",
+        "percent": 5.3
+      },
+      {
+        "ingredient": "Acid",
+        "percent": 5.2
+      }
+    ],
+    "contains_palm_oil": false,
+    "complexity": "Simple formulation"
+  },
+  "additives_full": [
+    {
+      "code": "E150D",
+      "name": "Sulphite Ammonia Caramel",
+      "category": "Colour",
+      "risk": "high",
+      "explanation": "Contains 4-methylimidazole (4-MEI), a potential carcinogen. Found in colas and dark sauces."
+    },
+    {
+      "code": "E338",
+      "name": "Phosphoric Acid",
+      "category": "Acidity Regulator",
+      "risk": "moderate",
+      "explanation": "Used in colas. High consumption linked to lower bone density due to calcium-phosphorus imbalance."
+    }
+  ],
+  "allergens": [],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 42.0,
+      "fat": 0.0,
+      "saturated_fat": 0.0,
+      "carbohydrates": 10.6,
+      "sugars": 10.6,
+      "fiber": null,
+      "protein": 0.0,
+      "salt": 0.0,
+      "cholesterol": null
+    },
+    "per_serving": null,
+    "serving_size_g": null
+  },
+  "metadata": {
+    "nova_group": 4,
+    "nova_group_error": null,
+    "nutriscore_grade": "e",
+    "nutrient_levels": {
+      "fat": "low",
+      "salt": "low",
+      "saturated-fat": "low",
+      "sugars": "high"
+    },
+    "labels": [
+      "en:made-in-the-eu"
+    ],
+    "food_groups": [
+      "en:beverages",
+      "en:sweetened-beverages"
+    ],
+    "countries": [
+      "en:albania",
+      "en:austria",
+      "en:belgium",
+      "en:bulgaria",
+      "en:canada",
+      "en:france",
+      "en:georgia",
+      "en:germany",
+      "en:iceland",
+      "en:india",
+      "en:italy",
+      "en:latvia",
+      "en:lithuania",
+      "en:mexico",
+      "en:morocco",
+      "en:poland",
+      "en:romania",
+      "en:senegal",
+      "en:spain",
+      "en:switzerland",
+      "en:ukraine",
+      "en:united-kingdom",
+      "en:united-states"
+    ],
+    "off_completeness": 1.0,
+    "data_quality_warnings": [
+      "en:product-quantity-under-1g",
+      "en:serving-quantity-over-product-quantity",
+      "en:environmental-score-production-system-no-label"
+    ],
+    "nutrition_data_per": "100g"
+  },
+  "environment": {
+    "ecoscore": "not-applicable",
+    "packaging": [
+      "en:aluminium"
+    ]
+  },
+  "ai_insights": {
+    "summary": "Coke Original Taste has a health score of 67/100. It has an average nutritional profile. While it may provide some energy, it is highly processed and should be consumed occasionally.",
+    "key_benefits": [
+      "Low salt",
+      "Low saturated fat",
+      "Low calorie"
+    ],
+    "key_concerns": [
+      "High sugar",
+      "Ultra-processed food (NOVA 4)",
+      "1 high-risk additive(s) detected"
+    ],
+    "consumption_advice": "Limit consumption. Consider healthier alternatives for regular meals.",
+    "alternative_suggestions": [
+      "Whole food alternatives",
+      "Homemade versions with less sugar/salt"
+    ]
+  }
+}

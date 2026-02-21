@@ -1,0 +1,635 @@
+{
+  "barcode": "8901063023901",
+  "product": {
+    "code": "8901063023901",
+    "name": "Marie Gold",
+    "brand": "Britannia",
+    "image": "https://images.openfoodfacts.net/images/products/890/106/302/3901/front_en.6.400.jpg",
+    "quantity": "250",
+    "categories": [
+      "en:snacks",
+      "en:sweet-snacks",
+      "en:biscuits-and-cakes",
+      "en:biscuits-and-crackers",
+      "en:biscuits",
+      "en:snack-biscuit-with-fruits-filling"
+    ]
+  },
+  "highlights": {
+    "health_score": 0,
+    "verdict": "Limit consumption",
+    "likes": [],
+    "concerns": [
+      "Moderate salt",
+      "High saturated fat",
+      "Very high sugar",
+      "High calorie density",
+      "Very high carbohydrate content",
+      "Ultra-processed food (NOVA 4)",
+      "Contains palm oil",
+      "Complex formulation (24 ingredients)",
+      "1 high-risk additive(s) detected"
+    ],
+    "nova_group": 4
+  },
+  "nutrients": [
+    {
+      "name": "energy_kcal",
+      "amount_100g": 445.0,
+      "unit": "kcal",
+      "rda_percent": 22.2,
+      "rating": "red"
+    },
+    {
+      "name": "fat",
+      "amount_100g": 10.7,
+      "unit": "g",
+      "rda_percent": 15.3,
+      "rating": "orange"
+    },
+    {
+      "name": "saturated_fat",
+      "amount_100g": 5.2,
+      "unit": "g",
+      "rda_percent": 26.0,
+      "rating": "red"
+    },
+    {
+      "name": "carbohydrates",
+      "amount_100g": 78.9,
+      "unit": "g",
+      "rda_percent": 30.3,
+      "rating": "neutral"
+    },
+    {
+      "name": "sugars",
+      "amount_100g": 21.9,
+      "unit": "g",
+      "rda_percent": 43.8,
+      "rating": "red"
+    },
+    {
+      "name": "protein",
+      "amount_100g": 8.4,
+      "unit": "g",
+      "rda_percent": 16.8,
+      "rating": "neutral"
+    },
+    {
+      "name": "salt",
+      "amount_100g": 0.7975,
+      "unit": "g",
+      "rda_percent": 16.0,
+      "rating": "orange"
+    }
+  ],
+  "nutrient_radar": {
+    "salt": 0.2658333333333333,
+    "saturated_fat": 0.52,
+    "sugars": 0.8759999999999999,
+    "energy": 0.7416666666666667,
+    "fiber": 0.0,
+    "protein": 0.336
+  },
+  "ingredients": {
+    "text": "REFINED WHEAT FLOUR (MAIDA)(73%), SUGAR, REFINED PALM OIL, INVERT SUGAR SYRUP, MILK SOLIDS, RAISING AGENTS [503(ii) & 500 (ii)], IODIZED SALT, EMULSIFIER(472e), CALCIUM SALT, DOUGH CONDITIONER(223), VITAMINS*, FERROUS SALT AND POTASSIUM IODATE. CONTAINS PERMITTED NATURAL COLOUR (150d) AND ADDED FLAVOURS NATURE IDENTICAL & ARTIFICIAL (MILK & VANILLA) FLAVOURING SUBSTANCES] (Numbers in brackets as per International Numbering System) CONTAINS WHEAT, MILK AND SULPHITE.",
+    "ingredients": [
+      {
+        "id": "en:refined-wheat-flour",
+        "text": "REFINED WHEAT FLOUR",
+        "percent_estimate": 52.9411764705882,
+        "percent_min": 5.88235294117647,
+        "percent_max": 100,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "9410",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "a2e25aca-1f42-4bc8-bc0e-4d7c751775aa",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:refined-wheat-flour",
+        "text": "MAIDA",
+        "percent_estimate": 52.9411764705882,
+        "percent_min": 5.88235294117647,
+        "percent_max": 100,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "9410",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "a2e25aca-1f42-4bc8-bc0e-4d7c751775aa",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:sugar",
+        "text": "SUGAR",
+        "percent_estimate": 10.95,
+        "percent_min": 0,
+        "percent_max": 21.9,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "8f075c25-9ebf-430c-b41d-51d165c6e0d8",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:refined-palm-oil",
+        "text": "REFINED PALM OIL",
+        "percent_estimate": 10.95,
+        "percent_min": 0,
+        "percent_max": 21.9,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "16150",
+        "ecobalyse_code": "45658c32-66d9-4305-a34b-21d6a4cef89c",
+        "from_palm_oil": "yes",
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:invert-sugar-syrup",
+        "text": "INVERT SUGAR SYRUP",
+        "percent_estimate": 10.95,
+        "percent_min": 0,
+        "percent_max": 21.9,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "31016",
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:milk",
+        "text": "MILK",
+        "percent_estimate": 7.10441176470588,
+        "percent_min": 0,
+        "percent_max": 20,
+        "vegan": "no",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "19051",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "8f3863e7-f981-4367-90a2-e1aaa096a6e0",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:raising-agent",
+        "text": "RAISING AGENTS",
+        "percent_estimate": 3.55220588235294,
+        "percent_min": 0,
+        "percent_max": 16.6666666666667,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:ii",
+        "text": "ii",
+        "percent_estimate": 1.77610294117647,
+        "percent_min": 0,
+        "percent_max": 16.6666666666667,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:ii",
+        "text": "ii",
+        "percent_estimate": 1.77610294117647,
+        "percent_min": 0,
+        "percent_max": 8.33333333333333,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:iodised-salt",
+        "text": "IODIZED SALT",
+        "percent_estimate": 0.39875,
+        "percent_min": 0,
+        "percent_max": 0.7975,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": "11058",
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:emulsifier",
+        "text": "EMULSIFIER",
+        "percent_estimate": 0.39875,
+        "percent_min": 0,
+        "percent_max": 0.7975,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:472e",
+        "text": "472e",
+        "percent_estimate": 0.39875,
+        "percent_min": 0,
+        "percent_max": 0.7975,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:calcium-salts",
+        "text": "CALCIUM SALT",
+        "percent_estimate": 0.39875,
+        "percent_min": 0,
+        "percent_max": 0.7975,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:flour-treatment-agent",
+        "text": "DOUGH CONDITIONER",
+        "percent_estimate": 0.39875,
+        "percent_min": 0,
+        "percent_max": 0.7975,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:vitamins",
+        "text": "VITAMINS",
+        "percent_estimate": 0.39875,
+        "percent_min": 0,
+        "percent_max": 0.7975,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:iron-salts",
+        "text": "FERROUS SALT",
+        "percent_estimate": 0.39875,
+        "percent_min": 0,
+        "percent_max": 0.7975,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:contains-permitted-natural-colour",
+        "text": "CONTAINS PERMITTED NATURAL COLOUR",
+        "percent_estimate": 0.380477941176444,
+        "percent_min": 0,
+        "percent_max": 0.7975,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:150d",
+        "text": "150d",
+        "percent_estimate": 0.380477941176444,
+        "percent_min": 0,
+        "percent_max": 0.7975,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:added-flavours-nature-identical-and-artificial",
+        "text": "ADDED FLAVOURS NATURE IDENTICAL and ARTIFICIAL",
+        "percent_estimate": 0.190238970588226,
+        "percent_min": 0,
+        "percent_max": 0.7975,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:milk",
+        "text": "MILK",
+        "percent_estimate": 0.0951194852941128,
+        "percent_min": 0,
+        "percent_max": 0.7975,
+        "vegan": "no",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": "19051",
+        "ciqual_food_code": null,
+        "ecobalyse_code": "8f3863e7-f981-4367-90a2-e1aaa096a6e0",
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:vanilla",
+        "text": "VANILLA",
+        "percent_estimate": 0.0951194852941128,
+        "percent_min": 0,
+        "percent_max": 0.39875,
+        "vegan": "yes",
+        "vegetarian": "yes",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:flavouring",
+        "text": "FLAVOURING SUBSTANCES",
+        "percent_estimate": 0.0951194852941128,
+        "percent_min": 0,
+        "percent_max": 0.7975,
+        "vegan": "maybe",
+        "vegetarian": "maybe",
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      },
+      {
+        "id": "en:numbers-in-brackets-as-per-international-numbering-system",
+        "text": "Numbers in brackets as per International Numbering System",
+        "percent_estimate": 0.0951194852941128,
+        "percent_min": 0,
+        "percent_max": 0.7975,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 0
+      },
+      {
+        "id": "en:sulfite",
+        "text": "SULPHITE",
+        "percent_estimate": 0.0951194852941057,
+        "percent_min": 0,
+        "percent_max": 0.7975,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": 1
+      }
+    ],
+    "additives": [
+      {
+        "id": "en:e150d",
+        "text": "E150D",
+        "percent_estimate": null,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": null
+      },
+      {
+        "id": "en:e223",
+        "text": "E223",
+        "percent_estimate": null,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": null
+      },
+      {
+        "id": "en:e472e",
+        "text": "E472E",
+        "percent_estimate": null,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": null
+      },
+      {
+        "id": "en:e500",
+        "text": "E500",
+        "percent_estimate": null,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": null
+      },
+      {
+        "id": "en:e503",
+        "text": "E503",
+        "percent_estimate": null,
+        "percent_min": null,
+        "percent_max": null,
+        "vegan": null,
+        "vegetarian": null,
+        "ciqual_proxy_food_code": null,
+        "ciqual_food_code": null,
+        "ecobalyse_code": null,
+        "from_palm_oil": null,
+        "is_in_taxonomy": null
+      }
+    ],
+    "dominant": [
+      {
+        "ingredient": "REFINED WHEAT FLOUR",
+        "percent": 52.9
+      },
+      {
+        "ingredient": "MAIDA",
+        "percent": 52.9
+      },
+      {
+        "ingredient": "SUGAR",
+        "percent": 10.9
+      },
+      {
+        "ingredient": "REFINED PALM OIL",
+        "percent": 10.9
+      }
+    ],
+    "contains_palm_oil": true,
+    "complexity": "Highly complex"
+  },
+  "additives_full": [
+    {
+      "code": "E150D",
+      "name": "Sulphite Ammonia Caramel",
+      "category": "Colour",
+      "risk": "high",
+      "explanation": "Contains 4-methylimidazole (4-MEI), a potential carcinogen. Found in colas and dark sauces."
+    },
+    {
+      "code": "E223",
+      "name": "E223",
+      "category": "Unknown",
+      "risk": "unknown",
+      "explanation": "No safety data available."
+    },
+    {
+      "code": "E472E",
+      "name": "DATEM",
+      "category": "Emulsifier",
+      "risk": "moderate",
+      "explanation": "Diacetyl tartaric acid ester of mono/diglycerides. FDA-approved but associated with heart issues in some animal studies."
+    },
+    {
+      "code": "E500",
+      "name": "Sodium Carbonates",
+      "category": "Raising Agent",
+      "risk": "low",
+      "explanation": "Baking soda family. Common raising agent; safe at food levels."
+    },
+    {
+      "code": "E503",
+      "name": "Ammonium Carbonates",
+      "category": "Raising Agent",
+      "risk": "low",
+      "explanation": "Used in baking; ammonia dissipates during cooking. Safe in finished baked goods."
+    }
+  ],
+  "allergens": [
+    "gluten",
+    "milk",
+    "sulphur-dioxide-and-sulphites",
+    "wheat"
+  ],
+  "serving": {
+    "per_100g": {
+      "energy_kcal": 445.0,
+      "fat": 10.7,
+      "saturated_fat": 5.2,
+      "carbohydrates": 78.9,
+      "sugars": 21.9,
+      "fiber": null,
+      "protein": 8.4,
+      "salt": 0.7975,
+      "cholesterol": null
+    },
+    "per_serving": null,
+    "serving_size_g": null
+  },
+  "metadata": {
+    "nova_group": 4,
+    "nova_group_error": null,
+    "nutriscore_grade": "e",
+    "nutrient_levels": {
+      "fat": "moderate",
+      "salt": "moderate",
+      "saturated-fat": "high",
+      "sugars": "high"
+    },
+    "labels": [],
+    "food_groups": [
+      "en:sugary-snacks",
+      "en:biscuits-and-cakes"
+    ],
+    "countries": [
+      "en:india"
+    ],
+    "off_completeness": 0.7875,
+    "data_quality_warnings": [
+      "en:ingredients-ingredient-tag-length-greater-than-50",
+      "en:product-quantity-under-1g",
+      "en:environmental-score-origins-of-ingredients-origins-are-100-percent-unknown",
+      "en:environmental-score-packaging-unspecified-shape",
+      "en:environmental-score-production-system-no-label"
+    ],
+    "nutrition_data_per": "100g"
+  },
+  "environment": {
+    "ecoscore": "c",
+    "packaging": [
+      "en:plastic"
+    ]
+  },
+  "ai_insights": {
+    "summary": "Marie Gold has a health score of 0/100. It is considered a highly processed or nutrient-poor option. Strict portion control is recommended due to Moderate salt, High saturated fat.",
+    "key_benefits": [
+      "Provides quick energy"
+    ],
+    "key_concerns": [
+      "Moderate salt",
+      "High saturated fat",
+      "Very high sugar"
+    ],
+    "consumption_advice": "Limit consumption. Consider healthier alternatives for regular meals.",
+    "alternative_suggestions": [
+      "Whole food alternatives",
+      "Homemade versions with less sugar/salt"
+    ]
+  }
+}
