@@ -7,7 +7,7 @@
             <!-- Left: User Icon & Brand -->
             <div class="d-flex align-items-center gap-2 flex-shrink-0">
                 <% if(currentUser) { %>
-                    <a href="/history"
+                    <a href="/user_detail"
                         class="d-lg-none text-white text-decoration-none d-flex align-items-center user-toggle">
                         <img src="https://github.com/mdo.png" alt="" width="40" height="40"
                             class="rounded-circle user-avatar border border-warning border-2" />
@@ -73,6 +73,7 @@
                             </strong>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="/user_detail">View Profile</a></li>
                             <li><a class="dropdown-item" href="/logout">Logout</a></li>
                         </ul>
                     </div>
