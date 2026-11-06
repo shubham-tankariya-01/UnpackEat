@@ -1,6 +1,4 @@
-# Food Analyser — Practice Project
-A web application that analyzes food products
-# Food Analyser — System Flow and Future Vision
+#UnPackEat - A Hackathon Winning Project
 
 ## System Workflow
 
